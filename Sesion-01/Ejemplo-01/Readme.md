@@ -31,7 +31,6 @@
 4. Felicidades, tu nuevo proyecto esta listo!! ( Resultado: Ver imagen )
 
 
-
 <details>
 
         <summary>Solucion</summary>
