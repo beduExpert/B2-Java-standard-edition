@@ -43,9 +43,10 @@
 
 ![Clase Main](https://user-images.githubusercontent.com/56565204/66873698-b4300e00-ef6e-11e9-87a5-3234b842a7c0.png)
 
-4. Dentro del método main(Bloque de código entre {}), ingresa el siguiente código:
+4. Dentro del método main, ingresa el siguiente código señalado en la siguiente imagen:
 
-   System.out.println("Hola Mundo!!");
+   ![Clase](https://user-images.githubusercontent.com/56565204/66875349-9add9080-ef73-11e9-8f5e-e261bc867c4a.png)
+
 
 ##### Ejecutando Proyecto
 
