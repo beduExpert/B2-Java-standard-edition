@@ -6,7 +6,6 @@
 ### OBJETIVO
 
 - Conocer el procedimiento para crear un proyecto y una clase en el IDE
-- Aprender a compilar y ejectuar una aplicación en el IDE.
 
 #### REQUISITOS
 
