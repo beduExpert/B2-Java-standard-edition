@@ -17,8 +17,10 @@
 #### DESARROLLO
 
 1. Una vez abierto el IDE, verás una pantalla como esta:
+![EclipseInicial](https://user-images.githubusercontent.com/56565204/66857050-162b4c00-ef4c-11e9-947c-e9b1d3910859.png)
+2. Create Java Proyect en IDE: Menú File, New, Other, Java, JavaProyect
 
-[imagen]
+
 
 <details>
 
