@@ -1,19 +1,24 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `¿Qué es Java` > `Sesión 01` > `Ejemplo 01`
 
-## Titulo del Ejemplo
+## Hola Mundo
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Conocer el procedimiento para crear un proyecto y una clase en el IDE
+- Aprender a compilar y ejectuar una aplicación en el IDE.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener instalado el JDK & IDE
+2. Abrir el IDE
+        - Se te solicitará un workspace(carpeta de trabajo), selecciona la adecuada.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Una vez abierto el IDE, verás una pantalla como esta:
+
+[imagen]
 
 <details>
 
