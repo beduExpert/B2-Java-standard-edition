@@ -6,6 +6,8 @@
 ### OBJETIVO
 
 - Conocer el procedimiento para crear un proyecto en un IDE ( Eclipse )
+- Conocer el procedimiento para crear una clase.
+- Conocer el procedimiento para ejecutar un proyecto
 
 #### REQUISITOS
 
@@ -14,6 +16,8 @@
         - Se te solicitará un workspace(carpeta de trabajo), selecciona la adecuada.
 
 #### DESARROLLO
+
+##### Creando Proyecto
 
 1. Una vez abierto el IDE, verás una pantalla como esta:
 ![EclipseInicial](https://user-images.githubusercontent.com/56565204/66857050-162b4c00-ef4c-11e9-947c-e9b1d3910859.png)
@@ -27,6 +31,14 @@
 ![CheckBox](https://user-images.githubusercontent.com/56565204/66863364-77591c80-ef58-11e9-9533-382b8e9479af.png)
 
   - Oprime el botón Finish
+
+##### Crear Clase HelloWorld
+
+1. Ubica el Package Explorer, ahí deberás ver listado tu nuevo proyecto, despliega el contenido. Dale click derecho a la carpeta src, selecciona la opción New y Class
+2. Se abrirá un Wizard que te solicitará el nombre de la nueva clase. Ingresa: HelloWorld
+3. Selecciona el checkbox para crear el método main(Punto de inicio de ejecución) en la clase.
+
+
 
 4. Felicidades, tu nuevo proyecto esta listo!! ( Resultado: Ver imagen )
 ![ProyectoCreado2](https://user-images.githubusercontent.com/56565204/66865665-51824680-ef5d-11e9-8ada-0820a8fdcc79.png)
