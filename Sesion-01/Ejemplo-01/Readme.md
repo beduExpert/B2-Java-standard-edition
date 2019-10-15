@@ -28,14 +28,17 @@
 
   - Oprime el botón Finish
 
-4. Felicidades, tu nuevo proyecto esta listo!!
+4. Felicidades, tu nuevo proyecto esta listo!! ( Resultado: Ver imagen )
+
+
 
 <details>
 
         <summary>Solucion</summary>
         <p> Creación del proyecto HelloWorld</p>
-        <p> 1. Abrir el IDE
-            2. Crear un nuevo Java Proyect </p>
+        <p> 1. Abrir el IDE </p>
+        <p> 2. Crear un nuevo Java Proyect </p>
+        
 </details>
 
 
