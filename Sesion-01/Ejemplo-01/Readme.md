@@ -38,7 +38,14 @@
 2. Se abrirá un Wizard que te solicitará el nombre de la nueva clase. Ingresa: HelloWorld
 3. Selecciona el checkbox para crear el método main(Punto de inicio de ejecución) en la clase.
 
+![Clase Main](https://user-images.githubusercontent.com/56565204/66873698-b4300e00-ef6e-11e9-87a5-3234b842a7c0.png)
 
+4. Dentro del método main(Bloque de código entre {}), ingresa el siguiente código:
 
-4. Felicidades, tu nuevo proyecto esta listo!! ( Resultado: Ver imagen )
-![ProyectoCreado2](https://user-images.githubusercontent.com/56565204/66865665-51824680-ef5d-11e9-8ada-0820a8fdcc79.png)
+   System.out.println("Hola Mundo!!");
+
+5. En el panel de íconos, busca un circulo verde con un tríangulo blanco dentro ( Herramienta de ejecución )
+
+   - Oprime el ícono, Observa la salida en consola. ( Ver imagen )
+   
+6. Felicidades!!, Objetivo alcanzado: Creación de Proyecto, Cración de Clase, Ejecución.
