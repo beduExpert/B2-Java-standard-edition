@@ -20,8 +20,7 @@
 2. Nombrarlo HelloWorld
 3. Si llegaste hasta aquí, Felicidades!!
 
-![Uploading 199-1994265_7-duke-java-clipart.png…]()
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/66867202-6ad8c200-ef60-11e9-9f73-c434bd3f8eef.png)
 
 <details>
 	<summary>Solucion</summary>
