@@ -44,8 +44,11 @@
 
    System.out.println("Hola Mundo!!");
 
+##### Creando Proyecto
+
 5. En el panel de íconos, busca un circulo verde con un tríangulo blanco dentro ( Herramienta de ejecución )
 
    - Oprime el ícono, Observa la salida en consola. ( Ver imagen )
+   
    
 6. Felicidades!!, Objetivo alcanzado: Creación de Proyecto, Cración de Clase, Ejecución.
