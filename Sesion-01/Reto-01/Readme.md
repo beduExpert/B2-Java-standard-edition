@@ -1,27 +1,31 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Java SE`> `¿Qué es Java` > `Sesión 01` > `Reto 01`	
+
+## Hola Mundo 
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Crear un proyecto y una clase en el IDE (Eclipse)
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Tener instalado el JDK & IDE
+2. Definir la carpeta que será tu workspace.
+3. Si has llegado hasta este punto, saluda a Duke
+
+
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Crear un nuevo Java Proyect en IDE (Eclipse)
+2. Nombrarlo HelloWorld
 
 <details>
-
 	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+	<p> 1. Crear un nuevo JavaProyect en Eclipse </p>
+	<p> 2. Asignarle el nombre HelloWorld </p>
 </details> 
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+
 
