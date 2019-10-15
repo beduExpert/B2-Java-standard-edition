@@ -5,7 +5,7 @@
 
 ### OBJETIVO
 
-- Conocer el procedimiento para crear un proyecto y una clase en el IDE
+- Conocer el procedimiento para crear un proyecto en un IDE ( Eclipse )
 
 #### REQUISITOS
 
