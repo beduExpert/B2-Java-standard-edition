@@ -29,16 +29,12 @@
   - Oprime el botón Finish
 
 4. Felicidades, tu nuevo proyecto esta listo!! ( Resultado: Ver imagen )
+![ProyectoCreado2](https://user-images.githubusercontent.com/56565204/66865665-51824680-ef5d-11e9-8ada-0820a8fdcc79.png)
 
 
-<details>
-
+<details>  
         <summary>Solucion</summary>
         <p> Creación del proyecto HelloWorld</p>
         <p> 1. Abrir el IDE </p>
-        <p> 2. Crear un nuevo Java Proyect </p>
-        
+        <p> 2. Crear un nuevo Java Proyect </p>        
 </details>
-
-
-
