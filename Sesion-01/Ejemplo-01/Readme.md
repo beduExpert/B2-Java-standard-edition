@@ -18,22 +18,26 @@
 
 1. Una vez abierto el IDE, verás una pantalla como esta:
 ![EclipseInicial](https://user-images.githubusercontent.com/56565204/66857050-162b4c00-ef4c-11e9-947c-e9b1d3910859.png)
-2. Create Java Proyect en IDE: Menú File, New, Other, Java, JavaProyect
-   - Asigna el nombre: HelloWorld al proyecto
+
+2. Create Java Proyect en IDE: Ve al Menú File, después menú New, Other, Java, JavaProyect
+   - Se abrirá una ventana donde editarás el nombre de tu proyecto: HelloWorld
         
 ![CreandoProyecto](https://user-images.githubusercontent.com/56565204/66862014-b043c200-ef55-11e9-8938-304d67353b8f.png)
         
-3. Oprime el botón Next: Desactiva el checkbox: Create module-info.java ( Ver imagen )
+3. Oprime el botón Next, desactiva el checkbox: Create module-info.java ( Ver imagen )
+![CheckBox](https://user-images.githubusercontent.com/56565204/66863364-77591c80-ef58-11e9-9533-382b8e9479af.png)
 
+  - Oprime el botón Finish
 
+4. Felicidades, tu nuevo proyecto esta listo!!
 
 <details>
 
         <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
+        <p> Creación del proyecto HelloWorld</p>
+        <p> 1. Abrir el IDE
+            2. Crear un nuevo Java Proyect </p>
 </details>
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
 
 
