@@ -1,42 +1,36 @@
-Java SE`> `¿Qué es Java` > `Sesión 01` > `Reto 02`
+`Java SE`> `¿Qué es Java` > `Sesión 01` > `Reto 02`
 
-## Hola Mundo
+## Hola Mundo - System.out.println(...)
 
 ### OBJETIVO
 
-- Practicar la creación de un proyecto y su clase principal
-- Practicar la edición del método main y de la instrucción System.out.prinltn...
+- Practicar la edición del método main.
+- Practicar el uso de la instrucción System.out.println
 
 #### REQUISITOS
 
-1. Crear un proyecto nuevo en Eclipse
-2. Agregar una clase principal al proyecto nuevo.
-3. Conocer el procedimiento para ejecutar una aplicación.
+1. Proyecto HelloWorld anteriormente creado
+2. Ubicar el método main y su cuerpo.
 
 <hr>
 
-#### DESARROLLO
+1. Abrir el proyecto HelloWorld.
+2. Ubicar el método main, para después editarlo.
+3. Agrega las líneas necearias para imprimir el siguiente dibujo: 
 
-##### Edición clase principal - Método main
+        ----------
+        -   ||   -
+        -  ____  -
+        ----------
 
-1. Abrir la clase principal.
-2. Ubicar el método main, ubica el cuerpo de este método. Recuerda: {}
-3. Editar las líneas necesarias para imprimir los siguientes datos:
+4. Ejecuta y observa la salida en Console
+5. Si llegaste hasta aquí, Felicidades!!
 
-        - Nombre del desarrollador
-        - Fecha
-        - Versión
-        
-   Uso de la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/66867202-6ad8c200-ef60-11e9-9f73-c434bd3f8eef.png)
 
-<hr>
-
-##### Ejecutando Proyecto
-
-1. Ejecución de aplicación. 
-   
-![Console](https://user-images.githubusercontent.com/56565204/66882530-62987b00-ef90-11e9-94c2-190c10dcf676.png)
-
-<hr> 
-
-Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal de un nuevo proyecto.
+<details>
+	<summary>Solucion</summary>
+	<p> 1. Abrir proyecto HelloWorld </p>
+	<p> 2. Ubicar método main, editarlo </p>
+	<p> 3. Ejecutar proyecto </p>
+</details> 
