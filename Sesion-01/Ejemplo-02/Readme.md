@@ -35,8 +35,8 @@
 
 1. Ejecución de aplicación. 
    
-![Ejecución](https://user-images.githubusercontent.com/56565204/66874724-b5af0580-ef71-11e9-9b21-7497f9d95de0.png)
-  
+![Console](https://user-images.githubusercontent.com/56565204/66882530-62987b00-ef90-11e9-94c2-190c10dcf676.png)
+
 <hr> 
 
 Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal de un nuevo proyecto.
