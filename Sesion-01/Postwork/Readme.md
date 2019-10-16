@@ -25,7 +25,7 @@ Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuaci�
             ▪ Nombre o nombres de desarrolladores
             ▪ Fecha
             ▪ Versión
-            
+	    
 <hr>
 
 ##### Ejecutando Proyecto
@@ -33,6 +33,12 @@ Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuaci�
 1. Ejecución de aplicación. 
    
 Felicidades, lograste los objetivos!!
+
+#### Actividad Final - Lectura
+
+- Con la finalidad de ampliar información sobre la instrucción, System.out.println(...)
+- Leer el siguiente link: https://docs.oracle.com/javase/tutorial/essential/io/formatting.html
+- Especial atención en códigos y su explicación.
 
 <hr> 
 
