@@ -1,6 +1,6 @@
 `Java SE`> `¿Qué es Java` > `Sesión 01` > `Ejemplo 02`
 
-## Hola Mundo
+## Hola Mundo - System.out.println(...)
 
 ### OBJETIVO
 
