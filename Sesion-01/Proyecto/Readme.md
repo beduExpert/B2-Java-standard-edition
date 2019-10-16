@@ -28,7 +28,7 @@
         - Fecha
         - Versión
           
-4- Agrega las líneas necearias para imprimir una cara o el dibujo de tu elección en el banner. Toma como referencia la siguiente imagen en el apartado de ejecución.
+4. Agrega las líneas necearias para imprimir una cara o el dibujo de tu elección en el banner. Toma como referencia la          siguiente imagen en el apartado de ejecución.
 
    Uso de la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
 
