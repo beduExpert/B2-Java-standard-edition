@@ -1,11 +1,14 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 01`
 
-## Titulo de la Sesion 
+## ¿Qué es Java?
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Reconocimiento de las características y componentes de Java
+- Reconocimiento de procesamiento de código fuente Java
+- Reconocimiento de lo que es un IDE - Eclipse
+  - Creación Proyecto & Ejecución
 
 #### ORGANIZACION DE LA CLASE 
 
