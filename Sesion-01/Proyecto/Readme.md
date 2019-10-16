@@ -4,13 +4,14 @@
 
 ### OBJETIVO
 
+- Practicar la creación de un nuevo proyecto, creación de clase principal
 - Practicar la edición del método main.
 - Practicar el uso de la instrucción System.out.println
 
 #### REQUISITOS
 
-1. Crear un proyecto nuevo en Eclipse
-2. Agregar una clase principal al proyecto nuevo.
+1. Crear un proyecto nuevo en Eclipse: UniversidadMexico
+2. Agregar una clase principal al proyecto nuevo: UniversidadMexico
 3. Conocer el procedimiento para ejecutar una aplicación.
 
 <hr>
@@ -39,4 +40,13 @@
 
 <hr> 
 
-Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal de un nuevo proyecto.
+Felicidades, lograste los objetivos!!
+
+<details>
+	<summary>Solucion</summary>
+	<p> 1. Crear un nuevo JavaProyect en Eclipse </p>
+	<p> 2. Asignarle el nombre UniversidadMexico </p>
+	<p> 3. Crear una clase principal, asignarle el nombre UniversidadMexico </p>
+        <p> 4. Repite el uso de la instrucción System.out.println..., para generar un banner con los datos de proyecto </p>
+	<p> 5. Ejecutar Proyecto </p>
+</details> 
