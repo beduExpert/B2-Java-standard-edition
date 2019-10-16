@@ -1,27 +1,42 @@
+`Java SE`> `¿Qué es Java` > `Sesión 01` > `Ejemplo 02`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Hola Mundo
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Practicar la edición del método main.
+- Practicar el uso de la instrucción System.out.println
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Crear un proyecto nuevo en Eclipse
+2. Agregar una clase principal al proyecto nuevo.
+3. Conocer el procedimiento para ejecutar una aplicación.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Edición clase principal - Método main
 
-<details>
+1. Abrir la clase principal.
+2. Ubicar el método main, ubica el cuerpo de este método. Recuerda: {}
+3. Editar las líneas necesarias para imprimir los siguientes datos:
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+        - Nombre del desarrollador
+        - Fecha
+        - Versión
+        
+   Uso de la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+<hr>
 
+##### Ejecutando Proyecto
 
+1. Ejecución de aplicación. 
+   
+![Ejecución](https://user-images.githubusercontent.com/56565204/66874724-b5af0580-ef71-11e9-9b21-7497f9d95de0.png)
+  
+<hr> 
+
+Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal de un nuevo proyecto.
