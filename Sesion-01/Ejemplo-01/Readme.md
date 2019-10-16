@@ -23,7 +23,7 @@
 
 2. Busca el Menú File, después menú New, Other, Java, JavaProyect
    - Se abrirá una ventana en donde ingresarás el nombre de tu proyecto: <b>HelloWorld</b>
-   - Oprime el botón Next.
+   - Oprime el botón <b>Next</b>
         
 ![CreandoProyecto](https://user-images.githubusercontent.com/56565204/66862014-b043c200-ef55-11e9-8938-304d67353b8f.png)
         
