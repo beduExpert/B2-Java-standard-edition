@@ -17,7 +17,7 @@
 
 #### DESARROLLO
 
-Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
       
         - Creación de Proyecto.
         - Creación de una clase principal .
