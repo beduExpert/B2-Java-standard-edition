@@ -25,7 +25,7 @@ Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuaci�
             ▪ Nombre o nombres de desarrolladores
             ▪ Fecha
             ▪ Vesión
-	    ▪ Agrega las líneas necesarias para después imprimir en el banner un dibujo de tu elección.
+            ▪ Agrega las líneas necesarias para después imprimir en el banner un dibujo de tu elección.	    
         - Para mayor referencia, observa la siugiente imagen:	    
 	
 ![Console](https://user-images.githubusercontent.com/56565204/66932361-17688180-effd-11e9-8746-111e824009ba.png)	
