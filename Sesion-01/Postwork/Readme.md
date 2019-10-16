@@ -28,7 +28,7 @@ Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuaci�
 	    ▪ Agrega las líneas necesarias para después imprimir un dibujo de tu elección seguido de los datos anteriores.
 	- Para mayor referencia, observa la siguiente imagen:
 	
-	
+![Console](https://user-images.githubusercontent.com/56565204/66932361-17688180-effd-11e9-8746-111e824009ba.png)	
 	    
 <hr>
 
