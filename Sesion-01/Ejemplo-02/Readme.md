@@ -9,9 +9,8 @@
 
 #### REQUISITOS
 
-1. Crear un proyecto nuevo en Eclipse
-2. Agregar una clase principal al proyecto nuevo.
-3. Conocer el procedimiento para ejecutar una aplicación.
+1. Proyecto HelloWorld anteriormente creado
+2. Ubicar el método main y su cuerpo.
 
 <hr>
 
@@ -21,13 +20,14 @@
 
 1. Abrir la clase principal.
 2. Ubicar el método main, ubica el cuerpo de este método. Recuerda: {}
-3. Editar las líneas necesarias para imprimir los siguientes datos:
+3. Editar las líneas necesarias para agregar las siguientes líneas:
 
-        - Nombre del desarrollador
-        - Fecha
-        - Versión
+        System.out.println("----------");
+        System.out.println("-   ||   -");
+        System.out.println("-  ____  -");
+        System.out.println("----------");
         
-   Uso de la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
+   Nota: Estamos utilizando la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
 
 <hr>
 
@@ -39,4 +39,4 @@
 
 <hr> 
 
-Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal de un nuevo proyecto.
+Felicidades!!, Objetivo alcanzado: Edición del método main en clase principal y práctica de la instrucción System.out.println...
