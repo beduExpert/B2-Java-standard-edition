@@ -27,7 +27,7 @@
         
 ![CreandoProyecto](https://user-images.githubusercontent.com/56565204/66862014-b043c200-ef55-11e9-8938-304d67353b8f.png)
         
-3. Desactiva el checkbox: Create module-info.java ( Ver imagen )
+3. Desactiva el checkbox: <b>Create module-info.java</b> ( Ver imagen )
 
 ![CheckBox](https://user-images.githubusercontent.com/56565204/66863364-77591c80-ef58-11e9-9533-382b8e9479af.png)
 
