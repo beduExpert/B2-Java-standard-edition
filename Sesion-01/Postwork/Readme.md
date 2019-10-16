@@ -24,7 +24,11 @@ Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuaci�
         - Edita el método main para crear un banner que imprima:
             ▪ Nombre o nombres de desarrolladores
             ▪ Fecha
-            ▪ Versión
+            ▪ Vesión
+	    ▪ Agrega las líneas necesarias para después imprimir un dibujo de tu elección seguido de los datos anteriores.
+	- Para mayor referencia, observa la siguiente imagen:
+	
+	
 	    
 <hr>
 
