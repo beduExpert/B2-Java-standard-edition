@@ -9,8 +9,8 @@ agrega el programa que se desarrollara con backticks> [agrega la sesion con back
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- [Ejemplo 01](Ejemplo-01) - Creación proyecto HelloWorld
+- [Reto 01](Reto-01) - Creación proyecto HelloWorld
+- [Ejemplo 02](Ejemplo-02) - Edición método main (Carita)
+- [Reto 02](Reto-02) - Edición método main (Carita)
+- [Proyecto Final](ProyectoFinal)
