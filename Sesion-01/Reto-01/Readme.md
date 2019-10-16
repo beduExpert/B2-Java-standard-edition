@@ -17,7 +17,7 @@
 #### DESARROLLO
 
 1. Crear un nuevo Java Proyect en IDE (Eclipse)
-2. Nombrarlo HelloWorld
+2. Asigna el nombre: <b>HelloWorld</b>
 3. Crea una clase en tu proyecto, llamada: <b>HelloWorld</b>
 4. Agrega las líneas necearias para imprimir el mensaje: <b>Hola Mundo!!</b>
 5. Ejecuta y observa la salida en Console
