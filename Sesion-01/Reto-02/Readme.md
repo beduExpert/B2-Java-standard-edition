@@ -18,8 +18,8 @@
 2. Ubicar el método main, para después editarlo.
 3. Remplazar la línea que imprime el mensaje HelloWorld para producir la siguiente salida: 
 
+![Console](https://user-images.githubusercontent.com/56565204/66889796-566ce780-efa9-11e9-8fee-9265250bf09c.png)
         
-
 4. Ejecuta y observa la salida en Console
 5. Si llegaste hasta aquí, Felicidades!!
 
