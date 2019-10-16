@@ -34,7 +34,6 @@
 <details>
 	<summary>Solucion</summary>
 	<p> 1. Abrir proyecto HelloWorld </p>
-	<p> 2. Ubicar método main, editarlo </p> 
-	       - Utiliza la instrucción System.out.println("Escribe el mensaje a imprimir. ");
+	<p> 2. Ubicar método main, editarlo. Utiliza el método System.out.println("Escribe tu mensaje"); </p> 
 	<p> 3. Ejecutar proyecto </p>
 </details> 
