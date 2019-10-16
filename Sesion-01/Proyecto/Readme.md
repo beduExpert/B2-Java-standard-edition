@@ -36,7 +36,7 @@
 
 1. Ejecución de aplicación. 
    
-![Console](https://user-images.githubusercontent.com/56565204/66882530-62987b00-ef90-11e9-94c2-190c10dcf676.png)
+![Console](https://user-images.githubusercontent.com/56565204/66885184-21f12f80-ef99-11e9-9aa1-5a0b3b545bec.png)
 
 Felicidades, lograste los objetivos!!
 
