@@ -38,9 +38,9 @@
    
 ![Console](https://user-images.githubusercontent.com/56565204/66882530-62987b00-ef90-11e9-94c2-190c10dcf676.png)
 
-<hr> 
-
 Felicidades, lograste los objetivos!!
+
+<hr> 
 
 <details>
 	<summary>Solucion</summary>
