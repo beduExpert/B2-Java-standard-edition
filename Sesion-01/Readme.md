@@ -13,4 +13,4 @@
 - [Reto 01](Reto-01) - Creación proyecto HelloWorld
 - [Ejemplo 02](Ejemplo-02) - Edición método main (Carita)
 - [Reto 02](Reto-02) - Edición método main (Carita)
-- [Proyecto Final](ProyectoFinal)
+- [Proyecto Final](Proyecto)
