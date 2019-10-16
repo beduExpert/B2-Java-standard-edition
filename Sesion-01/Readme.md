@@ -5,10 +5,17 @@
 
 ### OBJETIVOS 
 
-- Reconocimiento de las características y componentes de Java
-- Reconocimiento de procesamiento de código fuente Java
-- Reconocimiento de lo que es un IDE - Eclipse
-  - Creación Proyecto & Ejecución
+<ul>
+  <li type= disc> El alumno será capaz de comprender: 
+  <ul>
+   <li> Las distintas ediciones de Java
+   <li> Los componentes de Java
+  </ul>
+  <li type= disc> El alumno reconocerá el tipo de archivo utilizado en programación Java
+  <ul>
+    <li> Compilado y Ejecución de un proyecto
+  </ul>
+</ul>
 
 #### ORGANIZACION DE LA CLASE 
 
