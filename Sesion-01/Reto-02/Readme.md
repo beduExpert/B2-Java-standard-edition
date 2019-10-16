@@ -16,12 +16,9 @@
 
 1. Abrir el proyecto HelloWorld.
 2. Ubicar el método main, para después editarlo.
-3. Agrega las líneas necearias para imprimir el siguiente dibujo: 
+3. Remplazar la línea que imprime el mensaje HelloWorld para producir la siguiente salida: 
 
-        ----------
-        -   ||   -
-        -  ____  -
-        ----------
+        
 
 4. Ejecuta y observa la salida en Console
 5. Si llegaste hasta aquí, Felicidades!!
