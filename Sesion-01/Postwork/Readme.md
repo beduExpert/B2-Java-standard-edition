@@ -1,27 +1,45 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `¿Qué es Java` > `Sesión 01` > `Postwork`
 
-## Titulo del Ejemplo
+## Creando Proyecto & Banner 
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprenderá a crear proyectos, clases.
+- Aprenderá a editar una clase.
+- Aprenderá a ejecutar un proyecto
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Instalado IDE - Eclipse
+2. Conocer el precedimiento para crear un proyecto, clase.
+3. Conocer el procedmiento para ejecutar código.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Aplica los concetos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
+      
+        - Creación de Proyecto.
+        - Creación de una clase principal .
+        - Edita el método main para crear un banner que imprima:
+            ▪ Nombre o nombres de desarrolladores
+            ▪ Fecha
+            ▪ Versión
+            
+<hr>
+
+##### Ejecutando Proyecto
+
+1. Ejecución de aplicación. 
+   
+Felicidades, lograste los objetivos!!
+
+<hr> 
 
 <details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+	<summary>Solucion</summary>
+	<p> 1. Crear un nuevo JavaProyect en Eclipse </p>
+	<p> 2. Crear una clase principal, asignarle el nombre UniversidadMexico </p>
+        <p> 4. Repite el uso de la instrucción System.out.println..., para generar un banner con los datos de proyecto </p>
+	<p> 5. Ejecutar Proyecto </p>
+</details> 
