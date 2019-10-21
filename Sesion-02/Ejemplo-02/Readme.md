@@ -28,5 +28,5 @@
 	<summary>Solucion</summary>
 	<p> 1. Crear un nuevo proyecto llamado Gimnasio. </p>
 	<p> 2. Crear una clase por cada objeto encontrado en el ejemplo anterior </p>
-	<p> Solución - clases declaradas: Actividades & Socio </p>
+	<p> Solución - clases declaradas: Activid & Socio </p>
 </details>
