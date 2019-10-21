@@ -1,20 +1,40 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 03`
 	
-## Titulo del Ejemplo 
+## Gimnasio - Declaración de instancias
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- Lo que esperamos que el alumno aprenda.
+
+<hr> 
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Contar con el proyecto <b>Supermercado</b>, así como las clases declaradas en el <b>Reto 02</b>
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+#####Crear Clase Principal - SupermercadoTest
+
+1. Declara la clase principal con el nombre: <b>SupermercadoTest</b>
+
+   - <b>Nota:</b> No olvides seleccionar el <b>checkbox</b> para agragar el método <b>main</b> a tu proyecto.
+
+2. Dentro del método main, declara una instancia de cada tipo de clase que declaraste en el ejemplo <b>Reto 02</b>.
+
+   - <b>Nota:</b> Agrega comentarios que indiquen que estas haciendo en cada línea.
+
+<hr>
+
+#### Ejecutando Proyecto
+
+1. Utilizando la herramienta de ejecución, prueba tu programa. Resultado Final:
+   
+
 
 <details>
 
