@@ -41,16 +41,8 @@
 
    - Observa la salida en consola. ( Ver imagen )
    
+![Proyecto](https://user-images.githubusercontent.com/56565204/67218743-84f52300-f3ec-11e9-831a-0ad1f50e1442.png)   
   
 <hr> 
 
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+Felicidades!!, Objetivo alcanzado: Declaración de Instancias
