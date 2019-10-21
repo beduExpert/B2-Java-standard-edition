@@ -24,7 +24,7 @@
 
 ![Proyecto](https://user-images.githubusercontent.com/56565204/67217828-fc29b780-f3ea-11e9-9de4-e16111c4d395.png)
 
-2. Dentro del método main, una instancia de cada tipo de clase que declararás en el ejemplo anterior. Ejemplo:
+2. Dentro del método main, declara una instancia de cada tipo de clase que creaste en el ejemplo anterior. Ejemplo:
 
    Actividad a = new Actividad();
    Socio s = new Socio();
