@@ -34,16 +34,20 @@
 
 #### Ejecutando Proyecto
 
-1. Utilizando la herramienta de ejecución, prueba tu programa. Resultado Final:
+1. Utilizando la herramienta de ejecución, prueba tu programa. <b>Resultado Final:</b>
    
+![Proyecto](https://user-images.githubusercontent.com/56565204/67224469-e1f5d680-f3f6-11e9-9750-78fdcbe74464.png)
 
+2. Si llegaste hasta aquí, Felicidades!!
+
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67222356-c38ddc00-f3f2-11e9-93a0-f6fbfc420ab5.png)
+
+<hr>
 
 <details>
-
 	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+	<p> 1. Declara la clase principal, nombre: <b>SupermercadoTest</b> </p>
+	<p> 2. Declara una instancia por cada clase declarada en el proyecto <b>Supermercado</b>. </p>
+	<p> Solución: Debes tener declara una intancia por cada tipo de clase, así como el mensaje "Terminando de crear instancias.</b> </p>
+</details>
 
