@@ -51,16 +51,20 @@
 
 1. Ejecución de aplicación. 
    
-![Console](https://user-images.githubusercontent.com/56565204/66931884-65c95080-effc-11e9-98bd-785f9d6c6e5a.png)
-<hr> 
+![Proyecto](https://user-images.githubusercontent.com/56565204/67227813-a14d8b80-f3fd-11e9-8b1e-616dbdcc9cb9.png)
+
+<hr>
 
 Si llegaste aquí, Felicidades - lograste los objetivos!!
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Crear un nuevo JavaProyect en Eclipse </p>
-	<p> 2. Asignarle el nombre UniversidadMexico </p>
-	<p> 3. Crear una clase principal, asignarle el nombre UniversidadMexico </p>
-        <p> 4. Repite el uso de la instrucción System.out.println..., para generar el banner solicitado </p>
-	<p> 5. Ejecutar Proyecto </p>
+	<p> 1. Leer problemática. </p>
+	<p> 2. Identificación de objetos(características y propiedades). </p>
+	<p> <b>Nota:</b> </p>
+	<p>    - Número de objetos mínimo a encontrar: 2 </p>
+	<p> 3. Declaración de clases, una por cada objeto encontrado en punto anterior. </p>
+        <p> 4. En la clase principal, declara una instancia por cada clase declarada en el punto anterior. </p>
+	<p> 5. Imprimir una línea con el menseaje: "Terminando de declarar instancias..." </p>
+	<p> Ejecutar proyecto. </p>
 </details> 
