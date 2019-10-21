@@ -2,7 +2,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 01`		
 
-## Titulo del Ejemplo 
+## Supermercado - Identificación de Objetos
 
 ### OBJETIVO 
 
