@@ -29,5 +29,5 @@ Se pretende tener un catálogo de actividades, donde cada una tenga un identific
 	<summary>Solucion</summary>
 	<p> 1. Leer problemática. </p>
 	<p> 2. Crear una lista con los objetos identificados, así como sus propiedades y comportamientos. </p>
-	<p> Solución - objetos encontrados: Actividades & Socio </p>
+	<p> Solución - objetos encontrados: Actividad & Socio </p>
 </details>
