@@ -28,7 +28,7 @@
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Crear un nuevo proyecto llamado Supermercado. </p>
-	<p> 2. Crear una clase por cada objeto encontrado en el reto anterior. </p>
-	<p> Solución - clases declaradas: Usuario, Pedido y Producto </p>
+	<p> 1. Crear un nuevo proyecto llamado <b>Supermercado.</b> </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el <b>Reto 01</b>. </p>
+	<p> Solución - clases declaradas: <b>Usuario, Pedido y Producto</b> </p>
 </details>
