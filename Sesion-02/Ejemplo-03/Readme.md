@@ -19,7 +19,7 @@
 
 ##### Crear Clase GimnasioTest
 
-1. Declara la clase principal con el nombre: <b>GimansioTest</b>
+1. Declara la clase principal con el nombre: <b>GimnasioTest</b>
    - Nota: No olvides seleccionar el checkbox para agragar el método <b>main</b> a tu proyecto.
 
 ![Proyecto](https://user-images.githubusercontent.com/56565204/67217828-fc29b780-f3ea-11e9-9de4-e16111c4d395.png)
