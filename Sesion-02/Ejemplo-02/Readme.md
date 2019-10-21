@@ -20,7 +20,7 @@
    
 2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios</b>.
 
-![Console](https://user-images.githubusercontent.com/56565204/67176659-9c9ebe00-f390-11e9-9baf-3d7e7651c9c7.png)
+![Proyecto](https://user-images.githubusercontent.com/56565204/67219812-42344a80-f3ee-11e9-8722-f8d6a4065a97.png)
 
 <hr>
 
