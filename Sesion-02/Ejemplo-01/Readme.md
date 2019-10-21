@@ -23,7 +23,7 @@ Se pretende tener un catálogo de actividades, donde cada una tenga un identific
 
 3. Felicidades, lograste los objetivos!!
 
-![Gimnasio](https://user-images.githubusercontent.com/56565204/67173656-0a44ed00-f385-11e9-8a1e-06f174f2f406.jpg)
+![Gimnasio](https://user-images.githubusercontent.com/56565204/67173781-6a3b9380-f385-11e9-843c-e40245ac8926.jpg)
 
 <details>
 	<summary>Solucion</summary>
