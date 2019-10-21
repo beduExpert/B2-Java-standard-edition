@@ -5,7 +5,9 @@
 
 ### OBJETIVO
 
-- El alumno aprenderá a llevar a código los objetos encontrados en alguna problemática.
+- El alumno aprenderá a declarar instancias de una clase.
+
+<hr>
 
 #### REQUISITOS
 
