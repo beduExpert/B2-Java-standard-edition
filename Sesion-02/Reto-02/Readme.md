@@ -20,7 +20,7 @@
 1. Crea una clase por cada objeto encontrado en el <b>Reto 01.</b>
    - <b>Nota:</b> No olvides que estas clase <b>NO</b> lleva main.
    
-2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
+2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios.</b>
 
 3. Si llegaste hasta aquí, Felicidades!!
 
