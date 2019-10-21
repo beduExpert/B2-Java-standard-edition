@@ -1,19 +1,28 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 02`	
 
-## Titulo del Ejemplo
+## Gimnasio - Declaración de clases
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- El alumno aprenderá a declarar una clase en eclipse.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Crear un nuevo proyecto en eclipse llamado Gimnasio.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Crea una clase por cada objeto encontrado en el Ejemplo 01
+   Nota: No olvides que estas clase NO lleva main.
+   
+2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
+
+
+
+<hr>
 
 <details>
 
