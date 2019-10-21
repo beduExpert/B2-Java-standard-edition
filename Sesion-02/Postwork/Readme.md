@@ -33,6 +33,8 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
 1. Ejecución de aplicación. 
 2. Si llegaste hasta aquí. Felicidades, lograste los objetivos!!
 
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67229369-ca235000-f400-11e9-9c31-ca19d9283269.png)
+
 <hr>
 
 <details>
