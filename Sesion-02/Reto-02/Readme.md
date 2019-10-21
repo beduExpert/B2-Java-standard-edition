@@ -1,27 +1,32 @@
- 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 02`	
 
-### OBJETIVO 
+## Gimnasio - Declaración de clases
 
-- Lo que esperamos que el alumno aprenda 
+### OBJETIVO
 
-#### REQUISITOS 
+- El alumno aprenderá a llevar a código los objetos encontrados en alguna problemática.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Crear un nuevo proyecto en eclipse llamado Supermercado.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Crea una clase por cada objeto encontrado en el Reto 01
+   Nota: No olvides que estas clase NO lleva main.
+   
+2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
+
+![Console](https://user-images.githubusercontent.com/56565204/67176659-9c9ebe00-f390-11e9-9baf-3d7e7651c9c7.png)
+
+<hr>
 
 <details>
-
 	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+	<p> 1. Crear un nuevo proyecto llamado Supermercado. </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el ejemplo anterior </p>
+	<p> Solución - clases declaradas: Usuario, Pedidos y Producto </p>
+</details>
