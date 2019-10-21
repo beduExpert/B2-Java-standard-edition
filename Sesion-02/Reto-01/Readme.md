@@ -14,7 +14,7 @@
 
 1. Lee la siguiente problemática.
 
-   <p>Te han contratado en un supermercado local para crear un sistema que permita levantar pedidos vía web.</p>
+   Te han contratado en un supermercado local para crear un sistema que permita levantar pedidos vía web.
 El cliente necesita un usuario que se generará partiendo del nombre y la primer letra del apellido paterno. Es importante registrar también el nombre completo del cliente, fecha de cumpleaños, dirección, teléfono. 
 
 El sistema deberá permitir levantar pedidos y entregar un monto final.
