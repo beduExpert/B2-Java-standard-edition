@@ -44,7 +44,7 @@
 3. Ubicar le método <b>main</b>.
 4. Ubicar la última línea correspondiente a la impresión del banner desarrollado en la <b>Sesión 1</b>
 5. En las siguientes líneas, declara una instancia por cada clase declarada en el punto anterior.
-6. En la siguiente líena después de declarar instancias, declara un mensaje que imprima: <b>"Terminando de declarar instancias..."</b>
+6. En la siguiente línea después de declarar instancias, declara un mensaje que imprima: <b>"Terminando de declarar instancias..."</b>
 
 <hr>
 
