@@ -23,7 +23,7 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
         - Identificación de objetos en problemática propuesta por el alumno.
         - Declaración de clases de objetos identificados en el punto anterior.
         - Edita el método main para declarar:
-            ▪ Una instancia por cada clases declarada en el punto anterior.
+            ▪ Una instancia por cada clase declarada en el punto anterior.
             ▪ Una línea que indique la finalización de creación de instancias.  
         - Toma como referencia el "Reto 03", realizado en clase.
 <hr>
