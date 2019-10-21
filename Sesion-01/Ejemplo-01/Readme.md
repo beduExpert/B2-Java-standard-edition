@@ -38,14 +38,15 @@
 1. Ubica el Package Explorer, ahí deberás ver listado tu nuevo proyecto, despliega el contenido. 
 2. Dale click derecho a la carpeta src, selecciona la opción New y Class
 3. Se abrirá un Wizard que te solicitará el nombre de la nueva clase. Ingresa: <b>HelloWorld</b>
-3. Selecciona el checkbox para crear el método main(Punto de inicio de ejecución) en la clase.
+4. Selecciona el checkbox para crear el método main(Punto de inicio de ejecución) en la clase.
 
 ![Clase Main](https://user-images.githubusercontent.com/56565204/66873698-b4300e00-ef6e-11e9-87a5-3234b842a7c0.png)
 
-4. Dentro del método main, ingresa el código señalado en la siguiente imagen:
+5. Dentro del método main, ingresa el código señalado en la siguiente imagen:
 
    ![Clase](https://user-images.githubusercontent.com/56565204/66875349-9add9080-ef73-11e9-8f5e-e261bc867c4a.png)
 
+<hr> 
 
 ##### Ejecutando Proyecto
 
