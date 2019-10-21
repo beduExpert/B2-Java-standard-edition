@@ -12,7 +12,7 @@
 
 1. Contar con el proyecto creado en el <b>Postwork de la Sesión 01</b>
 2. Ubicar la clase principal declarada en el proyecto indicado en el punto 1.
-3. Ubicar la última línea del banner agregado en la clase principal en el proyecto indicado en el punto 1.
+3. Ubicar la última línea del banner agregado en la clase principal, en el proyecto indicado en el punto 1.
 
 <hr>
 
@@ -25,7 +25,7 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
         - Edita el método main para declarar:
             ▪ Una instancia por cada clases declarada en el punto anterior.
             ▪ Una línea que indique la finalización de creación de instancias.  
-        - Toma como referencia el <b> Reto 03 </b>, realizado en clase.
+        - Toma como referencia el "Reto 03", realizado en clase.
 <hr>
 
 ##### Ejecutando Proyecto
