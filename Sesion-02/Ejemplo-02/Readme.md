@@ -16,7 +16,7 @@
 #### DESARROLLO
 
 1. Crea una clase por cada objeto encontrado en el <b>Ejemplo 01</b>
-   - Nota: No olvides que estas clase NO lleva main.
+   - Nota: No olvides que estas clase <b>NO</b> lleva main.
    
 2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios</b>.
 
@@ -26,7 +26,7 @@
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Crear un nuevo proyecto llamado Gimnasio. </p>
+	<p> 1. Crear un nuevo proyecto llamado <b>Gimnasio.</b> </p>
 	<p> 2. Crear una clase por cada objeto encontrado en el ejemplo anterior </p>
-	<p> Solución - clases declaradas: Actividad & Socio </p>
+	<p> Solución - clases declaradas: <b>Actividad & Socio</b> </p>
 </details>
