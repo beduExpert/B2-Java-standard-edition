@@ -28,6 +28,8 @@
 
    - Actividad a = new Actividad();
    - Socio s = new Socio();
+   
+   - <b>Nota:</b> Agrega comentarios que indiquen que estas haciendo en cada línea.
 
 3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
@@ -41,7 +43,7 @@
 
    - Observa la salida en consola. ( Ver imagen )
    
-![Proyecto](https://user-images.githubusercontent.com/56565204/67218743-84f52300-f3ec-11e9-831a-0ad1f50e1442.png)   
+![Proyecto](https://user-images.githubusercontent.com/56565204/67220850-22058b00-f3f0-11e9-83ad-85a7e553c433.png) 
   
 <hr> 
 
