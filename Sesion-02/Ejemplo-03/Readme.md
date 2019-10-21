@@ -22,11 +22,14 @@
 1. Declara la clase principal con el nombre: <b>GimansioTest</b>
    - Nota: No olvides seleccionar el checkbox para agragar el método <b>main</b> a tu proyecto.
 
-![Clase Main](https://user-images.githubusercontent.com/56565204/66873698-b4300e00-ef6e-11e9-87a5-3234b842a7c0.png)
+![Proyecto](https://user-images.githubusercontent.com/56565204/67217828-fc29b780-f3ea-11e9-9de4-e16111c4d395.png)
 
-5. Dentro del método main, ingresa el código señalado en la siguiente imagen:
+2. Dentro del método main, una instancia de cada tipo de clase que declararás en el ejemplo anterior. Ejemplo:
 
-   ![Clase](https://user-images.githubusercontent.com/56565204/66875349-9add9080-ef73-11e9-8f5e-e261bc867c4a.png)
+   Actividad a = new Actividad();
+   Socio s = new Socio();
+
+3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
 
 <details>
