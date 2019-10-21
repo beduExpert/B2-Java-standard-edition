@@ -26,8 +26,8 @@
 
 2. Dentro del método main, declara una instancia de cada tipo de clase que creaste en el ejemplo anterior. Ejemplo:
 
-   Actividad a = new Actividad();
-   Socio s = new Socio();
+   - Actividad a = new Actividad();
+   - Socio s = new Socio();
 
 3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
