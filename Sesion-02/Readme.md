@@ -1,5 +1,5 @@
 
-Java SE`> `¿Qué es Java` > `Sesión 02`
+`Java SE`> `¿Qué es Java` > `Sesión 02`
 
 ## Programación Orientada a Objetos vs Java
 
