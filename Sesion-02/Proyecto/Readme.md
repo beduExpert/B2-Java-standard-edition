@@ -23,6 +23,7 @@
    La Universidad México, requiere modernizar el servicio de prestamos de libros en biblioteca. Actualmente cuentan con un      sistema antiguo basado en fichas, el cual ya no es funcional.
 
    Universidad México requiere que cada alumno que solicita un libro, este registrado en sistema con sus datos: nombre,          número de cuenta y correo electrónico. También es necesario saber si tiene o no asignado libros, cuántos y cuáles son.
+   
    Obviamente es necesario un católogo de libros con los siguientes datos: título, autor, editorial, breve descripción, así      como el número de unidades de cada título.
    
 2. Identifica los objetos(propiedades y características) dentro de la problemática.
