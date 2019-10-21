@@ -31,6 +31,18 @@
 
 3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
+![Proyecto](https://user-images.githubusercontent.com/56565204/67218512-1c0dab00-f3ec-11e9-9822-ddeb32aa2b1f.png)
+
+<hr>
+
+##### Ejecutando Proyecto
+
+1. Utilizando la herramienta de ejecución, prueba tu programa.
+
+   - Observa la salida en consola. ( Ver imagen )
+   
+  
+<hr> 
 
 <details>
 
