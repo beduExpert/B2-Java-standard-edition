@@ -11,7 +11,7 @@
 
 #### REQUISITOS
 
-1. Contar con el proyecto Gimnasio, así como las clases declaradas en el Ejemplo 2.
+1. Contar con el proyecto Gimnasio, así como las clases declaradas en el <b>Ejemplo 2</b>
 
 <hr>
 
