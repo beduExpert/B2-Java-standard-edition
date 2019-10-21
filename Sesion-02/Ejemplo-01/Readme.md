@@ -11,13 +11,13 @@
 
 1. Lee la siguiente problemática:
 
-Te han contratado para actualizar un sistema de registro de socios en un Gimnasio.
-Se pretende obtener estadísticas de las actividades que realiza cada socio dentro de las instalaciones, de tal forma que se   ubiquen las actividades más y menos frecuentadas, así como la necesidad de ingresar nuevas actividades al gimnasio.
+   Te han contratado para actualizar un sistema de registro de socios en un Gimnasio.
+   Se pretende obtener estadísticas de las actividades que realiza cada socio dentro de las instalaciones, de tal forma que se    ubiquen las actividades más y menos frecuentadas, así como la necesidad de ingresar nuevas actividades al gimnasio.
 
-De cada socio se pretende contar con nombre, número de socio, correo electrónico, teléfono, así como las actividades que realiza dentro del Gimnasio.
+   De cada socio se pretende contar con nombre, número de socio, correo electrónico, teléfono, así como las actividades que        realiza dentro del Gimnasio.
 
-Las actividades que actualmente se encuentran disponibles son: Yoga, Pilates, TRX, Zumba y Piso
-Se pretende tener un catálogo de actividades, donde cada una tenga un identificador que nos permita de forma sencilla hacer referencia a ellas.
+   Las actividades que actualmente se encuentran disponibles son: Yoga, Pilates, TRX, Zumba y Piso
+   Se pretende tener un catálogo de actividades, donde cada una tenga un identificador que nos permita de forma sencilla hacer    referencia a ellas.
 
 2. Identificar los objetos(propiedades y comportamientos), encontrados en esta problemática.
 
