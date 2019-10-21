@@ -22,11 +22,11 @@
 
 1. Declara la clase principal con el nombre: <b>SupermercadoTest</b>
 
-   - <b>Nota:</b> No olvides seleccionar el <b>checkbox</b> para agragar el método <b>main</b> a tu proyecto.
+   <b>Nota:</b> No olvides seleccionar el <b>checkbox</b> para agragar el método <b>main</b> a tu proyecto.
 
 2. <b>Dentro del método main</b>, declara una instancia de cada tipo de clase que declaraste en el ejemplo <b>Reto 02</b>.
 
-    Nota: Agrega comentarios que indiquen que estas haciendo en cada línea.
+    <b>Nota:</b> Agrega comentarios que indiquen que estas haciendo en cada línea.
 
 3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
@@ -48,9 +48,9 @@
 	<summary>Solucion</summary>
 	<p> 1. Declara la clase principal, nombre: <b>SupermercadoTest</b> </p>
 	<p> 2. Declara una instancia por cada clase declarada en el proyecto <b>Supermercado</b>. </p>
-	<p> Solución: 
-		- Declarada una intancia por cada tipo de clase: Usuario, Pedido, Producto.
-		- Impresión del mensaje: <b> "Terminando de crear instancias."</b> 
-	</p>
+	<p> Solución:</p> 
+	    - Declarada una intancia por cada tipo de clase: <b>Usuario, Pedido, Producto.</b>
+            - Impresión del mensaje: <b> "Terminando de crear instancias."</b> 
+	
 </details>
 
