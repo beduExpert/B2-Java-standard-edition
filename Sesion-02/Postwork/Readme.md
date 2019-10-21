@@ -1,27 +1,45 @@
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Postwork`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Creando Proyecto & Banner 
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Aprenderá identificar objetos de una problemática que el alumno proponga.
+- Aprenderá a declarar clases de objetos identificados.
+- Aprenderá a crear instancias de clases declaradas.
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Contar con el proyecto creado en el <b>Postwork de la Sesión 01</b>
+2. Ubicar la clase principal declarada en el proyecto indicado en el punto 1.
+3. Ubicar la última línea del banner agregado en la clase principal en el proyecto indicado en el punto 1.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
+      
+        - Identificación de objetos en problemática propuesta por el alumno.
+        - Declaración de clases de objetos identificados en el punto anterior.
+        - Edita el método main para declarar:
+            ▪ Una instancia por cada clases declarada en el punto anterior.
+            ▪ Una línea que indique la finalización de creación de instancias.  
+        - Toma como referencia el <b> Reto 03 </b>, realizado en clase.
+<hr>
+
+##### Ejecutando Proyecto
+
+1. Ejecución de aplicación. 
+2. Si llegaste hasta aquí. Felicidades, lograste los objetivos!!
+
+<hr>
 
 <details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+	<summary>Solucion</summary>
+	<p> 1. Identifica los objetos de tu problemática. </p>
+	<p> 2. Declara las clases de los objetos identificados en la problemática.</p>
+        <p> 4. Declara una instancia por cada clase ya declarada. </p>
+        <p> 5. Agrega la impresión de una línea que indique la finalización de creación de instancias.
+	<p> 5. Ejecutar Proyecto </p>
+</details> 
