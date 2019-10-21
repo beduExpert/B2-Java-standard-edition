@@ -18,7 +18,7 @@
 
 #### DESARROLLO
 
-#####Crear Clase Principal - SupermercadoTest
+##### Crear Clase Principal - SupermercadoTest
 
 1. Declara la clase principal con el nombre: <b>SupermercadoTest</b>
 
