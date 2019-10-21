@@ -1,6 +1,6 @@
 `Java SE`> `¿Qué es Java` > `Sesión 01` > `Proyecto`
 
-## Hola Mundo
+## Universidad México
 
 ### OBJETIVO
 
