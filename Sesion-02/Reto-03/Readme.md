@@ -6,7 +6,7 @@
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda.
+- El alumno aprenderá a declarar instancias de una clase.
 
 <hr> 
 
@@ -24,9 +24,11 @@
 
    - <b>Nota:</b> No olvides seleccionar el <b>checkbox</b> para agragar el método <b>main</b> a tu proyecto.
 
-2. Dentro del método main, declara una instancia de cada tipo de clase que declaraste en el ejemplo <b>Reto 02</b>.
+2. <b>Dentro del método main</b>, declara una instancia de cada tipo de clase que declaraste en el ejemplo <b>Reto 02</b>.
 
-   - <b>Nota:</b> Agrega comentarios que indiquen que estas haciendo en cada línea.
+    Nota: Agrega comentarios que indiquen que estas haciendo en cada línea.
+
+3. Terminadas la declaración de instancias, agrega la impresión del mensaje: "Terminando de crear instancias..."
 
 <hr>
 
