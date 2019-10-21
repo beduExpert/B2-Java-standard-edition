@@ -18,7 +18,7 @@
 1. Crea una clase por cada objeto encontrado en el Ejemplo 01
    - Nota: No olvides que estas clase NO lleva main.
    
-2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
+2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios</b>.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67176659-9c9ebe00-f390-11e9-9baf-3d7e7651c9c7.png)
 
