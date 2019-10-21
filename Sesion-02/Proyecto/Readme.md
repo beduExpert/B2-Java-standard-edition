@@ -58,15 +58,15 @@
 
 Si llegaste aquí, Felicidades - lograste los objetivos!!
 
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67228451-e625f200-f3fe-11e9-99ce-ad733b945ebd.png)
 
 <details>
 	<summary>Solucion</summary>
 	<p> 1. Leer problemática. </p>
 	<p> 2. Identificación de objetos(características y propiedades). </p>
-	<p> <b>Nota:</b> Número de objetos mínimo a encontrar: 2 </p>
+	<p> <b> Nota:</b> Número de objetos mínimo a encontrar: 2 </p>
 	<p> 3. Declaración de clases, una por cada objeto encontrado en punto anterior. </p>
         <p> 4. En la clase principal, declara una instancia por cada clase declarada en el punto anterior. </p>
 	<p> 5. Imprimir una línea con el menseaje: "Terminando de declarar instancias..." </p>
-	<p> Ejecutar proyecto. </p>
+	<p> 6. Ejecutar proyecto. </p>
 </details> 
