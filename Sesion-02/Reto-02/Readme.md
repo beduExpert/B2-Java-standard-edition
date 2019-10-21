@@ -16,7 +16,7 @@
 #### DESARROLLO
 
 1. Crea una clase por cada objeto encontrado en el <b>Reto 01.</b>
-   - Nota: No olvides que estas clase NO lleva main.
+   - Nota: No olvides que estas clase <b>NO</b> lleva main.
    
 2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
 
