@@ -22,6 +22,8 @@
 
 ![Proyecto](https://user-images.githubusercontent.com/56565204/67177303-9d851f00-f393-11e9-9741-ea3d6eb391a2.png)
 
+3. Felicidades, lograste los objetivos.
+
 <hr>
 
 <details>
