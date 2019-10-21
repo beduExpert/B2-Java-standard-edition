@@ -9,14 +9,14 @@
 
 #### REQUISITOS
 
-1. Crear un nuevo proyecto en eclipse llamado Supermercado.
+1. Crear un nuevo proyecto en eclipse llamado <b>Supermercado.</b>
 
 <hr>
 
 #### DESARROLLO
 
-1. Crea una clase por cada objeto encontrado en el Reto 01
-   Nota: No olvides que estas clase NO lleva main.
+1. Crea una clase por cada objeto encontrado en el <b>Reto 01.</b>
+   - Nota: No olvides que estas clase NO lleva main.
    
 2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
 
