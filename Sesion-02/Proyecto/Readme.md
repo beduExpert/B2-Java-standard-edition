@@ -64,7 +64,7 @@ Si llegaste aquí, Felicidades - lograste los objetivos!!
 	<summary>Solucion</summary>
 	<p> 1. Leer problemática. </p>
 	<p> 2. Identificación de objetos(características y propiedades). </p>
-		<p> <b>Nota:</b> Número de objetos mínimo a encontrar: 2 </p>
+	<p>    <b>Nota:</b> Número de objetos mínimo a encontrar: 2 </p>
 	<p> 3. Declaración de clases, una por cada objeto encontrado en punto anterior. </p>
         <p> 4. En la clase principal, declara una instancia por cada clase declarada en el punto anterior. </p>
 	<p> 5. Imprimir una línea con el menseaje: "Terminando de declarar instancias..." </p>
