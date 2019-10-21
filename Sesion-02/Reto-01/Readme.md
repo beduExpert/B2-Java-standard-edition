@@ -33,5 +33,5 @@ esta problemática
 	<summary>Solucion</summary>
 	<p> 1. Leer problemática. </p>
 	<p> 2. Crear una lista con los objetos identificados, así como sus propiedades y comportamientos. </p>
-	<p> Solución - objetos encontrados: Usuario, Pedidos, Producto </p>
+	<p> Solución - objetos encontrados: Usuario, Pedido, Producto </p>
 </details>
