@@ -20,15 +20,13 @@
    
 2. Aún no conocemos como declarar las propiedades y comportamientos, declara estos con comentarios.
 
-![Proyecto](https://user-images.githubusercontent.com/56565204/67177303-9d851f00-f393-11e9-9741-ea3d6eb391a2.png)
-
-3. Felicidades, lograste los objetivos.
+3. Si llegaste hasta aquí, Felicidades!!
 
 <hr>
 
 <details>
 	<summary>Solucion</summary>
 	<p> 1. Crear un nuevo proyecto llamado Supermercado. </p>
-	<p> 2. Crear una clase por cada objeto encontrado en el ejemplo anterior </p>
-	<p> Solución - clases declaradas: Usuario, Pedidos y Producto </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el reto anterior. </p>
+	<p> Solución - clases declaradas: Usuario, Pedido y Producto </p>
 </details>
