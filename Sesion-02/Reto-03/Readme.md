@@ -28,7 +28,7 @@
 
     Nota: Agrega comentarios que indiquen que estas haciendo en cada línea.
 
-3. Terminadas la declaración de instancias, agrega la impresión del mensaje: "Terminando de crear instancias..."
+3. Terminadas la declaración de instancias, agrega la impresión del mensaje: <b>"Terminando de crear instancias..."</b>
 
 <hr>
 
@@ -48,6 +48,9 @@
 	<summary>Solucion</summary>
 	<p> 1. Declara la clase principal, nombre: <b>SupermercadoTest</b> </p>
 	<p> 2. Declara una instancia por cada clase declarada en el proyecto <b>Supermercado</b>. </p>
-	<p> Solución: Debes tener declara una intancia por cada tipo de clase, así como el mensaje "Terminando de crear instancias.</b> </p>
+	<p> Solución: 
+		- Declarada una intancia por cada tipo de clase: Usuario, Pedido, Producto.
+		- Impresión del mensaje: <b> "Terminando de crear instancias."</b> 
+	</p>
 </details>
 
