@@ -8,6 +8,8 @@
 
 - El alumno será capaz de reconocer los objetos en una problemática dada.
 
+<hr> 
+
 #### DESARROLLO
 
 1. Lee la siguiente problemática.
@@ -28,6 +30,8 @@ esta problemática
 3. Si llegaste hasta aquí, seguro lograste los objetivos. Felicidades!!
 
 ![Super](https://user-images.githubusercontent.com/56565204/67175810-1f257e80-f38d-11e9-9bfb-f681887e0ad9.png)
+
+<hr>
 
 <details>
 	<summary>Solucion</summary>
