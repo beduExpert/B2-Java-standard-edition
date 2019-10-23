@@ -11,7 +11,7 @@
 
 #### REQUISITOS
 
-1. Descargar el proyecto llamado <b>TiposDatos</b>
+1. Descargar el archivo llamado <b>TiposDatos.zip</b> y quitale el formato de compresión.
 2. Abrir el proyecto desde eclipse.
 3. Abrir la clase <b>TiposDatos</b>
 
