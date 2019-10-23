@@ -1,7 +1,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 03` > `Ejemplo 01`
 
-## Tipos de datos
+## Tipos de datos & Manipulación de datos numéricos.
 
 ### OBJETIVO
 
