@@ -19,7 +19,7 @@
 
 #### DESARROLLO
 
-1. Analizar y probar cada una de las líneas de la clase TiposDatos.
+1. Analizar y probar cada una de las líneas de la clase <b>TiposDatos</b>
 
 2. Felicidades, lograste los objetivos!!
 
