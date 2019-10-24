@@ -1,7 +1,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 02`	
 
-## Gimnasio - Declaración de clases
+## Supermercado - Declaración de clases
 
 ### OBJETIVO
 
