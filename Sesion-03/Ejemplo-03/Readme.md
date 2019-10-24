@@ -52,14 +52,4 @@
 
 6. Ejecuta el proyecto:
 
-
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+![Console](https://user-images.githubusercontent.com/56565204/67444010-dc51e980-f5cc-11e9-9a6a-3756690a2dc0.png)
