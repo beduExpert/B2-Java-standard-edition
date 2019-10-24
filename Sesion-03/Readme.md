@@ -11,6 +11,7 @@
   <ul>
    <li> Los tipos de datos que existen.
    <li> Como consultar el API de Java, aplicado a Math & String
+   <li> Manejar la clase String.
    <li> Declaración de variables de instancia.  
 </ul>
 
