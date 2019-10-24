@@ -53,3 +53,5 @@
 6. Ejecuta el proyecto:
 
 ![Console](https://user-images.githubusercontent.com/56565204/67444010-dc51e980-f5cc-11e9-9a6a-3756690a2dc0.png)
+
+7. Felicidades, ¡Lograste los objetivos!
