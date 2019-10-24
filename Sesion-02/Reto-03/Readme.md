@@ -49,7 +49,7 @@
 	<p> 1. Declara la clase principal, nombre: <b>SupermercadoTest</b> </p>
 	<p> 2. Declara una instancia por cada clase declarada en el proyecto <b>Supermercado</b>. </p>
 	<p> Solución:</p> 
-	<p> - Declarada una intancia por cada tipo de clase: <b>Usuario, Pedido, Producto.</b></p>
+	<p> - Declarada una instancia por cada tipo de clase: <b>Usuario, Pedido, Producto.</b></p>
 	<p> - Impresión del mensaje: <b> "Terminando de crear instancias."</b></p>
 </details>
 
