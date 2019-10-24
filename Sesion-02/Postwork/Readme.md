@@ -41,7 +41,7 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
 	<summary>Solucion</summary>
 	<p> 1. Identifica los objetos de tu problemática. </p>
 	<p> 2. Declara las clases de los objetos identificados en la problemática.</p>
-        <p> 4. Declara una instancia por cada clase ya declarada. </p>
-        <p> 5. Agrega la impresión de una línea que indique la finalización de creación de instancias.
+        <p> 3. Declara una instancia por cada clase ya declarada. </p>
+        <p> 4. Agrega la impresión de una línea que indique la finalización de creación de instancias.
 	<p> 5. Ejecutar Proyecto </p>
 </details> 
