@@ -17,7 +17,7 @@
 
 - [Ejemplo 01](Ejemplo-01) - Gimnasio - Identificación de Objetos
 - [Reto 01](Reto-01) - Supermercado - Identificación de Objetos
-- [Ejemplo 02](Ejemplo-02) - Gimanasio - Declaración de Clases
+- [Ejemplo 02](Ejemplo-02) - Gimnasio - Declaración de Clases
 - [Reto 02](Reto-02) - Supermercado - Declaración de Clases
 - [Ejemplo 03](Ejemplo-03) - Gimanasio - Declaración de Instancias
 - [Reto 03](Reto-03) - Supermercado - Declaración de Instancias
