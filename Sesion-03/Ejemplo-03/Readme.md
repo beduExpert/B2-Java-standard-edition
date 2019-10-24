@@ -1,19 +1,30 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 03`
 
-## Titulo del Ejemplo
+## Ejemplo 3 - Variables Instancia
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- El alumno será capaz de declarar variables de instancia.
+
+<hr>
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Contar con el proyecto Gimnasio modificado en la última sesión.
+2. Abrir el proyecto en Eclipse
+3. Contar con mínimo la clase Actividad & Socio ya declaradas en el proyecto.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Declarando variables de instancia de la clase Actividad.
+
+1. Abre la clase Actividad, actualmente tiene las propiedades y comportamientos declarados con comentarios.
+2. Edita la clase, declara las variables de instancias, recuerda que estas corresonden a las propiedades encontradas.
+
+
 
 <details>
 
