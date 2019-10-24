@@ -16,15 +16,15 @@
 
 ##### Declaración de variables de instancia.
 
-1. En cada clase encontrada en el proyecot, declara las variables de instancia encontradas en la Sesión 1.
+1. En cada clase encontrada en el proyecto, declara las variables de instancia encontradas en la Sesión 1.
 
 <hr>
 
 ##### Edición clase principal - Método main
 
-1. Abrir el proyecto UniversidadMexico.
+1. Abrir el proyecto <b>UniversidadMexico</b>
 2. Ubicar la clase principal <b>UniversidadMexico</b>
-3. Ubicar le método <b>main</b>.
+3. Ubicar el método <b>main</b>.
 4. Ubicar la última línea correspondiente a la impresión del banner desarrollado en la <b>Sesión 1</b>
 5. Ubicar la línea donde se creo una instancia de tipo <b>Alumno</b>. 
 6. En las siguientes líneas, asigna valores a cada variable de instancia del objeto <b>Alumno</b>
@@ -37,7 +37,7 @@
 
 1. Ejecución de aplicación. 
    
-
+   ![Console](https://user-images.githubusercontent.com/56565204/67447135-897e2f00-f5d8-11e9-9464-a4e32c65f30d.png)
 
 <hr>
 
@@ -47,10 +47,9 @@ Si llegaste aquí, Felicidades - lograste los objetivos!!
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Leer problemática. </p>
-	<p> 2. Identificación de objetos(características y propiedades).<b>Nota:</b>Número de objetos mínimo a encontrar: 2 </p>
-	<p> 3. Declaración de clases, una por cada objeto encontrado en punto anterior. </p>
-        <p> 4. En la clase principal, declara una instancia por cada clase declarada en el punto anterior. </p>
-	<p> 5. Imprimir una línea con el menseaje: "Terminando de declarar instancias..." </p>
+	<p> 1. Declarar las variables de instancia de cada clase en el proyecto <b>UniversidadMexico</b> </p>
+	<p> 2. En la clase principal asignarle valores a las variables de instancia del objeto de tipo <b>Alumno</b> previamente declarado. </p>
+	<p> 3. Eliminación del mensaje: <b>"Terminando de declarar instancias..."</b> </p>
+	<p> 4. Impresión de las variables de instancia del objeto de tipo <b>Alumno</b> </p>
 	<p> 6. Ejecutar proyecto. </p>
 </details> 
