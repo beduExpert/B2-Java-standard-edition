@@ -1,7 +1,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 03`
 
-## Ejemplo 3 - Variables Instancia
+## Ejemplo 3 - Gimnasio, Variables Instancia
 
 ### OBJETIVO
 
@@ -22,7 +22,15 @@
 ##### Declarando variables de instancia de la clase Actividad.
 
 1. Abre la clase Actividad, actualmente tiene las propiedades y comportamientos declarados con comentarios.
-2. Edita la clase, declara las variables de instancias, recuerda que estas corresonden a las propiedades encontradas.
+2. Edita la clase, declara las variables de instancia, recuerda que estas corresponden a las propiedades del objeto.
+
+![Proyecto](https://user-images.githubusercontent.com/56565204/67443334-ff2ece80-f5c9-11e9-8033-785edca89bb6.png)
+
+##### Declarando variables de instancia de la clase Socio.
+
+1. Abre la clase Socio, actualmente tiene las propiedades y comportamientos declarados con comentarios.
+2. Edita la clase, declara las variables de instnacia, recuerda que estas corresponden a las propiedades del objeto.
+
 
 
 
