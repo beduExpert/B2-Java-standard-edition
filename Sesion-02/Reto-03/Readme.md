@@ -2,7 +2,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 03`
 	
-## Gimnasio - Declaración de instancias
+## Supermercado - Declaración de instancias
 
 ### OBJETIVO 
 
