@@ -26,9 +26,10 @@
 2. Ubicar la clase principal <b>UniversidadMexico</b>
 3. Ubicar el método <b>main</b>.
 5. Ubicar la línea donde se creo una instancia de tipo <b>Alumno</b>. 
-6. En las siguientes líneas, asigna valores a cada variable de instancia del objeto <b>Alumno</b>
-7. Declara una <b>segunda instancia de tipo Alumno</b>, asignale valores a sus variables de instancia.
-8. Imprime los valores de las variables de instancia de cada objeto de tipo <b>Alumno</b>
+6. En las siguientes líneas, asigna valores a cada variable de instancia del objeto <b>Alumno</b>.
+7. Elimina la línea del mensaje: <b>"Terminando de declarar instancias..."</b>
+8. Declara una <b>segunda instancia de tipo Alumno</b>, asignale valores a sus variables de instancia.
+9. Imprime los valores de las variables de instancia de cada objeto de tipo <b>Alumno</b>.
 
 <hr>
 
@@ -36,7 +37,7 @@
 
 1. Ejecución de aplicación. 
    
- 
+ ![Console](https://user-images.githubusercontent.com/56565204/67447761-8ab05b80-f5da-11e9-94b7-5ba720ec736c.png)
 
 <hr>
 
@@ -46,10 +47,10 @@ Si llegaste aquí, Felicidades - lograste los objetivos!!
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Declarar las variables de instancia de cada clase en el proyecto <b>UniversidadMexico</b> </p>
+	<p> 1. Declarar las variables de instancia de cada clase en el proyecto <b>UniversidadMexico</b>. </p>
 	<p> 2. En la clase principal asignarle valores a las variables de instancia del objeto de tipo <b>Alumno</b> previamente declarado. </p>
 	<p> 3. Declara una <b>segunda instancia de tipo Alumno</b>, asigna valores a sus variables de instancia.</p>
 	<p> 3. Eliminación del mensaje: <b>"Terminando de declarar instancias..."</b> </p>
-	<p> 4. Impresión de las variables de instancia de cada objeto de tipo <b>Alumno</b> </p>
+	<p> 4. Impresión de las variables de instancia de cada objeto de tipo <b>Alumno</b>. </p>
 	<p> 6. Ejecutar proyecto. </p>
 </details> 
