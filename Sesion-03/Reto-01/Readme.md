@@ -1,27 +1,33 @@
  
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
+`Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 01` 
 	
-## Titulo del Ejemplo 
+## Reto 01 - Supermercado, Variables Instancia
 
 ### OBJETIVO 
 
-- Lo que esperamos que el alumno aprenda 
+- El alumno será capaz de declarar variables de instancia.
+
+<hr>
 
 #### REQUISITOS 
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+
+1. Contar con el proyecto <b>Supermercado</b> modificado en la última sesión.
+2. Abrir el proyecto en Eclipse.
+3. Contar con mínimo la clase <b>Usuario, Pedido, Producto</b> ya declaradas en el proyecto.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Declarando variables de instancia.
 
-<details>
+1. Declara las <b>variables de instancia de cada clase</b> encontrada en el proyecto. (Actuales comentarios)
+2. En la clase principal, ubica la instancia de tipo <b>Usuario</b> previamente creada.
+3. Asignale valores a cada variables de instancia del objeto señalado en el punto 2.
+4. Elimina el mensaje: "Terminando de crear instancias".
+5. Declara una línea donde imprimas los datos del Usuario. Toma como referencia la siguiente imagen:
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
 
