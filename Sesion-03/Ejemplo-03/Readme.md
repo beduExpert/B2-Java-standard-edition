@@ -48,6 +48,9 @@
 4. Elimina el mensaje: "Terminando de crear instancias".
 5. Declara una línea donde imprimas los datos del socio. Toma como refencia la siguiente imagen:
 
+![Proyecto](https://user-images.githubusercontent.com/56565204/67443905-651c5580-f5cc-11e9-96bb-1e2eed668e88.png)
+
+6. Ejecuta el proyecto:
 
 
 <details>
