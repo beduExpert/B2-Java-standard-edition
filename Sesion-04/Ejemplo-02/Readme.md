@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 02`
+`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 02`
 
 ## Estructuras de Control ( switch )
 
