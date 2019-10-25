@@ -50,18 +50,23 @@
     String nombre = input.next();
         
 8. Repite el proceso del punto <b>5 y 6</b>, por cada dato necesario para registrar a un socio, no olvides utilizar el método    correcto de la clase Scanner, según el tipo de dato que vas a leer. Para mayor referencia respecto a los datos faltantes,    consulta el <b>punto 5</b>.
-9. Una vez que se cuenta con todos los datos para registrar al usuario en variables <b>locales</b> al <b>main</b>, crear una    nueva instancia de tipo Socio.
+
+9. Utiliza la siguiente instrucción para cerrar el objeto de tipo Scanner.
+
+	input.close();
+	
+10. Una vez que se cuenta con todos los datos para registrar al usuario en variables <b>locales</b> al <b>main</b>, crear una    nueva instancia de tipo Socio.
 
     Socio s1 = new Socio();
     
-10. Incializa o asigna los valores leídos desde el teclado a la variables de instancia del objeto Socio acabado de crear. Es      decir:
+11. Incializa o asigna los valores leídos desde el teclado a la variables de instancia del objeto Socio acabado de crear. Es      decir:
 
 		s1.nombre=nombre;
 		s1.numeroSocio=numeroSocio;
 		s1.correoElectronico=correoElectronico;
 		s1.telefono=telefono;
     
-11. Imprime el siguiente mensaje: "Éxito al registrar socio número: "
+12. Imprime el siguiente mensaje: "Éxito al registrar socio número: "
     Concatena a este mensaje el número de socio recien registrado, es decir:
     
     System.out.println("Exito al registrar socio número: " + s1.numeroSocio );
