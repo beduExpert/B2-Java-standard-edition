@@ -25,7 +25,7 @@
   
    Scanner input = new Scanner(System.in);
     
-   Nota: Esta línea te generará un error, se resuelve en el siguiente punto.
+   Nota: Esta línea generará un error, se resuelve en el siguiente punto.
     
 3. En la línea 1 de tu código, agrega la siguiente línea: import java.util.* 
 
