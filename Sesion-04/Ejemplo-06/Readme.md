@@ -22,7 +22,7 @@
 
 1. Abre la clase <b>GimnasioTest</b>, elimina las líneas que están dentro del método main.
 2. Dentro del <b>main</b>, declara una instancia de tipo Scanner.
-  
+
    Scanner input = new Scanner(System.in);
     
    Nota: Esta línea generará un error, se resuelve en el siguiente punto.
