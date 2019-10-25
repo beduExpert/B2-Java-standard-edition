@@ -1,7 +1,7 @@
 
 `Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 06`
 
-## Ejemplo 3 - Gimnasio, Scanner
+## Ejemplo 6 - Gimnasio, Scanner
 
 ### OBJETIVO
 
