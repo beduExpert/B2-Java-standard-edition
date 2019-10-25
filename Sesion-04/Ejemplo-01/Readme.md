@@ -1,27 +1,26 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 01`
 
-## Titulo del Ejemplo
+## Tipos de datos & Manipulación de datos numéricos.
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- El alumno reconocerá distintas estructuras de control.
+
+<hr> 
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Descargar el archivo llamado <b>EstructurasControl.zip</b>, quitale el formato de compresión.
+2. Abrir el proyecto desde eclipse.
+3. Abrir la clase <b>EjemplosIf</b>
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Analizar y probar cada una de las líneas de la clase <b>EjemplosIf</b>
 
-<details>
+2. Felicidades, lograste los objetivos!!
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
