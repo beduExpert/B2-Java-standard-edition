@@ -82,7 +82,7 @@
 
 ##### Las reglas cambian
 
-1. El cliente te ha mencionado que olvidó solicitar la edad del Socio, es importante ya que si es menor de edad, se le negará    el registro.
+1. El cliente te ha mencionado que olvidó solicitar la edad del Socio. Es importante ya que, si es menor de edad, se le        negará el registro.
 
 2. Agrega la variable de instancia edad a la clase Socio, modifica el código creado en el punto anterior para solicitar y        validar la edad. En caso de que no se cumpla con la edad mínima, no deberás continuar con el registro del Socio.
 
