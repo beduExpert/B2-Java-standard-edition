@@ -1,11 +1,11 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 01`
 
-## Estructuras de Control ( if, if/else, Operador ternario )
+## Estructuras de Control ( switch )
 
 ### OBJETIVO
 
-- El alumno reconocerá distintas estructuras de control.
+- El alumno reconocerá la estructura switch.
 
 <hr> 
 
@@ -13,13 +13,13 @@
 
 1. Descargar el archivo llamado <b>EstructurasControl.zip</b>, quitale el formato de compresión.
 2. Abrir el proyecto desde eclipse.
-3. Abrir la clase <b>EjemplosIf</b>
+3. Abrir la clase <b>EjemplosSwitch</b>
 
 <hr>
 
 #### DESARROLLO
 
-1. Analizar y probar cada una de las líneas de la clase <b>EjemplosIf</b>
+1. Analizar y probar cada una de las líneas de la clase <b>EjemplosSwitch</b>
 
 2. Felicidades, lograste los objetivos!!
 
