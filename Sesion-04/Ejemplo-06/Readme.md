@@ -20,34 +20,36 @@
 
 ##### Modificación clase princiipal
 
-1. Abre la clase <b>GimnasioTest>, elimina las líneas que están dentro del método main.
+1. Abre la clase <b>GimnasioTest</b>, elimina las líneas que están dentro del método main.
 2. Dentro del <b>main</b>, declara una instancia de tipo Scanner.
   
-    Scanner input = new Scanner(System.in);
+   Scanner input = new Scanner(System.in);
     
-   Nota: Esta línea te generará un erro, se resuelve en el siguiente punto.
+   Nota: Esta línea te generará un error, se resuelve en el siguiente punto.
     
 3. En la línea 1 de tu código, agrega la siguiente línea: import java.util.* 
 
-  Nota: Con esta línea, indicamos en que paquete del API, se encuentra la clase Scanner.
+   Nota: Con esta línea, indicamos en que paquete del API, se encuentra la clase Scanner.
 
-4. Imprime una línea que de la bienvenida al registro de socios.
-
-  El objetivo de los siguientes puntos es solicitar cada uno de los datos necesarios para registrar a un usuario:
+4. Imprime una línea que de la bienvenida al registro de socios. 
+    
+5.  El objetivo de los siguientes puntos es solicitar cada uno de los datos necesarios para registrar a un usuario:
   
     <ul>
-      <li> Nombre Usuario - Tipo:String
+      <li> Nombre Socio - Tipo:String
       <li> Número Socio - Tipo:int
       <li> Correo Electronico - Tipo String
       <li> Teléfono - Tipo String
     </ul>
     
-5. Imprime una línea que solicite al usuario ingresar el nombre del socio a registrar.
-6. Declara una variable de tipo String, a la cual le asignarás el valor leído desde el teclado, utiliza el método next(), de    la clase Scanner. Es decir:
+    Comenzemos con: Nombre Socio
+    
+6. Imprime una línea que solicite al usuario ingresar el <b>nombre del socio</b a registrar.
+6. Declara una variable de tipo <b>String</b>, a la cual le asignarás el valor leído desde el teclado. Utiliza el método        next() de la clase Scanner para llevar a cabo la lectura. Es decir:
 
-    String nombre = input.next();
+    <b>String nombre = input.next();</b>
         
-7. Repite el proceso del punto 5 y 6, por cada dato necesario para registrar a un socio, no olvides utilizar el método          correcto de la clase Scanner, según el tipo de dato que vas a leer. 
+7. Repite el proceso del punto <b>5 y 6</b>, por cada dato necesario para registrar a un socio, no olvides utilizar el método    correcto de la clase Scanner, según el tipo de dato que vas a leer. Para mayor referencia respecto a los datos faltantes,    consulta el <b>punto 5</b>.
 8. Una vez que se cuenta con todos los datos para registrar al usuario en variables <b>locales</b> al <b>main</b>, crear una    nueva instancia de tipo Socio.
 
     Socio s1 = new Socio();
@@ -65,9 +67,11 @@
     System.out.println("Exito al registrar socio número: " + s1.numeroSocio );
 
 <hr>
+
 ##### Ejecutando proyecto
 
 1. Ejecuta el proyecto:
 
+![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
 
 7. Felicidades, ¡Lograste los objetivos!
