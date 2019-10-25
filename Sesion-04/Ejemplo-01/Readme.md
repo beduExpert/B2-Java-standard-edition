@@ -1,4 +1,4 @@
-`Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 01`
+`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 01`
 
 ## Estructuras de Control ( if, if/else, Operador ternario )
 
