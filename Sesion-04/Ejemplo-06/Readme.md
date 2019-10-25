@@ -44,7 +44,7 @@
     
     Comencemos con: Nombre Socio
     
-6. Imprime una línea que solicite al usuario ingresar el <b>nombre del socio</b a registrar.
+6. Imprime una línea que solicite al usuario ingresar el <b>nombre del socio</b> a registrar.
 7. Declara una variable de tipo <b>String</b>, a la cual le asignarás el valor leído desde el teclado. Utiliza el método        next() de la clase Scanner para llevar a cabo la lectura. Es decir:
 
     String nombre = input.next();
