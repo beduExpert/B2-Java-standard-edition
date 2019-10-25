@@ -1,7 +1,7 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 01`
 
-## Tipos de datos & Manipulación de datos numéricos.
+## Estructuras de Control ( if, if/else )
 
 ### OBJETIVO
 
