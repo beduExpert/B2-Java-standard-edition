@@ -74,12 +74,27 @@
     
 		System.out.println("Exito al registrar socio número: " + s1.numeroSocio );
 
-<hr>
-
-##### Ejecutando proyecto
-
-1. Ejecuta el proyecto:
+13. Ejecuta el proyecto:
 
 ![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
+
+<hr>
+
+##### Las reglas cambian
+
+1. El cliente te ha mencionado que olvidó solicitar la edad del Socio, es importante ya que si es menor de edad, se le negará    el registro.
+
+2. Agrega la variable de instancia edad a la clase Socio, modifica el código creado en el punto anterior para solicitar y        validar la edad. En caso de que no se cumpla con la edad mínima, no deberás continuar con el registro del Socio.
+
+		System.out.println("Ingresa tu edad: ");
+		int edad = input.nextInt();
+		if(edad < 18) {
+			System.out.println("Edad mínima para registrarse: 18");
+			System.out.println("Solicitud rechazada...");
+			input.close();
+			return; //return, retorna el flujo de ejecución.
+		}
+		
+13. Ejecuta el proyecto:
 
 7. Felicidades, ¡Lograste los objetivos!
