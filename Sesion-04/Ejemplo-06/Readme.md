@@ -36,10 +36,10 @@
 5.  El objetivo de los siguientes puntos es solicitar cada uno de los datos necesarios para registrar a un usuario:
   
     <ul>
-      <li> Nombre Socio - Tipo:String
-      <li> Número Socio - Tipo:int
-      <li> Correo Electronico - Tipo String
-      <li> Teléfono - Tipo String
+      <li> Nombre Socio - Tipo Dato:String
+      <li> Número Socio - Tipo Dato:int
+      <li> Correo Electronico - Tipo Dato: String
+      <li> Teléfono - Tipo Dato: String
     </ul>
     
     Comenzemos con: Nombre Socio
