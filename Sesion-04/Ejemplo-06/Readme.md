@@ -1,7 +1,7 @@
 
 `Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 06`
 
-## Ejemplo 6 - Gimnasio, Scanner
+## Ejemplo 6 - Gimnasio, Scanner & Estructura Control
 
 ### OBJETIVO
 
@@ -96,5 +96,7 @@
 		}
 		
 13. Ejecuta el proyecto:
+
+![Console](https://user-images.githubusercontent.com/56565204/67609390-18628700-f752-11e9-9d25-3f5746d34a96.png)
 
 7. Felicidades, ¡Lograste los objetivos!
