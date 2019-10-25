@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 04` > `Ejemplo 03`
+`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 03` > `Ejemplo 06`
 
 ## Estructuras de Control ( Ciclos - for, while, do/while )
 
