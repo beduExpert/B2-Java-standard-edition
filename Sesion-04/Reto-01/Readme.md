@@ -102,8 +102,8 @@
 	<p> Solución:</p> 
 	<p> 1. Utiliza Scanner para leer datos el teclado.</b></p>
 	<p> 2. Utiliza los métodos substring(.,.) y charAt(.) de la clase String para obtener este dato. </p>
-	<p>		<b> int indice1 = u1.nombre.indexOf(' ');</b> </p>
-	<p>		<b>u1.usuario = u1.nombre.substring(0,indice1)+u1.nombre.charAt(++indice1);</b> </p>
+	<p> &nbsp;&nbsp;&nbsp;<b>int indice1 = u1.nombre.indexOf(' ');</b> </p>
+	<p> &nbsp;&nbsp;&nbsp;<b>u1.usuario = u1.nombre.substring(0,indice1)+u1.nombre.charAt(++indice1);</b> </p>
 	<p> 3. Declara un arreglo de objetos de tipo Producto con un tamaño de 10. </p>
-	<p>     	<b>public Producto listaProducto[] = new Producto[10];</b>   </p>
+	<p> &nbsp;&nbsp;&nbsp;<b>public Producto listaProducto[] = new Producto[10];</b>   </p>
 </details>
