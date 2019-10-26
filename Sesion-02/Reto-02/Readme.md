@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 02`	
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 02`	
 
 ## Supermercado - Declaración de clases
 
