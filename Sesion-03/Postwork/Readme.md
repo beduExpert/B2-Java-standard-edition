@@ -10,7 +10,7 @@
 
 #### REQUISITOS
 
-1. Contar con el proyecto trabajado en el <b>Postwork de la Sesión 02, UniversidadMexico</b>
+1. Contar con el proyecto trabajado en el <b>Postwork de la Sesión 02</b>
 2. Ubicar la clase principal declarada en el proyecto indicado en el punto 1.
 3. Ubicar la línea que imprime el mensaje de finalización de creación de instancias. (Eliminalo)
 
