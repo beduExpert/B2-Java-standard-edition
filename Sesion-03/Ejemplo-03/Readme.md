@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 03`
+`Java SE`> `Tipos de Datos, Variables & API` > `Sesión 02` > `Ejemplo 03`
 
 ## Ejemplo 3 - Gimnasio, Variables Instancia
 
