@@ -23,7 +23,7 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
         - Lectura de datos desde Teclado ( Scanner ).
         - Edita el método main para declarar:
             ▪ Crea una instancia y asigna los valores leídos desde el teclado a las variables de instancia.
-            ▪ Declara un arreglo de objetos del tipo de dato que en tu proyecto haga sentido. La ubicación depende de tu                   problemática.
+            ▪ Declara un arreglo de objetos del tipo de dato que en tu proyecto haga sentido. La ubicación depende de tu problemática.
             ▪ Utiliza alguna estructura de control, en caso de que en tu proyecto haga sentido alguna validación.
         - Toma como referencia el "Reto 1", realizado en clase.
         
