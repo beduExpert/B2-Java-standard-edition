@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 03` > `Ejemplo 01`
+`Java SE`> `Tipos de Datos, Variables & API` > `Sesión 03` > `Ejemplo 01`
 
 ## Tipos de datos & Manipulación de datos numéricos.
 
