@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 03` > `Ejemplo 02`
+`Java SE`> `Tipos de Datos, Variables & API` > `Sesión 03` > `Ejemplo 02`
 
 ## String
 
