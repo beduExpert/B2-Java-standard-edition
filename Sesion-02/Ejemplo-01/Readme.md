@@ -1,5 +1,5 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 01`
+`Java SE`> ` Programación Orientada a Objetos VS Java` > `Sesión 02` > `Ejemplo 01`
 
 ## Gimnasio - Identificación de Objetos
 
