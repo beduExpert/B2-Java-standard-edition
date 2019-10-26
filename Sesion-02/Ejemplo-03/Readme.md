@@ -1,5 +1,6 @@
 
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Ejemplo 03`
+`Java SE`> ` Programación Orientada a Objetos VS Java` > `Sesión 02` > `Ejemplo 03`
+
 
 ## Gimnasio - Declaración de Instancias
 
