@@ -23,8 +23,6 @@
 1. Abre la clase <b>SupermercadoTest</b>, elimina o comenta las líneas que están dentro del método main.
 
 2. Dentro del <b>main</b>, declara una instancia de tipo <b>Scanner</b>.
-
-		Scanner input = new Scanner(System.in);
 		
    Nota: Esta línea generará un error, se resuelve en el siguiente punto.
     
@@ -57,19 +55,22 @@
    
 8. Repite el proceso del punto <b>5 y 6</b>, por cada dato necesario para registrar a un usuario, no olvides utilizar el método correcto de la clase Scanner, según el tipo de dato que vas a leer. Para mayor referencia respecto a los datos faltantes, consulta el <b>punto 5</b>.
 
-9. Utiliza la siguiente instrucción para cerrar el objeto de tipo Scanner.
+9. Al término del uso del objeto de tipo Scanner, ciérralo.
 
-		input.close();
-
-10. Una vez que se cuenta con todos los datos para registrar al usuario en variables <b>locales</b> al <b>main</b>, crear una nueva instancia de tipo Socio.
+10. Una vez que se cuenta con todos los datos para registrar al usuario en variables <b>locales</b> al <b>main</b>, crear una nueva instancia de tipo Usuario.
 
 		Usuario u1 = new Usuario();
 
 11. Incializa o asigna los valores leídos desde el teclado a la variables de instancia del objeto Socio acabado de crear.
 
+		u1.nombre=nombre;
+		u1.fechaCumpleaños=fechaCumpleaños;
+		u1.direccion=direccion;
+		u1.telefono=telefono;
+
 12. Recuerda: 
 
-     En la problemática te indicaron que el <b>id</b> del usuario se compone del <b>nombre y primer letra del apellido            paterno</b> del usuario. Calcula este valor y asignalo a la variable de instancia id del usuario que estas creando.
+    En la problemática te indicaron que el <b>usuario</b> de este objeto, se compone del <b>nombre y primer letra del           apellido paterno</b> del usuario. Calcula este valor y asignalo a la variable de instancia usaurio del objeto que recién     creaste.
      
      Pista: Utiliza el método substring(..) y charAt(..) para generar este valor.
 	
@@ -79,26 +80,30 @@
 
 13. Ejecuta el proyecto:
 
+![Console](https://user-images.githubusercontent.com/56565204/67612154-b3189100-f765-11e9-8a69-d23d0bdfc6dc.png)
 
 <hr>
 
-##### Las reglas cambian
+##### Modificando clase Pedido
 
-1. El cliente te ha mencionado que olvidó solicitar la edad del Socio. Es importante ya que, si es menor de edad, se le        negará el registro.
+1. Abre la clase Pedido, hasta el momento, debes encontrar las propiedades numeroPedido y montoFinal ya agregadas.
 
-2. Agrega la variable de instancia edad a la clase Socio, modifica el código creado en el punto anterior para solicitar y        validar la edad. En caso de que no se cumpla con la edad mínima, no deberás continuar con el registro del Socio.
+2. Agrega una tercer propiedad llamada listaProducto, esta la trabajaremos con un arreglo de objetos de tipo Producto. 
 
-		System.out.println("Ingresa tu edad: ");
-		int edad = input.nextInt();
-		if(edad < 18) {
-			System.out.println("Edad mínima para registrarse: 18");
-			System.out.println("Solicitud rechazada...");
-			input.close();
-			return; //return, retorna el flujo de ejecución.
-		}
-		
-13. Ejecuta el proyecto:
+3. El arreglo debe tener un límite de 10 Productos.
 
-![Console](https://user-images.githubusercontent.com/56565204/67609390-18628700-f752-11e9-9d25-3f5746d34a96.png)
+<hr>
 
-7. Felicidades, ¡Lograste los objetivos!
+<details>
+	<summary>Solucion</summary>
+	<p> 1. Habilita el registro de usuarios, solicitando sus datos vía teclado. </p>
+	<p> 2. La propiedad usaurio, se inicializa con el nombre del usario y la primer letra de su apellido paterno.</p>
+	<p> 3. En la clase Pedido, declara un arreglo de objetos de tipo Producto, con un tamaño de 10</p>
+	<p> Solución:</p> 
+	<p> 1. Utiliza Scanner para leer datos el teclado.</b></p>
+	<p> 2. Utiliza los métodos substring(.,.) y charAt(.) de la clase String para obtener este dato. </p>
+	<p>		<b> int indice1 = u1.nombre.indexOf(' ');</b> </p>
+	<p>		<b>u1.usuario = u1.nombre.substring(0,indice1)+u1.nombre.charAt(++indice1);</b> </p>
+	<p> 3. Declara un arreglo de objetos de tipo Producto con un tamaño de 10. </p>
+	<p>     	<b>public Producto listaProducto[] = new Producto[10];</b>   </p>
+</details>
