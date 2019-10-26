@@ -1,4 +1,4 @@
-`Java SE`> `¿Qué es Java` > `Sesión 03` > `Postwork`
+`Java SE`> `Tipos de datos, variables & API` > `Sesión 03` > `Postwork`
 
 ## Variables de Instancia
 
