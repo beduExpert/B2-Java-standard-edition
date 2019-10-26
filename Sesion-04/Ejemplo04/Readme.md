@@ -1,7 +1,7 @@
 
 `Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 04`
 
-## Estructuras Scanner
+## Scanner
 
 ### OBJETIVO
 
