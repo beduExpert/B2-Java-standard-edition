@@ -24,7 +24,7 @@
 
 2. Dentro del <b>main</b>, declara una instancia de tipo <b>Scanner</b>.
 
-		Scanner s = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
    Nota: Esta línea generará un error, se resuelve en el siguiente punto.
     
@@ -43,7 +43,7 @@
       <li> Teléfono - Tipo Dato: String
     </ul>
     
-    Inciemos con: <b>Nombre Usuario</b>
+    Iniciemos con: <b>Nombre Usuario</b>
     
 6. Imprime una línea que solicite al usuario ingresar el <b>nombre del socio</b> a registrar. Es decir:
 
@@ -51,8 +51,10 @@
 
 7. Declara una variable de tipo <b>String</b>, a la cual le asignarás el valor leído desde el teclado. Utiliza el método        next() de la clase Scanner para llevar a cabo la lectura. Es decir:
 
-		String nombre = input.next();
-        
+		String nombre = input.nextLine();
+   
+   Nota: Para leer y obtenre un String con espacios en blanco desde el teclado, utilizar el método <b>nextLine()</b> de              Scanner.
+   
 8. Repite el proceso del punto <b>5 y 6</b>, por cada dato necesario para registrar a un usuario, no olvides utilizar el método correcto de la clase Scanner, según el tipo de dato que vas a leer. Para mayor referencia respecto a los datos faltantes, consulta el <b>punto 5</b>.
 
 9. Utiliza la siguiente instrucción para cerrar el objeto de tipo Scanner.
@@ -63,12 +65,7 @@
 
 		Usuario u1 = new Usuario();
 
-11. Incializa o asigna los valores leídos desde el teclado a la variables de instancia del objeto Socio acabado de crear. Es     decir:
-
-		u1.nombre=nombre;
-		u1.fechaCumpleaños=fechaCumpleaños;
-		u1.direccion=direccion;
-		u1.telefono=telefono
+11. Incializa o asigna los valores leídos desde el teclado a la variables de instancia del objeto Socio acabado de crear.
 
 12. Recuerda: 
 
@@ -76,9 +73,9 @@
      
      Pista: Utiliza el método substring(..) y charAt(..) para generar este valor.
 	
-13. Imprime el siguiente mensaje: "Éxito al registrar usuario con el id: "
+13. Imprime el siguiente mensaje: "Éxito al registrar usuario: "
     
-		System.out.println("Exito al registrar usuario con el id: " + u1.id );
+		System.out.println("Exito al registrar usuario: " + u1.usuario );
 
 13. Ejecuta el proyecto:
 
