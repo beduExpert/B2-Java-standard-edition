@@ -42,7 +42,7 @@
       <li> Teléfono - Tipo Dato: String
     </ul>
     
-    Inciemos con: <b>Nombre Socio</b>
+    Iniciemos con: <b>Nombre Socio</b>
     
 6. Imprime una línea que solicite al usuario ingresar el <b>nombre del socio</b> a registrar. Es decir:
 
