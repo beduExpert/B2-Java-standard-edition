@@ -1,4 +1,4 @@
-`Java SE`> `¿Qué es Java` > `Sesión 03` > `Proyecto`
+`Java SE`> `Tipos de datos, Variables & API` > `Sesión 03` > `Proyecto`
 
 ## Universidad México
 
