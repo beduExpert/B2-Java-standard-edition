@@ -1,4 +1,6 @@
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Postwork`
+
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Postwork`
+
 
 ## Creando Proyecto & Banner 
 
