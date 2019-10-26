@@ -1,4 +1,4 @@
-`Java SE`> `¿Qué es Java` > `Sesión 01` > `Ejemplo 02`
+`Java SE`> `¿Qué es Java?` > `Sesión 01` > `Ejemplo 02`
 
 ## Hola Mundo - System.out.println(...)
 
