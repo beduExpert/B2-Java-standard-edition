@@ -6,12 +6,13 @@
 ### OBJETIVOS 
 
 <ul>
-  <li type= disc> El alumno será capaz de comprender: 
+  <li type= disc> El alumno será capaz de: 
   <ul>
-   <li> Identificar para que es utilizada una estructura de control.
-   <li> Programar e identificar estructuras como if, if/else, while, do-while y switch.
-   <li> Trabajar con la clase Scanner.
-   <li> Arreglos.
+     <li> Identificar para que es utilizada una estructura de control.
+     <li> Programar e identificar estructuras como if, if/else, while, do-while y switch.
+     <li> Trabajar con la clase Scanner.
+     <li> Arreglos.
+  </ul>
 </ul>
 
 #### ORGANIZACION DE LA CLASE 
