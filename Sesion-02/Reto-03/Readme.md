@@ -1,6 +1,6 @@
  
 
-`Java SE`> `¿Qué es Java` > `Sesión 02` > `Reto 03`
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 03`
 	
 ## Supermercado - Declaración de instancias
 
