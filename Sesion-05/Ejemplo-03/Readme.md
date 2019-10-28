@@ -65,6 +65,7 @@
         
    Si tienes algún problema, este es el código:
    
+   
    	public static Socio registroSocio(){
 		/************************* Registro Socio ****************************/
 		Scanner input = new Scanner(System.in);
@@ -97,7 +98,7 @@
 		System.out.println("Éxito al registrar socio número: " + s1.getNumeroSocio());
 		
 		return s1;			
-                }
+       }
         
 ##### Editando clase principal
 
