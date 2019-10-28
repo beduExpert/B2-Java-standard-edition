@@ -67,7 +67,6 @@
    
    
    	public static Socio registroSocio(){
-		/************************* Registro Socio ****************************/
 		Scanner input = new Scanner(System.in);
 		System.out.println("************* Bienvenido al registro de socios: *************");
 		System.out.print("Ingresa el nombre del socio nuevo: ");
