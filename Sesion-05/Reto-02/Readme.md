@@ -1,27 +1,67 @@
  
+ `Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 02`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto 02 - Supermercado, Método Static
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+- El alumno será capaz de declarar e invocar un método static.
 
-#### REQUISITOS 
+<hr>
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Contar con el proyecto <b>Supermercado</b> modificado en la última sesión.
+2. Abrir el proyecto en Eclipse.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Modificación de clases
 
-<details>
+1. Abre la clase <b>Usuario</b>.
+2. Declara el método registroUsuario, requisitos:
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+   <ul>
+        <li> Modficadores de acceso: public, static
+        <li> Tipo de retorno: Usuario
+        <li> Nombre: registroUsuario
+        <li> Lista argumentos: Sin contenido
+   </ul>
+           		                        
+3. Abre la clase <b>SupermercadoTest</b>
+   
+   Mueve el código que permite registrar un <b>Usuario</b>, al método recién creado en la clase <b>Usuario</b> llamado <b>registroSocio</b>
+   
+4. Algunos cambios en el código:
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+   Busca las líneas: 
 
+        	System.out.println("Éxito al registrar el usuario: " + u1.getUsuario());
+		System.out.println("*************************************************");
+   
+   Justo después de esa línea, agrega:
+   
+        return u1;
+        
+        Nota: 
+        - En la variable u1 guardamos el objeto de tipo Usuario creado en líneas anteriores.
+        - Al utilizar return, estamos enviando el objeto al bloque de código donde se invoco el método. (main)
+   
+        
+##### Editando clase principal
+
+1. Edita el método main, agrega el siguiente código:
+
+	        Usuario s = Usuario.registroSocio();
+
+   Nota: 
+        - Estamos invocando el método registroSocio (estático), econtrado en la clase Usuario. 
+        - Retorna la instancia de tipo Usuario creada.
+
+![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
+
+<hr>
+
+2. Felicidades, ¡Lograste los objetivos!
