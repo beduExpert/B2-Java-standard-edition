@@ -1,5 +1,5 @@
 
-`Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 03`
+`Java SE`> `Diseño Clase` > `Sesión 05` > `Proyecto`
 
 ## Universidad México
 
