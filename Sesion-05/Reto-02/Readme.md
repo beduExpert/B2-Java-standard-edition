@@ -60,7 +60,7 @@
         - Estamos invocando el método registroSocio (estático), econtrado en la clase Usuario. 
         - Retorna la instancia de tipo Usuario creada.
 
-![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
+![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
 
 <hr>
 
