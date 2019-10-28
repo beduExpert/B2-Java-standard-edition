@@ -1,27 +1,49 @@
  
+`Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 01`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto 01 - Supermercado, Encapsulación
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+- El alumno será capaz de aplicar encapsulación en las clases previamente declaradas.
 
-#### REQUISITOS 
+<hr>
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Contar con el proyecto Supermercado modificado en la última sesión.
+2. Abrir el proyecto en Eclipse.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Modificación de clases
 
-<details>
+1. Encapsula y genera los métodos get & set de cada clase en el proyecto. ( Pedido, Producto y Usuario )
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+   Nota: De al menos una clase utiiza el procedimiento manual, el resto puedes hacerlo con las herramientas de eclipse.
+   
+#### Editando clase principal
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+1. Abre la clase principal, observa que hay algunos errores en el código. Corresponden a las líneas donde se modificaban las propiedades del objeto Usaurio de forma directa. (Ahora es imposible acceder a las características si no es vía la interfaz pública, <b>get & set</b>).
 
+2. Modifica las líneas con error para utlizar los métodos set's para asignar valores y get's para obtener valores del objeto Socio.
+
+		Usuario u1 = new Usuario();
+		u1.setNombre(nombre);
+		u1.setFechaCumpleaños(fechaCumpleaños);
+		u1.setDireccion(direccion);
+		u1.setTelefono(telefono);
+		/***Calculando id***/
+		int indice1 = u1.getNombre().indexOf(' ');
+		u1.setUsuario(u1.getNombre().substring(0,indice1)+u1.getNombre().charAt(++indice1));
+		
+		System.out.println("Exito al registrar el usuario: " + u1.getUsuario());
+		
+3. Ejecuta el proyecto:
+
+
+<hr>
+
+14. Felicidades, ¡Lograste los objetivos!
