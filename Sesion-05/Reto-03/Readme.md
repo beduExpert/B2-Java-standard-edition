@@ -1,27 +1,55 @@
- 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 03`
 
-### OBJETIVO 
+## Ejemplo 03 - Supermercado, Constructor
 
-- Lo que esperamos que el alumno aprenda 
+### OBJETIVO
 
-#### REQUISITOS 
+- El alumno será capaz de declarar e invocar un constructor.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+<hr>
+
+#### REQUISITOS
+
+1. Contar con el proyecto <b>Supermercado</b> modificado en la última sesión.
+2. Abrir el proyecto en Eclipse.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Modificación de clases
 
-<details>
+1. Abre la clase <b>Usuario</b>.
+2. Justo después de la última línea de declaración de variables de instancia de la clase, declara el siguiente constructor:
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+  public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
+    this.nombre=nombre;
+		this.fechaCumpleaños=fechaCumpleaños;
+		this.direccion=direccion;
+		this.telefono=telefono;
+	}
+  
+3. Invocando constructor.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+   Busca las líneas donde declaraste la instancia de tipo Usuario, también ubica las líneas donde asignaste valores a las variables de instancia. Es decir:
+   
+   	  Usuario u1 = new Usuario();
+		  u1.setNombre(nombre);
+		  u1.setFechaCumpleaños(fechaCumpleaños);
+		  u1.setDireccion(direccion);
+		  u1.setTelefono(telefono);	
+   
+   Elimina este código.
+   
+4. En donde fue eliminado el código, declara una instancia de tipo Socio utilizando el constructor recien creado. Es decir:
 
+		Usuario u1 = new Usuario(nombre, fechaCumpleaños, direccion, telefono);				
+
+5. Ejecuta el código.
+
+![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
+
+<hr>
+
+2. Felicidades, ¡Lograste los objetivos!
