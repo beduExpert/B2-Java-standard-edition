@@ -26,7 +26,7 @@
    
 #### Editando clase principal
 
-1. Abre la clase principal, observa que hay algunos errores en el código. Corresponden a las líneas donde se modificaban las propiedades del objeto Usaurio de forma directa. (Ahora es imposible acceder a las características si no es vía la interfaz pública, <b>get & set</b>).
+1. Abre la clase principal, observa que hay algunos errores en el código. Corresponden a las líneas donde se modificaban las propiedades del objeto Usuario de forma directa. (Ahora es imposible acceder a las características si no es vía la interfaz pública, <b>get & set</b>).
 
 2. Modifica las líneas con error para utlizar los métodos set's para asignar valores y get's para obtener valores del objeto Socio.
 
@@ -43,6 +43,7 @@
 		
 3. Ejecuta el proyecto:
 
+![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
 
 <hr>
 
