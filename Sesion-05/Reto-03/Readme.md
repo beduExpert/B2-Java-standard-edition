@@ -23,22 +23,28 @@
 1. Abre la clase <b>Usuario</b>.
 2. Justo después de la última línea de declaración de variables de instancia de la clase, declara el siguiente constructor:
 
-  public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
-    this.nombre=nombre;
-		this.fechaCumpleaños=fechaCumpleaños;
-		this.direccion=direccion;
-		this.telefono=telefono;
-	}
-  
+  		public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
+    			this.nombre=nombre;
+			this.fechaCumpleaños=fechaCumpleaños;
+			this.direccion=direccion;
+			this.telefono=telefono;
+		}
+		
+   Como buena práctica, es recomendable declarar siempre el constructor default, decláralo:
+   
+   		public Usuario() {
+		
+		}
+   
 3. Invocando constructor.
 
    Busca las líneas donde declaraste la instancia de tipo Usuario, también ubica las líneas donde asignaste valores a las variables de instancia. Es decir:
    
-   	  Usuario u1 = new Usuario();
-		  u1.setNombre(nombre);
-		  u1.setFechaCumpleaños(fechaCumpleaños);
-		  u1.setDireccion(direccion);
-		  u1.setTelefono(telefono);	
+  		Usuario u1 = new Usuario();
+		u1.setNombre(nombre);
+		u1.setFechaCumpleaños(fechaCumpleaños);
+		u1.setDireccion(direccion);
+		u1.setTelefono(telefono);	
    
    Elimina este código.
    
