@@ -38,7 +38,7 @@
 
    Busca las líneas: 
 
-        	System.out.println("Éxito al registrar el usuario: " + u1.getUsuario());
+   		System.out.println("Éxito al registrar el usuario: " + u1.getUsuario());
 		System.out.println("*************************************************");
    
    Justo después de esa línea, agrega:
