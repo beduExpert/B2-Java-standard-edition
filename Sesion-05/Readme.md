@@ -1,16 +1,26 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Java SE`> `Diseño Clase, variables, métodos y constructores` > `Sesión 05`
 
-## Titulo de la Sesion 
+## Diseño Clase, viariables, métodos y constructores.
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+<ul>
+  <li type= disc> El alumno será capaz de: 
+  <ul>
+     <li> Declarar e identificar métodos, así como entender el concepto de sobrecarga.
+     <li> Declarar e identificar los distintos tipos de viriables.
+     <li> Declarar e identificar constructores, así como entender el concepto de sobrecarga.
+  </ul>
+</ul>
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- [Ejemplo 01](Ejemplo-01) - Métodos y Sobrecarga.
+- [Ejemplo 02](Ejemplo-02) - Gimnasio, Encapsulación.
+- [Reto 01](Reto-01) - Supermercado, Encapsulación
+- [Ejemplo 03](Ejemplo-03) - Gimnasio, Método static.
+- [Reto 02](Reto-02) - Supermercado, Método static.
+- [Ejemplo 04](Ejemplo-04) - Gimnasio, Constructor.
+- [Reto 03](Reto-03) - Supermercado, Constructor.
+- [Proyecto Final](Proyecto)
