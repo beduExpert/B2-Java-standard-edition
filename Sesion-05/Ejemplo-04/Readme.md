@@ -47,9 +47,7 @@
 
 		Socio s1 = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);				
 
-##### Editando clase principal
-
-1. Ejecuta el código.
+5. Ejecuta el código.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
 
