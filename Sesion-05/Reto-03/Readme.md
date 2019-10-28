@@ -23,8 +23,8 @@
 1. Abre la clase <b>Usuario</b>.
 2. Justo después de la última línea de declaración de variables de instancia de la clase, declara el siguiente constructor:
 
-  		public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
-    			this.nombre=nombre;
+		public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
+			this.nombre=nombre;
 			this.fechaCumpleaños=fechaCumpleaños;
 			this.direccion=direccion;
 			this.telefono=telefono;
