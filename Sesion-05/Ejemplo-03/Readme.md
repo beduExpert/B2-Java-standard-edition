@@ -62,42 +62,7 @@
         Nota: 
         - En la variable s1 guardamos el objeto de tipo Socio creado en líneas anteriores.
         - Al utilizar return, estamos enviando el objeto al bloque de código donde se invoco el método. (main)
-        
-   Si tienes algún problema, este es el código:
    
-   
-   	public static Socio registroSocio(){
-		Scanner input = new Scanner(System.in);
-		System.out.println("************* Bienvenido al registro de socios: *************");
-		System.out.print("Ingresa el nombre del socio nuevo: ");
-		String nombre = input.next();
-		System.out.print("Ingresa el número de socio: ");
-		int numeroSocio = input.nextInt();
-		System.out.print("Ingresa el correo electrónico de socio: ");
-		String correoElectronico = input.next();
-		System.out.print("Ingresa el teléfono del socio: ");
-		String telefono=input.next();	
-		System.out.print("Ingresa tu edad: ");
-		int edad = input.nextInt();
-		if(edad < 18) {
-			System.out.println("************************************************************");
-			System.out.println("Problema - Solicitud rechazada...");
-			System.out.println("Error, edad mínima para registrarse: 18");
-			input.close();
-			//return;	
-			return null; //Cambio debido al tipo de retorno del método.
-		}
-		input.close();
-		
-		Socio s1 = new Socio();
-		s1.setNombre(nombre);
-		s1.setNumeroSocio(numeroSocio);
-		s1.setCorreoElectronico(correoElectronico);
-		s1.setTelefono(telefono);		
-		System.out.println("Éxito al registrar socio número: " + s1.getNumeroSocio());
-		
-		return s1;			
-       }
         
 ##### Editando clase principal
 
@@ -113,4 +78,4 @@
 
 <hr>
 
-14. Felicidades, ¡Lograste los objetivos!
+2. Felicidades, ¡Lograste los objetivos!
