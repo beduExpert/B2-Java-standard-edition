@@ -9,7 +9,7 @@
   <li type= disc> El alumno será capaz de: 
   <ul>
      <li> Declarar e identificar métodos, así como entender el concepto de sobrecarga.
-     <li> Declarar e identificar los distintos tipos de viriables.
+     <li> Declarar e identificar los distintos tipos de variables.
      <li> Declarar e identificar constructores, así como entender el concepto de sobrecarga.
   </ul>
 </ul>
