@@ -20,7 +20,7 @@
    
 #### Modificación de clases.
 
-2. Abre la clase <b>Figura</b>.
+1. Abre la clase <b>Figura</b>.
 
    - Declara el método <b>calculaArea</b>.
    - En el, imprime el mensaje: <b>Método Clase Padre, útil para calcula areas...</b>
