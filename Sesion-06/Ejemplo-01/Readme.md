@@ -1,5 +1,5 @@
 
-`Java SE`> `Diseño Clase` > `Sesión 06` > `Ejemplo 01`
+`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 01`
 
 ## Herencia
 
