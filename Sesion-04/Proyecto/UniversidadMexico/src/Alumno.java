@@ -1,0 +1,7 @@
+
+public class Alumno {
+	 public String nombre;//Nombre
+	 public int numeroCuenta;//NúmeroCuenta
+	 public String correoElectronico;//CorreoElectrónico
+	 public Libro []listaLibros = new Libro[3];
+}
