@@ -1,27 +1,35 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 02`
 
-## Titulo del Ejemplo
+## Polimorfismo
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Fortalecer con ejemplos el entendimiento del concepto Polimorfismo.
+
+<hr>
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener instalado eclipse.
+2. Descargar el proyecto <b>Herencia</b>, abrirlo desde eclipse.
+3. Abrir la clase <b>HerenciaPrueba</b>
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. En la clase <b>HerenciaPrueba</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-<details>
+   Concentos a Demostar:
+   
+    <ul>
+        <li> Sobreescritura del método <b>baila</b> en la clase <b>Hijo</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Superclase</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Subclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>                
+   </ul>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2. Felicidades, lograste los objetivos!!
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
