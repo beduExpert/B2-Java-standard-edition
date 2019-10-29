@@ -25,10 +25,10 @@
 
 1. Declara la clase <b>Figura</b> en el proyecto.
 
-   Agrega una variable de instancia llamada color, tipo: String
+   Agrega una variable de instancia llamada color, tipo: <b>String</b>
    
-   	public class Figura {
-		public String color;
+	   public class Figura {
+	   	public String color;
 		}
 		
 2. Declara la clase <b>Circulo</b>. 
@@ -49,9 +49,9 @@
    - Agrega una variable de instancia llamada <b>base</b>, de tipo <b>int</b> con el valor inicial <b>8</b>.
    
 5. Declara la clase principal <b>FigurasTest</b>.
-   - No olvides agregar el método main.
-   - Declara una instancia de tipo Circulo, otra de tipo Triangulo, al final, una de tipo Cuadrado.
-   - Declara una línea que imprima el mensaje: Teminando de crear instancias...
+   - No olvides agregar el método <b>main</b>.
+   - Declara una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, al final, una de tipo <b>Cuadrado</b>.
+   - Declara una línea que imprima el mensaje: <b>Teminando de crear instancias...</b>
    
 #### Ejecutando proyecto
 
