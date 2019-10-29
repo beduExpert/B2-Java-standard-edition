@@ -57,7 +57,7 @@
 
 1. Ejecuta tu proyecto, por el momento, solo deberás ver el mensaje declarado en el punto anterior.
 
-![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
+![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
 
 <hr>
 
