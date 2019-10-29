@@ -1,5 +1,5 @@
 
-public class Triangulo {
+public class Triangulo extends Figura{
 	public int altura=5;
 	public int base=8;
 	
