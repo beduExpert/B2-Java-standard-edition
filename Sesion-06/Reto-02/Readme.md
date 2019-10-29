@@ -20,7 +20,16 @@
    
 #### Modificación de clases.
 
-1. Abre la clase <b>Circulo</b>.
+2. Abre la clase <b>Figura</b>.
+
+   - Declara el método <b>calculaArea</b>.
+   - En el, imprime el mensaje: <b>Método Clase Padre, útil para calcula areas...</b>
+  
+  		public void calculaArea() {
+			System.out.println("Método Clase Padre, útil para calcula areas...");
+			}
+
+2. Abre la clase <b>Circulo</b>.
 
    - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Circulo</b>.
    - Implementa el código para calcular el área de un Círculo.
@@ -29,17 +38,17 @@
 				System.out.println("Calculando área Círculo: " + Math.PI * Math.pow(radio,2) );
 				}  
 		
-2. Abre la clase <b>Cuadrado</b>.
+3. Abre la clase <b>Cuadrado</b>.
 
    - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Cuadrado</b>.
    - Implementa en el, código para calcular el área de un Cuadrado.
       		 
-3. Abre la clase <b>Triangulo</b>.
+4. Abre la clase <b>Triangulo</b>.
 
    - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Triangulo</b>.
    - Implementa en el, código para calcular el área de un Triángulo.
    
-4. Abre la clase <b>FiguraTest</b>.
+5. Abre la clase <b>FiguraTest</b>.
 
    - En el método <b>main</b> cuentas con una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, y una de tipo <b>Cuadrado</b>.
    - Elimina la línea que imprime un mensaje.
