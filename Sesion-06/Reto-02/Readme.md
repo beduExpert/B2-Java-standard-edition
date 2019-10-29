@@ -1,27 +1,66 @@
- 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+`Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Reto 02`
 
-### OBJETIVO 
+## Reto 02 - Polimorfismo
 
-- Lo que esperamos que el alumno aprenda 
+### OBJETIVO
 
-#### REQUISITOS 
+- Fortalecer el concepto de Polimorfismo, implementando código.
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+<hr>
+
+#### REQUISITOS
+
+1. Tener instalado Eclipse.
+3. Abrir el proyecto <b>Figuras</b> trabajado en el <b>Reto 01</b>.
+
+<hr>
 
 #### DESARROLLO
+   
+#### Modificación de clases.
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Abre la clase <b>Circulo</b>.
 
-<details>
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Circulo</b>.
+   - Implementa en el, código para calcular el área de un Círculo.
+   
+   		public void calculaArea() {
+			System.out.println("Calculando área Circulo: " + Math.PI * Math.pow(radio, 2) );
+			}   
+		
+2. Abre la clase <b>Cuadrado</b>.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Cuadrado</b>.
+   - Implementa en el, código para calcular el área de un Cuadrado.
+      		 
+3. Abre la clase <b>Triangulo</b>.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Triangulo</b>.
+   - Implementa en el, código para calcular el área de un Triángulo.
+   
+4. Abre la clase <b>FiguraTest</b>.
 
+   - En el método <b>main</b> cuentas con una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, y una de tipo <b>Cuadrado</b>.
+   - Elimina la línea que imprime un mensaje.
+   - De la instancia de tipo <b>Circulo</b>, <b>Triangulo</b> y <b>Cuadrado</b>, invoca el método para calcular el área de cada objeto.
+  
+  		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
+			Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
+			Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
+			c.calculaArea();
+			t.calculaArea();
+			cu.calculaArea();
+		}
+   
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto, observa que el mismo método <b>calculaArea()</b>, se ejecutó de forma distinta según el tipo de objeto que lo invocaba.
+
+![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
