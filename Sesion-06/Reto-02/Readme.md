@@ -25,9 +25,9 @@
    - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Circulo</b>.
    - Implementa el código para calcular el área de un Círculo.
    
-   		public void calculaArea(){
-			System.out.println("Calculando área Círculo: " + Math.PI * Math.pow(radio,2) );			
-			}  
+   			public void calculaArea(){
+				System.out.println("Calculando área Círculo: " + Math.PI * Math.pow(radio,2) );
+				}  
 		
 2. Abre la clase <b>Cuadrado</b>.
 
@@ -45,14 +45,14 @@
    - Elimina la línea que imprime un mensaje.
    - De la instancia de tipo <b>Circulo</b>, <b>Triangulo</b> y <b>Cuadrado</b>, invoca el método para calcular el área de cada objeto.
   
-  		public static void main(String[] args) {
-			Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
-			Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
-			Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
-			c.calculaArea();
-			t.calculaArea();
-			cu.calculaArea();
-			}
+  			public static void main(String[] args) {
+				Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
+				Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
+				Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
+				c.calculaArea();
+				t.calculaArea();	
+				cu.calculaArea();
+				}
    
 #### Ejecutando proyecto
 
