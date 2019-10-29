@@ -53,7 +53,7 @@
 
 1. Ejecuta tu proyecto, observa los mensajes, comprobamos la cadena de invocación de los constructores.
 
-![Console](https://user-images.githubusercontent.com/56565204/67805076-e0ab5600-fa55-11e9-831d-957afc6302b5.png)
+![Console](https://user-images.githubusercontent.com/56565204/67810841-012cdd80-fa61-11e9-873f-8098b65cce05.png)
 
 <hr>
 
