@@ -25,9 +25,9 @@
    - Declara el método <b>calculaArea</b>.
    - En el, imprime el mensaje: <b>Método Clase Padre, útil para calcula areas...</b>
   
-  		public void calculaArea() {
-			System.out.println("Método Clase Padre, útil para calcula areas...");
-			}
+  			public void calculaArea() {
+				System.out.println("Método Clase Padre, útil para calcula areas...");
+				}
 
 2. Abre la clase <b>Circulo</b>.
 
