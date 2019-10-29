@@ -23,7 +23,7 @@
 1. Abre la clase <b>Circulo</b>.
 
    - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Circulo</b>.
-   - Implementa en el, código para calcular el área de un Círculo.
+   - Implementa el código para calcular el área de un Círculo.
    
    		public void calculaArea() {
 			System.out.println("Calculando área Circulo: " + Math.PI * Math.pow(radio, 2) );
@@ -59,7 +59,7 @@
 
 1. Ejecuta tu proyecto, observa que el mismo método <b>calculaArea()</b>, se ejecutó de forma distinta según el tipo de objeto que lo invocaba.
 
-![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
+![Console](https://user-images.githubusercontent.com/56565204/67805076-e0ab5600-fa55-11e9-831d-957afc6302b5.png)
 
 <hr>
 
