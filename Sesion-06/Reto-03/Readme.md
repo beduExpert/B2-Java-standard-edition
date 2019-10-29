@@ -1,27 +1,60 @@
  
+`Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Reto 03`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto 02 - Polimorfismo
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+- Fortalecer el concepto de Polimorfismo, implementando código.
 
-#### REQUISITOS 
+<hr>
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Tener instalado Eclipse.
+3. Abrir el proyecto <b>Figuras</b> trabajado en el <b>Reto 02</b>.
+
+<hr>
 
 #### DESARROLLO
+   
+#### Modificación de clases.
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Abre la clase <b>Figura</b>.
 
-<details>
+   - Declara un constructor que no reciba argumentos y que imprima el mensaje: <b>Constructor Figura...</b>
+   
+   			public Figura() {
+				System.out.println("Constructor Figura...");
+				}
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+2. Abre la clase <b>Circulo</b>.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+   - Declara un constructor que no reciba argumentos y que imprima el mensaje: <b>Constructor Círculo...</b>
+   
+   			public Circulo() {
+				System.out.println("Constructor Círculo...");
+			}
+	
+3. Abre la clase <b>Cuadrado</b>.
 
+   - Declara un constructor que no reciba argumentos y que imprima el mensaje: <b>Constructor Cuadrado...</b>
+      		 
+4. Abre la clase <b>Triangulo</b>.
+
+    - Declara un constructor que no reciba argumentos y que imprima el mensaje: <b>Constructor Triángulo...</b>
+   
+5. Abre la clase <b>FiguraTest</b>.
+
+   - En el método <b>main</b> cuentas con una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, y una de tipo <b>Cuadrado</b>.
+   - Elimina las líneas que calculan área.
+   
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto, observa los mensajes, comprobamos la cadena de invocación de los constructores.
+
+![Console](https://user-images.githubusercontent.com/56565204/67805076-e0ab5600-fa55-11e9-831d-957afc6302b5.png)
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
