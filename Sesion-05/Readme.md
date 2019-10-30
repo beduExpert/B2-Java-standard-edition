@@ -18,9 +18,9 @@
 
 - [Ejemplo 01](Ejemplo-01) - Métodos y Sobrecarga.
 - [Ejemplo 02](Ejemplo-02) - Gimnasio, Encapsulación.
-- [Reto 01](Reto-01) - Supermercado, Encapsulación
 - [Ejemplo 03](Ejemplo-03) - Gimnasio, Método static.
-- [Reto 02](Reto-02) - Supermercado, Método static.
 - [Ejemplo 04](Ejemplo-04) - Gimnasio, Constructor.
+- [Reto 01](Reto-01) - Supermercado, Encapsulación
+- [Reto 02](Reto-02) - Supermercado, Método static.
 - [Reto 03](Reto-03) - Supermercado, Constructor.
 - [Proyecto Final](Proyecto)
