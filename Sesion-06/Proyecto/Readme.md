@@ -30,7 +30,7 @@
 2. Sobreescribe el método <b>tiempoRetorno</b>. Debe de arrojar el siguiente mensaje: <b>Libro Física, se retorna en 3 días...</b>
 
 3. Repite el paso 1 y 2 para declarar las clases:  <b>FilosofíaLibro</b>,  <b>PoliticaLibro</b>
-   Nota: El tiempo de retorno de de un libro de <b>Filosofía es 10 días</b> y el tiempo de retorno de un libro de <b>Politica es de 5 días<b>.
+   Nota: El tiempo de retorno de de un libro de <b>Filosofía es 10 días</b> y el tiempo de retorno de un libro de <b>Politica es de 5 días</b>.
 	
 ###### Modificando clase Alumno
 
