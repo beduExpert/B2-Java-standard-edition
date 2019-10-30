@@ -1,7 +1,7 @@
 
 `Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Postwork`
 
-## Diseño clase
+## Herencia & Polimorfismo
 
 ### OBJETIVO
 
