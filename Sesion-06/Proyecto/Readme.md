@@ -25,6 +25,8 @@
 
 ###### Declaración de Subclases
 
+1. Declara el método <b>tiempoRetorno</b>
+
 1. Declara la clase <b>FisicaLibro</b>, no olvides utilzar <b>extends</b> para establecer la relación de Herencia con la clase <b>Libro</b>
 2. Sobreescribe el método <b>tiempoRetorno</b>. Debe de arrojar el siguiente mensaje: <b>Libro Física, se retorna en 3 días...</b>
 3. Repite el paso 1 y 2 para declarar las clases:  <b>FilosofíaLibro</b>,  <b>PoliticaLibro</b>
