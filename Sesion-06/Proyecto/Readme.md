@@ -25,10 +25,10 @@
 
 ###### Declaración de Subclases
 
-1. Declara el método <b>tiempoRetorno</b>
+1. Declara la clase <b>FisicaLIbro</b>, no olvides utilzar <b>extends</b> para establecer la relación de Herencia con la clase <b>Libro</b>
 
-1. Declara la clase <b>FisicaLibro</b>, no olvides utilzar <b>extends</b> para establecer la relación de Herencia con la clase <b>Libro</b>
 2. Sobreescribe el método <b>tiempoRetorno</b>. Debe de arrojar el siguiente mensaje: <b>Libro Física, se retorna en 3 días...</b>
+
 3. Repite el paso 1 y 2 para declarar las clases:  <b>FilosofíaLibro</b>,  <b>PoliticaLibro</b>
    Nota: El tiempo de retorno de de un libro de <b>Filosofía es 10 días</b> y el tiempo de retorno de un libro de <b>Politica es de 5 días<b>.
 
@@ -52,13 +52,13 @@
    - Línea actual: <b>public Libro []listaLibros = new Libro[3];</b>
    - Modificación: <b>public Libro []listaLibros = new Libro[MAX_LIBROS];</b>
    
-3. Declara el método <b>addLibro</b>. Características: 
+4. Declara el método <b>addLibro</b>. Características: 
 
    - Tipo de retorno: <b>void</b>
    - Nombre: <b>addLibro</b>
    - Lista de argumentos: Una variable de tipo Libro
    - Código: 
-      - Verifica que el Alumno alcanzara aún el máximo número de libros que puede obtener.
+      - Verifica que el Alumno no alcanzara aún el máximo número de libros que puede obtener.
       - Si es asi, imprime un mensaje que indique que ya no es posible obtener más libros.
       - De lo contrario, asigna el nuevo libro al arreglo de libros en la posición de libro actual.
       - Incrementa la variable que te permite controlar la posición de libro actual.
