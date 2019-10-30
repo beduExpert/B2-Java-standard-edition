@@ -6,7 +6,8 @@ public class Socio {
 	private String correoElectronico; //correoElectronico
 	private String telefono;          //telefono
 	private int edad;				  //edad
-	private int maxActividades=3; 	  //máximo actividades
+	private final int maxActividades=3; 	  //máximo actividades
+	private int numActividad=0;		  //índice de inserción
 	private Actividad[] actividades=new Actividad[maxActividades];
 	
 	
@@ -23,16 +24,12 @@ public class Socio {
 	}
 	
 	public void addActividad(Actividad nueva) {
-		for( int i=0; i<actividades.length; i++) {
-			if( actividades[i] == null) {
-				actividades[i]=nueva;
-				System.out.println("Actividad Agregada... " + nueva );
-				break;
-			}else {
-				if(i==maxActividades-1) {
-					System.out.println("No tienes derecho a más actividades...");
-				}
-			}
+		if(numActividad==maxActividades) {									
+			System.out.println("No tienes derecho a más actividades...");
+		}else{
+			actividades[numActividad]=nueva;
+			numActividad++;
+			System.out.println("Actividad Agregada... " + nueva );
 		}
 	}
 	
@@ -107,5 +104,3 @@ public class Socio {
 		this.edad=edad;
 	}
 }
-
-//actividades arreglo
