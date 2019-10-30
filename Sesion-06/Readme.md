@@ -19,7 +19,7 @@
 - [Ejemplo 01](Ejemplo-01) - Herencia.
 - [Ejemplo 02](Ejemplo-02) - Polimorfismo.
 - [Ejemplo 03](Ejemplo-03) - Herencia & Constructores.
-- [Ejemplo 03](Ejemplo-04) - Gimnasio
+- [Ejemplo 04](Ejemplo-04) - Gimnasio
 - [Reto 01](Reto-01) - Herencia.
 - [Reto 02](Reto-02) - Polimorfismo.
 - [Reto 03](Reto-03) - Herencia & Constructores.
