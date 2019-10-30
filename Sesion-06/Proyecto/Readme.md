@@ -30,7 +30,7 @@
 3. Repite el paso 1 y 2 para declarar las clases:  <b>FilosofíaLibro</b>,  <b>PoliticaLibro</b>
    Nota: El tiempo de retorno de de un libro de <b>Filosofía es 10 días</b> y el tiempo de retorno de un libro de <b>Politica es de 5 días<b>.
 
-###### Modificando clase <b>Alumno</b>
+###### Modificando clase Alumno
 
 1. Declara una constante que indique cuál es el número máximo de libros que un alumno puede sacar de la Biblioteca. Características:
 
