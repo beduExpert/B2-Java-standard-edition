@@ -29,6 +29,13 @@
 
 2. Sobreescribe el método <b>tiempoRetorno</b>. Debe de arrojar el siguiente mensaje: <b>Libro Física, se retorna en 3 días...</b>
 
+public class FisicaLibro extends Libro {
+
+		public void tiempoRetorno(){
+			System.out.println("Libro Física, se retorna en 3 días...");
+			}
+		}
+
 3. Repite el paso 1 y 2 para declarar las clases:  <b>FilosofíaLibro</b>,  <b>PoliticaLibro</b>
    Nota: El tiempo de retorno de de un libro de <b>Filosofía es 10 días</b> y el tiempo de retorno de un libro de <b>Politica es de 5 días</b>.
 	
@@ -40,6 +47,8 @@
    - Tipo Dato: <b>int</b>
    - Valor asignado: <b>3</b>
    - No olvides utilizar el modificador <b>final</b> para lograr que esta sea una constante.
+   
+   	 	private final int MAX_LIBROS = 3;
    
 2. Declara una variable de instancia que permita saber cuántos libros tiene asignado hasta el momento el Alumno. Características:
 
@@ -66,16 +75,27 @@
    
 <hr>
 
-##### Declaración de constructor:
+###### Modificando clase principal: UniversidadMexico
 
-###### Modificación clase Alumno:
-
-1. Declara un constructor en la clase <b>Alumno</b> que permita inicializar las propiedades de un objeto de tipo <b>Alumno</b>.
-
-   Nota: Por le momento no consideres en la incialización en constructor el arreglo de libros.
+1. Ubica la línea donde registraste y creaste una nueva instancia de tipo <b>Alumno</b>.
    
-2. Modifica el código que sea necesario para crear e inicializar un objeto de tipo Alumno por medio del constructor recién creado.
-3. Ejecuta código.
+2. Utilizando el método addLibro, prestale 3 libros al <b>Alumno</b>.
+
+		a.addLibro(new FisicaLibro());
+		a.addLibro(new FilosofiaLibro());
+		a.addLibro(new PoliticaLibro());
+		
+3. Intenta prestarle un libro más al alumno. 
+   Recuerda: Tu codigo ya debe de tener validado que un Alumno no deba de tener en prestamo más de tres libros. Por lo cual debes de ver un mensaje que te indique ya no es posible prestar más libros.
+   
+4. Vamos a probar los métodos sobreescritos. Imprime el tiempo en que debe ser retornado cada uno de los libros prestados.
+
+		System.out.println("¿En cuánto tiempo tiene que retornar los libros el alumno: " + a.getNumeroCuenta() + "?");
+			for( Libro x : a.getListaLibros()) {
+				x.tiempoRetorno();
+			}
+		
+5. Ejecuta código.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67613052-86b54280-f76e-11e9-93b5-af54e9c527a6.png)
 
