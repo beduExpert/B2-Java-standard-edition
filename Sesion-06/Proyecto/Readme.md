@@ -97,7 +97,7 @@ public class FisicaLibro extends Libro {
 		
 5. Ejecuta código.
 
-![Console](https://user-images.githubusercontent.com/56565204/67613052-86b54280-f76e-11e9-93b5-af54e9c527a6.png)
+![Console](https://user-images.githubusercontent.com/56565204/67881593-5ff86280-fb06-11e9-84ae-319e67b8146c.png)
 
 Si llegaste aquí, Felicidades - lograste los objetivos!!
 
@@ -105,9 +105,10 @@ Si llegaste aquí, Felicidades - lograste los objetivos!!
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Encapsula la clase <b>Alumno</b> y <b>Libro</b>.</b>. </p>
-	<p> 2. Declaración de método estático, <b>RegistraAlumno</b> </p>
-	<p> 3. Declaración de constructor en clase <b>Alumno<b></p>
-	<p> 4. Modificación de código previamente creado para crear y asignar valores iniciales a las instancias de tipo <b>Alumno</b></p>
+	<p> 1. Declaración de método tiempoRetorno en clase <b>Libro</b>.
+	<p> 2. Declaración de Subclases, <b>FisicaLibro</b>, <b>FilosofíaLibro</b>, <b>PoliticaLibro</b> </p>
+	<p> 3. Sobreescribe el método <b>tiempoRetorno<b> en las clases declaradas en el punto anterior.</p>
+	<p> 4. Modificación de la clase <b>Alumno</b> agregando el código necesario poder prestar libros.</p>
+	<p> 5. Modificación de la clase <b>UniversidadMexico</b>, agrega el código necesario para probar las modificaciones realizadas en los puntos anteriores.</p>
 	<p> 5. Ejecuta el proyecto</p>
 </details> 
