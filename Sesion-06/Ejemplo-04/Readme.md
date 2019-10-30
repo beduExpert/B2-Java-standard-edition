@@ -101,7 +101,7 @@
 
   8. Ejecuta el proyecto.
   
-![Console](https://user-images.githubusercontent.com/56565204/67607717-134e0980-f74b-11e9-8926-ccd47a426532.png)
+![Console](https://user-images.githubusercontent.com/56565204/67833093-470d9400-faa9-11e9-82cf-978789b99f3f.png)
 
 <hr>
 
