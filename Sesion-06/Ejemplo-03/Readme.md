@@ -1,6 +1,6 @@
 `Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 03`
 
-## Herencia & Polimorfismo
+## Herencia / Constructores
 
 ### OBJETIVO
 
