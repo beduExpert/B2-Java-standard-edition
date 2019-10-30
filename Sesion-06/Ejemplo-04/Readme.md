@@ -74,7 +74,7 @@
           
    - Declara el método <b>addActividad</b> que como su nombre lo indica, permitirá recibir un objeto de tipo <b>Actividad</b> y agregarlo al arreglo de actividades del objeto de tipo <b>Socio</b>. 
 
-         	public void addActividad(Actividad nueva) {
+         public void addActividad(Actividad nueva) {
 			if(numActividad==maxActividades) {								
 				System.out.println("No tienes derecho a más actividades...");
 			}else{
