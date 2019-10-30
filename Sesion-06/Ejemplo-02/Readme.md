@@ -27,8 +27,11 @@
         <li> Sobreescritura del método <b>baila</b> en la clase <b>Hijo</b>
         <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Superclase</b>
         <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Subclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>
-        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>                
-   </ul>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>   
+        <li> Desde la <b>Subclase</b>, invoca el método <b>baila</b> de la <b>Superclase</b> utilizando <b>super.baila()</b>
+        <li> Modifica el método <b>baila</b> de la <b>Superclase</b> agergando el modificador <b>final</b>
+        <li> Imprime un objeto de tipo <b>Padre</b>, observa el resultado. Sobreescribe método <b>toString</b>, prueba.
+   </ul>   
 
 2. Felicidades, lograste los objetivos!!
 
