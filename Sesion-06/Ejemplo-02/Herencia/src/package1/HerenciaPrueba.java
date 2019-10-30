@@ -16,7 +16,12 @@ public class HerenciaPrueba {
 		
 		//3. Ejecución del método declarado en la Subclase.
 		Padre p1 = new Hijo(); //Referencia de tipo Superclase, instancia de tipo Subclase.
-		p1.baila();            // Ejecución del método perteneciente a la instancia.		
+		p1.baila();            // Ejecución del método perteneciente a la instancia.
+		
+		//4. Modifica el método baila en clase Hijo, para que invoque el método baila de la clase Padre: super.baila()			
+		//5. Coloca el modificador final sobre el método baila clase padre.
+		//6. Trata de imprimir un objeto. Explica toString de Object, sobreescribe
+		System.out.println(p1);
 		
 	}
 
