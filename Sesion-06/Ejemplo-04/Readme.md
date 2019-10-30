@@ -51,7 +51,14 @@
       - Nota: Esta variable tiene la cantidad máxima de actividades que un Socio puede registrar.
       
       	    private int maxActividades=3; 	  //máximo actividades
-     
+   
+   - Declara una variable de instancia llamada <b>numActividad</b>, características:
+   
+      - Tipo Dato: <b>int</b>, Valor: <b>0</b>
+      - Nota: Esta variable la utilizaremos como un índice para saber en que posición del arreglo insertaremos una nueva actividad.
+      
+			private int numActividad=0;		  //índice de inserción
+   
    - Declara una variable de instancia llamada <b>actividades</b>, características:
    
       - Tipo Dato: <b>Arreglo</b> de objetos de tipo <b>Actividad</b>
@@ -67,19 +74,15 @@
           
    - Declara el método <b>addActividad</b> que como su nombre lo indica, permitirá recibir un objeto de tipo <b>Actividad</b> y agregarlo al arreglo de actividades del objeto de tipo <b>Socio</b>. 
 
-          public void addActividad(Actividad nueva) {
-		        for( int i=0; i<actividades.length; i++) {
-			        if( actividades[i] == null) {
-				        actividades[i]=nueva;
-				        System.out.println("Actividad Agregada... " + nueva );
-				        break;
-			        }else {
-				        if(i==maxActividades-1) {
-					        System.out.println("No tienes derecho a más actividades...");
-				        }
-			        }
-		        }
-	      }
+         	public void addActividad(Actividad nueva) {
+			if(numActividad==maxActividades) {								
+				System.out.println("No tienes derecho a más actividades...");
+			}else{
+				actividades[numActividad]=nueva;
+				numActividad++;
+				System.out.println("Actividad Agregada... " + nueva );
+			}
+		}
   
   6. Abre la clase <b>GimansioTest</b>. 
   
