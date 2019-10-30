@@ -1,7 +1,7 @@
  
 `Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Reto 03`
 
-## Reto 02 - Polimorfismo
+## Reto 03 - Herencia & Constructores
 
 ### OBJETIVO
 
