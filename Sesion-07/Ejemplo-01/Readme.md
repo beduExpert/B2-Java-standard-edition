@@ -21,7 +21,7 @@
 
 1. En la clase <b>ArrayListPrueba</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-   Concentos a Demostar:
+   Conceptos a Demostar:
    
     <ul>
       <li> Declaración y manipulación de un <b>Arreglo de Objetos de tipo String</b>.
