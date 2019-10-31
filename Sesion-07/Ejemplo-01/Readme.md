@@ -1,5 +1,5 @@
 
-`Java SE`> `ArrayList & Excpetions` > `Sesión 07` > `Ejemplo 01`
+`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Ejemplo 01`
 
 ## ArrayList
 
