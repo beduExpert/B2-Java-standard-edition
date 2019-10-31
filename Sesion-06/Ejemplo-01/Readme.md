@@ -21,7 +21,7 @@
 
 1. En la clase <b>HerenciaPrueba</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-   Concentos a Demostar:
+   Conceptos a Demostar:
    
     <ul>
       <li> Implementación de Herencia, <b>Superclase: Padre, Subclase: Hijo</b>
