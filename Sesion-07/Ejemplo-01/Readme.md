@@ -27,7 +27,7 @@
       <li> Declaración y manipulación de un <b>Arreglo de Objetos de tipo Integer</b>.
       <li> Declaración y manipulación de un <b>ArrayList de Objetos de tipo Integer</b>.
       <li> Intentando agregar un elemento repetido al <b>ArrayList</b>.
-      <li> Utiizando for-each, Iterator, ListIterator</b>.
+      <li> Utiizando <b>for-each, Iterator, ListIterator</b>.
    </ul>
 
 2. Felicidades, lograste los objetivos!!
