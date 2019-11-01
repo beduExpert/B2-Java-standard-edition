@@ -1,5 +1,5 @@
  
-``Java SE`> `ArrayList & Excpetions` > `Sesión 07` > `Reto 02`
+`Java SE`> `ArrayList & Excpetions` > `Sesión 07` > `Reto 02`
 
 ## Reto 02 - Exceptions
 
