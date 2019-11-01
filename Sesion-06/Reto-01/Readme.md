@@ -55,7 +55,7 @@
    
 #### Ejecutando proyecto
 
-1. Ejecuta tu proyecto, por el momento, solo deberás ver el mensaje declarado en el punto anterior.
+1. Ejecuta tu proyecto.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
 
