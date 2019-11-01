@@ -1,0 +1,73 @@
+
+`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Ejemplo 04`
+
+## Ejemplo 03 - Gimnasio (Parte 2) - ArrayList
+
+### OBJETIVO
+
+- El alumno será capaz de leer de un archivo y manejar la excepciones derivadas de su manipulación.
+- El alumno será capaz de crear instancias con las características leídas desde un archivo.
+
+<hr>
+
+#### REQUISITOS
+
+1. Contar con el proyecto <b>Gimnasio</b> modificado en la última sesión.
+2. Abrir el proyecto en Eclipse.
+
+<hr>
+
+#### DESARROLLO
+
+###### Leyendo de archivo
+
+1. Abre la clase <b>Socio</b>.
+
+   - Declara como variable de instancia, un objeto de tipo Path para manipular el <b>archivo.txt</b> que contiene los datos de los socios a registrar.
+   
+     private Path p = Paths.get("archivo.txt");
+
+   
+2. Ubica el método <b>registroSocio</b>
+
+   - Declara un objeto de tipo Path para manipular el <b>archivo.txt</b>
+   
+           	private ArrayList<Actividad> actividades = new ArrayList<Actividad>();
+
+   - No olvides importar del paquete java.util, la clase ArrayList. ( Siempre en las líneas superirores a la declaración de la clase )
+   
+                import java.util.*;        
+        
+3. Ubica el método <b>getActividades</b>.
+
+   - Este método te permite obtener el arreglo de objetos de tipo Actividad que antes teníamos habilitado.
+   - Modifica el código para que ahora retorne un ArrayList de objetos de tipo Actividad.
+   
+                public ArrayList<Actividad> getActividades() {
+		        	return actividades;
+	        	}
+                
+4. Ubica el método <b>addActividad</b>.
+
+   - Este método te permite agregar una nueva Actividad, al arreglo de objetos de tipo Actividad que antes teníamos habilitado.
+   - Comenta este código y genera uno nuevo que permita agregar objetos de tipo Actividad al ArrayList recién habilitado.
+   - Al final compara el código nuevo con el viejo.
+   
+               if(actividades.size()==maxActividades) {
+		       	        System.out.println("No tienes derecho a más actividades...");
+		        }else {
+			        actividades.add(nueva);
+			        System.out.println("Actividad agregada... " + nueva);
+		        }
+                        
+5. Al comparar el código viejo y el nuevo, te podrás dar cuenta que ya no necesitamos un índice para controlar el arreglo de objetos de tipo Actividad, esta "administración" del ArrayList, se hace en automático.
+
+   - Elimina la variable <b>numActividad</b> que utilizabamos para este propósito.
+ 
+ 6. Ejecuta el proyecto.
+  
+![Console](https://user-images.githubusercontent.com/56565204/67833093-470d9400-faa9-11e9-82cf-978789b99f3f.png)
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
