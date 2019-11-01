@@ -26,8 +26,7 @@
     <ul>
       <li> Declaración y manipulación de un <b>Arreglo de Objetos de tipo Integer</b>.
       <li> Declaración y manipulación de un <b>ArrayList de Objetos de tipo Integer</b>.
-      <li> Invocación del método static <b>sort</b> de la clase Collections.
-      <li> Intengo de agregar un elemento repetido al <b>ArrayList</b>.
+      <li> Intentando de agregar un elemento repetido al <b>ArrayList</b>.
    </ul>
 
 2. Felicidades, lograste los objetivos!!
