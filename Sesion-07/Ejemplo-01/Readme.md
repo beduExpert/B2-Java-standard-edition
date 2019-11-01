@@ -5,7 +5,7 @@
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos los conceptos relacionados a un Objeto de tipo ArrayList
+- Fortalecer con ejemplos los conceptos relacionados a un Objeto de tipo ArrayList.
 
 <hr>
 
@@ -13,7 +13,7 @@
 
 1. Tener instalado eclipse.
 2. Descargar el proyecto <b>CollectionException</b>, abrirlo desde eclipse.
-3. Abrir la clase <b>ArrayListPrueba</b>
+3. Abrir la clase <b>ArrayListPrueba</b>.
 
 <hr>
 
@@ -24,8 +24,8 @@
    Conceptos a Demostar:
    
     <ul>
-      <li> Declaración y manipulación de un <b>Arreglo de Objetos de tipo String</b>.
-      <li> Declaración y manipulación de un <b>ArrayList de Objetos de tipo String</b>.
+      <li> Declaración y manipulación de un <b>Arreglo de Objetos de tipo Integer</b>.
+      <li> Declaración y manipulación de un <b>ArrayList de Objetos de tipo Integer</b>.
       <li> Invocación del método static <b>sort</b> de la clase Collections.
       <li> Intengo de agregar un elemento repetido al <b>ArrayList</b>.
    </ul>
