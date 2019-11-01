@@ -55,7 +55,7 @@
                         
 5. Al comparar el código viejo y el nuevo, te podrás dar cuenta que ya no necesitamos un índice para controlar el arreglo de objetos de tipo Actividad, esta "administración" del ArrayList, se hace en automático.
 
-   - Elimina la variable <b>numActiviad</b> que utilizabamos para este propósito.
+   - Elimina la variable <b>numActividad</b> que utilizabamos para este propósito.
  
  6. Ejecuta el proyecto.
   
