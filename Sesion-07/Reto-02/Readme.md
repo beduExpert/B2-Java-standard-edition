@@ -50,7 +50,7 @@ El objetivo de este ejercico es practicar la lectura de un archivo con un Scanne
 
 1. Ejecuta tu proyecto, comprueba el resultado de la suma de números. 
 
-![Console](https://user-images.githubusercontent.com/56565204/67805076-e0ab5600-fa55-11e9-831d-957afc6302b5.png)
+![Console](https://user-images.githubusercontent.com/56565204/68013318-2fbdda80-fc52-11e9-9b16-34c17d809369.png)
 
 <hr>
 
