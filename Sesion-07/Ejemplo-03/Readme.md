@@ -37,8 +37,8 @@
    - Modifica el código para que ahora retorne un ArrayList de objetos de tipo Actividad.
    
                 public ArrayList<Actividad> getActividades() {
-		        return actividades;
-	        }
+		        	return actividades;
+	        	}
                 
 4. Ubica el método <b>addActividad</b>.
 
@@ -46,7 +46,7 @@
    - Comenta este código y genera uno nuevo que permita agregar objetos de tipo Actividad al ArrayList recién habilitado.
    - Al final compara el código nuevo con el viejo.
    
-                        if(actividades.size()==maxActividades) {
+               if(actividades.size()==maxActividades) {
 		       	        System.out.println("No tienes derecho a más actividades...");
 		        }else {
 			        actividades.add(nueva);
