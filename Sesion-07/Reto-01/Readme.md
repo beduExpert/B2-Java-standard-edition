@@ -1,27 +1,62 @@
  
+`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Reto 01`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto 01 - ArrayList
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+- Fortalecer con ejemplos los conceptos relacionados a un Objeto de tipo ArrayList.
 
-#### REQUISITOS 
+<hr>
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Tener instalado Eclipse.
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Creación de Proyecto.
 
-<details>
+1. En Eclipse, crea un nuevo proyecto llamado <b>Sesion07</b>
+   
+#### Declaración de clases.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+1. Declara la clase <b>PruebaArrayList</b> en el proyecto, no olvides agregarle el método main.
+		
+2. Declara un objeto de tipo <b>ArrayList</b> que contenga el nombre de mínimo 4 miembros de tu familia.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+		ArrayList<String> familia = new ArrayList<String>();
+		familia.add("Nombre1");
+		familia.add("Nombre2");
+		familia.add("Nombre3");
+		familia.add("Nombre4");
+		
+    - Nota: No olivdes que para trabajar con un ArrayList, necesitas importar la clase <b>ArrayList</b>, del paquete <b>java.util</b>
+			
+3. Imprime el <b>ArrayList</b> recien creado e inicializado
+   
+4. Elimina el último nombre agregado al <b>ArrayList</b>. 
+   
+   Pista: 
+   	- Utiliza el método remove(...) de la clase <b>ArrayList</b>. 
+	- Consulta API si tienes alguna duda.
+	
+5. Imprime el <b>ArrayList</b> recien creado e inicializado
 
+6. Agrega en el <b>índice 0</b> del ArrayList el elemento que eliminaste en el punto 4.
+
+   Pista: 
+   	- Utiliza el método add(int,Object) de la clase <b>ArrayList</b>.
+   	- Consulta API si tienes alguna duda.
+	
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto.
+
+![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
