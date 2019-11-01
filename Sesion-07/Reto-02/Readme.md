@@ -28,7 +28,7 @@ El objetivo de este ejercico es practicar la lectura de un archivo con un Scanne
 
    - Declara un variable de tipo que haga referencia al archivo en el proyecto.
    
-   		Path p = Paths.get("archivo");
+   			Path p = Paths.get("archivo");
 		
 3. Declara un objeto de tipo <b>Scanner</b> que permitar leer del archivo indicado en el objeto de tipo Path.
 
