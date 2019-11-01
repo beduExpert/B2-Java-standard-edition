@@ -51,6 +51,13 @@
    	- Utiliza el método add(int,Object) de la clase <b>ArrayList</b>.
    	- Consulta API si tienes alguna duda.
 	
+7. Recorre tu ArrayList con un ListIterator.
+
+		ListIterator<String> li = familia.listIterator();
+		while(li.hasNext()) {
+			System.out.println(li.next());
+		}
+	
 #### Ejecutando proyecto
 
 1. Ejecuta tu proyecto.
