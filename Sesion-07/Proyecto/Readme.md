@@ -25,18 +25,18 @@
 
    - Modifica esta línea, en lugar de un arreglo, habilita un ArrayList.
    
-	     private ArrayList<Libro> listaLibros = new ArrayList<Libro>();
+	 	private ArrayList<Libro> listaLibros = new ArrayList<Libro>();
 
    - No olvides importar del paquete java.util, la clase ArrayList. ( Siempre en las líneas superirores a la declaración de la clase. )
    
-                import java.util.*;        
+      		import java.util.*;        
         
 3. Ubica el método <b>getListaLibros</b>.
 
    - Este método te permite obtener el arreglo de objetos de tipo Libro que antes teníamos habilitado.
    - Modifica el código para que ahora retorne un <b>ArrayList</b> de objetos de tipo <b>Libro</b>.
    
-               		public ArrayList<Libro> getListaLibros() {
+               	public ArrayList<Libro> getListaLibros() {
 				return listaLibros;
 			}
                 
@@ -46,7 +46,7 @@
    - Comenta este código y genera uno nuevo que permita agregar objetos de tipo <b>Libro</b> al ArrayList recién habilitado.
    - Al final compara el código nuevo con el viejo.
    
-              public void addLibro(Libro nuevo) {
+           public void addLibro(Libro nuevo) {
 		 if( listaLibros.size() == MAX_LIBROS) {
 			 System.out.println("No puedes solicitar más libros...");
 		 }else {
