@@ -34,7 +34,7 @@
 3. Ubica el método <b>getListaLibros</b>.
 
    - Este método te permite obtener el arreglo de objetos de tipo Libro que antes teníamos habilitado.
-   - Modifica el código para que ahora retorne un <b>ArrayList<b> de objetos de tipo <b>Libro</b>.
+   - Modifica el código para que ahora retorne un <b>ArrayList</b> de objetos de tipo <b>Libro</b>.
    
                	public ArrayList<Libro> getListaLibros() {
 			return listaLibros;
