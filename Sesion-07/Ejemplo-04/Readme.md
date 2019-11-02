@@ -92,6 +92,7 @@
       	<li> 2.- <b>return socios</b> - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
       </ul>
 
+
        		public static ArrayList<Socio> registroSocio(){
 			/************************* Registro Socio ****************************/		
 			System.out.println("************* Bienvenido al registro de socios: *************");
