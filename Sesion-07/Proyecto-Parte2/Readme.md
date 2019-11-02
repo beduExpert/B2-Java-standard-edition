@@ -49,15 +49,15 @@
 		public String toString() {
 			return getNombre() + " " + getNumeroCuenta();
 		}
-		AQUI ME QUEDE!!
-3. Ubica el método <b>registroSocio</b>
 
-   - Modifica el tipo de retorno, ahora será un <b>ArrayList</b> de objetos de tipo <b>Socio</b>.
+3. Ubica el método <b>registraAlumno</b>
+
+   - Modifica el tipo de retorno, ahora será un <b>ArrayList</b> de objetos de tipo <b>Alumno</b>.
    
-   	- Esta modificación permitirá retornar todos los Socios dados de alta desde el archivo de texto.
+   	- Esta modificación permitirá retornar todos los Alumnos dados de alta desde el archivo de texto.
 	
-   - Ubica la línea donde se imprime el mensaje <b>Bienvenido al registro de socios: </b>
-   - Justo en la línea de abajo, declara un  <b>ArrayList</b> de objetos de tipo <b>Socio</b>.
+   - Ubica la línea donde se imprime el mensaje <b>BIENVENIDO A REGISTRO ALUMNO</b>
+   - Justo en la línea de abajo, declara un  <b>ArrayList</b> de objetos de tipo <b>Alumno</b>.
    - Modifica el Objeto de tipo <b>Scanner</b> para que en lugar de leer del teclado, lea del <b>archivo.txt</b>
    		  
 		    Scanner input = new Scanner( new File(p.toString()) );
@@ -80,59 +80,51 @@
                 
 4. Elimina todas las líneas donde se imprimie un mensaje solicitando la información al usuario.
                         
-5. El resto de código que lee y valida los datos para crear la instancia de tipo <b>Socio</b>, muévelo a bloque de código del try.
+5. El resto de código que lee y valida los datos para crear la instancia de tipo <b>Alumno</b>, muévelo a bloque de código del try.
    
    Nota: 
    
-   - Las líneas donde se utilizaba el statement <b>return</b> para retornar un <b>null</b> o el Objeto det tipo <b>Socio</b> recién creados, serán eliminadas
+   - Las líneas donde se utilizaba el statement <b>return</b> para retornar un <b>null</b> o el Objeto det tipo <b>Alumno</b> recién creados, serán eliminadas.
    
-   - Serán sustituidas por:
-      <ul>
-      	<li> 1.- <b>socios.add(s)</b> - Invocación del método <b>add</b> del <b>ArrayList</b> para agregar a la colección el objeto recién creado.
-      	<li> 2.- <b>return socios</b> - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
-      </ul>
+6.- El archivo que estamos leyendo tiene datos de más de un <b>Alumno</b>, por lo cual necesitamos habilitar un ciclo que permita seguir leyendo hasta alcanzar el final del archivo, lo llevaremos a cabo con un while.
 
+  - Agrega el while justo después de la declaración del objeto de tipo Scanner.
+  - Coloca el código que lee, crea y agrega la instancia al ArrayList dentro del while.
+  - Al final del try/catch, retorna el ArrayList.
 
-       		public static ArrayList<Socio> registroSocio(){
-			/************************* Registro Socio ****************************/		
-			System.out.println("************* Bienvenido al registro de socios: *************");
-			ArrayList<Socio> socios = new ArrayList<Socio>();
-			try {
-				Scanner input = new Scanner(new File(p.toString()));
-				while( input.hasNext() ) {
-					String nombre = input.next();
-					int numeroSocio = input.nextInt();
+       		public static ArrayList<Alumno> registraAlumno() {		
+		 	System.out.println("************** BIENVENIDO A REGISTRO ALUMNO ***************");
+		 	ArrayList<Alumno> lista =new ArrayList<Alumno>();		 
+		 	try {
+		 		Scanner input = new Scanner( new File(p.toString()) );
+		 		while(input.hasNext()) {
+		 			String nombre = input.nextLine();
+					int numeroCuenta = input.nextInt();
 					String correoElectronico = input.next();
-					String telefono=input.next();
-					int edad = input.nextInt();
-					if(edad < 18) {
-					System.out.println("************************************************************");
-						System.out.println("Problema - Solicitud rechazada...");
-						System.out.println("Error, edad mínima para registrarse: 18");
-						input.close();
-					}
-					Socio s = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);
-					System.out.println("Éxito al registrar socio número: " + s.getNumeroSocio());
-					socios.add(s);
-					System.out.println("************************************************************");
-				}
-			}catch(FileNotFoundException f) {
-				System.out.println("Archivo no encontrado...");
-			}
-				return socios;
-			}
+					input.close();
+					
+					/****CREANDO INSTANCIA****/
+					Alumno a = new Alumno(nombre, numeroCuenta, correoElectronico);
+					lista.add(a);
+					System.out.println("Éxito al registrar alumno: " + a.nombre);
+					System.out.println("************************************************************");						
+		 		}		 		
+		 	}catch(FileNotFoundException e) {
+		 		System.out.println("Archivo no encontrado");
+		 	}
+			return lista;			
+	 	}
  
-###### Modificando clase GimnasioTest 
+###### Modificando clase UniversidadMexico
 
-1. Modifica la línea donde se invoca el método <b>registroSocio</b> de la clase <b>Socio</b>, ahora lo que obtendremos al ejecutarlo, es un <b>ArrayList</b> de objetos de tipo <b>Socio</b>.
+1. Modifica la línea donde se invoca el método <b>registroAlumno</b> de la clase <b>Alumno</b>, ahora lo que obtendremos al ejecutarlo, es un <b>ArrayList</b> de objetos de tipo <b>Socio</b>.
 
-		ArrayList<Socio> lista = Socio.registroSocio(); 
+		ArrayList<Alumno> lista = Alumno.registroSocio(); 
 		
-2. Imprime la lista de Socios recién registrados.
+2. Imprime la lista de Alumnos recién registrados.
 
 		System.out.println(lista);
 
-![Console](https://user-images.githubusercontent.com/56565204/68062667-6555d880-fcd1-11e9-8f6a-7464a71eb896.png)
 
 <hr>
 
