@@ -29,7 +29,7 @@
 	 
 	  - <b>En la primer línea:</b> John 3399 john.a@gmail.com 3344555 21
 	  - <b>En la segunda línea:</b> Patricia 233 patricia.y@gmail.com 3356778 28								 
-###### Leyendo de archivo
+###### Leyendo archivo
 
 1. Abre la clase <b>Socio</b>.
 
