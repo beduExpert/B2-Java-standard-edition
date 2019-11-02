@@ -1,7 +1,7 @@
  
 `Java SE`> `ArrayList & Excpetions` > `Sesión 07` > `Proyecto`
 
-## Reto 02 -  UniversidadMexico (Parte 1) - ArrayList
+## UniversidadMexico (Parte 1) - ArrayList
 
 ### OBJETIVO
 
@@ -62,8 +62,20 @@
  6. Modifica cualquier otro punto de código que se viera afectado con los cambios antes realizados.
  
  7. Ejecuta el proyecto.
-  
 
+![Console](https://user-images.githubusercontent.com/56565204/67881593-5ff86280-fb06-11e9-84ae-319e67b8146c.png)
+
+Si llegaste aquí, Felicidades - lograste los objetivos!!
+
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67228451-e625f200-f3fe-11e9-99ce-ad733b945ebd.png)
+
+<details>
+	<summary>Solucion</summary>
+	<p> 1. Cambiar de <b>arreglo</b> de objetos de tipo <b>Libro</b> a <b>ArrayList</b>.
+	<p> 2. Modificación método <b>getListaLibros</b>, manipulación de un <b>ArrayList de tipo Libro</b> </p>
+	<p> 3. Modificación método <b>addLibro</b>, manipulación de un <b>ArrayList de tipo Libro</b></p>
+	<p> 4. Ejecuta el proyecto</p>
+</details> 
 
 <hr>
 
