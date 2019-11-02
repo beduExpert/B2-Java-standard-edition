@@ -40,11 +40,11 @@
         
    - No olvides importar del paquete java.nio.file, la clase <b>Path & Paths</b>
    
-       	import java.nio.file.Path;
-       	import java.nio.file.Paths;
+       		import java.nio.file.Path;
+       		import java.nio.file.Paths;
 
 
-2. Sobreescribe el método <b>toString</b> de la clase Object. Esto con la finalidad de que al imprimir un Objeto de tipo Socio, se imprima nombre, así como numeroSocio,
+2. Sobreescribe el método <b>toString</b> de la clase Object. Esto con la finalidad de que al imprimir un Objeto de tipo <b>Socio</b>, se imprima <b>nombre</b>, así como <b>numeroSocio</b>.
 
 		public String toString() {
 			return getNombre() + " " + getNumeroSocio();
@@ -58,13 +58,13 @@
 	
    - Ubica la línea donde se imprime el mensaje <b>Bienvenido al registro de socios: </b>
    - Justo en la línea de abajo, declara un  <b>ArrayList</b> de objetos de tipo <b>Socio</b>.
-   - Modifica el Objeto de tipo Scanner para que en lugar de leer del teclado, lea del <b>archivo.txt</b>
+   - Modifica el Objeto de tipo <b>Scanner</b> para que en lugar de leer del teclado, lea del <b>archivo.txt</b>
    		  
 		    Scanner input = new Scanner( new File(p.toString()) );
 
    - No olvides importar del paquete <b>java.io</b>, la clase <b>File</b>. 
    
-        import java.io.File;        
+        	import java.io.File;        
         
 3. Agrega el código necesario para controlar la exception de tipo <b>FileNotFoundException</b> en la línea habilitada en el punto anterior.
 
@@ -76,20 +76,20 @@
         
     - No olvides importar del paquete <b>java.io</b>, la clase <b>FileNotFoundException</b>.
     
-        import java.io.FileNotFoundException;
+        	import java.io.FileNotFoundException;
                 
 4. Elimina todas las líneas donde se imprimie un mensaje solicitando la información al usuario.
                         
-5. El resto de código que lee y valida los datos para crear la instancia de tipo Socio, muévelo a bloque de código del try.
+5. El resto de código que lee y valida los datos para crear la instancia de tipo <b>Socio</b>, muévelo a bloque de código del try.
    
    Nota: 
    
-   - Observa que las líneas donde se utilizaba el statment return para retornar un null o el objeto det tipo Socio recién creados, ya no se encuentran.
+   - Las líneas donde se utilizaba el statement <b>return</b> para retornar un <b>null</b> o el Objeto det tipo <b>Socio</b> recién creados, serán eliminadas
    
-   - Han sido substituidas por:
+   - Serán sustituidas por:
    
-   	1.- socios.add(s) - Invocación del método add del ArrayList para agregar a la colección el objeto recién creado.
-	2.- return socios - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
+   	1.- <b>socios.add(s)</b> - Invocación del método <b>add</b> del <b>ArrayList</b> para agregar a la colección el objeto recién creado.
+	2.- <b>return socios</b> - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
 
        public static ArrayList<Socio> registroSocio(){
 		/************************* Registro Socio ****************************/		
@@ -117,8 +117,8 @@
 		}catch(FileNotFoundException f) {
 			System.out.println("Archivo no encontrado...");
 		}
-		return socios;
-	}
+			return socios;
+		}
  
 ###### Modificando clase GimnasioTest 
 
