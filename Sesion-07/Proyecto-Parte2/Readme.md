@@ -124,7 +124,7 @@
 2. Imprime la lista de Alumnos recién registrados.
 
 		System.out.println(lista);
-
+![Console](https://user-images.githubusercontent.com/56565204/68066277-67cd2800-fcfb-11e9-9744-c488ffb4208e.png)
 
 <hr>
 
