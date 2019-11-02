@@ -46,7 +46,7 @@
    - Comenta este código y genera uno nuevo que permita agregar objetos de tipo <b>Libro</b> al ArrayList recién habilitado.
    - Al final compara el código nuevo con el viejo.
    
-               	public void addLibro(Libro nuevo) {
+              public void addLibro(Libro nuevo) {
 		 if( listaLibros.size() == MAX_LIBROS) {
 			 System.out.println("No puedes solicitar más libros...");
 		 }else {
