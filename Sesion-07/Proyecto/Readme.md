@@ -23,11 +23,11 @@
 1. Abre la clase <b>Alumno</b>.
 2. Ubica la línea donde declaraste un arreglo de objetos de tipo <b>Libro</b>.
 
-   - Modifica esta línea, en lugar de un arreglo, habilita un ArrayList.
+   - Modifica esta línea. En lugar de un arreglo, habilita un ArrayList.
    
-	 	private ArrayList<Libro> listaLibros = new ArrayList<Libro>();
+   		private ArrayList<Libro> listaLibros = new ArrayList<Libro>();
 
-   - No olvides importar del paquete java.util, la clase ArrayList. ( Siempre en las líneas superirores a la declaración de la clase. )
+   - No olvides importar del paquete java.util, la clase ArrayList. ( Siempre en las líneas superiores a la declaración de la clase. )
    
       		import java.util.*;        
         
