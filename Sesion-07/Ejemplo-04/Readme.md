@@ -87,38 +87,39 @@
    - Las líneas donde se utilizaba el statement <b>return</b> para retornar un <b>null</b> o el Objeto det tipo <b>Socio</b> recién creados, serán eliminadas
    
    - Serán sustituidas por:
-   
-   	1.- <b>socios.add(s)</b> - Invocación del método <b>add</b> del <b>ArrayList</b> para agregar a la colección el objeto recién creado.
-	2.- <b>return socios</b> - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
+      <ul>
+      	<li> 1.- <b>socios.add(s)</b> - Invocación del método <b>add</b> del <b>ArrayList</b> para agregar a la colección el objeto recién creado.
+      	<li> 2.- <b>return socios</b> - Retorna colección de Objetos de tipo Socio recién creados a partir de los datos leídos en archivo.
+      </ul>
 
-       public static ArrayList<Socio> registroSocio(){
-		/************************* Registro Socio ****************************/		
-		System.out.println("************* Bienvenido al registro de socios: *************");
-		ArrayList<Socio> socios = new ArrayList<Socio>();
-		try {
-			Scanner input = new Scanner(new File(p.toString()));
-			while( input.hasNext() ) {
-				String nombre = input.next();
-				int numeroSocio = input.nextInt();
-				String correoElectronico = input.next();
-				String telefono=input.next();
-				int edad = input.nextInt();
-				if(edad < 18) {
+       			public static ArrayList<Socio> registroSocio(){
+			/************************* Registro Socio ****************************/		
+			System.out.println("************* Bienvenido al registro de socios: *************");
+			ArrayList<Socio> socios = new ArrayList<Socio>();
+			try {
+				Scanner input = new Scanner(new File(p.toString()));
+				while( input.hasNext() ) {
+					String nombre = input.next();
+					int numeroSocio = input.nextInt();
+					String correoElectronico = input.next();
+					String telefono=input.next();
+					int edad = input.nextInt();
+					if(edad < 18) {
 					System.out.println("************************************************************");
-					System.out.println("Problema - Solicitud rechazada...");
-					System.out.println("Error, edad mínima para registrarse: 18");
-					input.close();
+						System.out.println("Problema - Solicitud rechazada...");
+						System.out.println("Error, edad mínima para registrarse: 18");
+						input.close();
+					}
+					Socio s = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);
+					System.out.println("Éxito al registrar socio número: " + s.getNumeroSocio());
+					socios.add(s);
+					System.out.println("************************************************************");
 				}
-				Socio s = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);				
-				System.out.println("Éxito al registrar socio número: " + s.getNumeroSocio());
-				socios.add(s);
-				System.out.println("************************************************************");			
+			}catch(FileNotFoundException f) {
+				System.out.println("Archivo no encontrado...");
 			}
-		}catch(FileNotFoundException f) {
-			System.out.println("Archivo no encontrado...");
-		}
-			return socios;
-		}
+				return socios;
+			}
  
 ###### Modificando clase GimnasioTest 
 
