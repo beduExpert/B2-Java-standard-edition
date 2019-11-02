@@ -36,8 +36,8 @@
    - Este método te permite obtener el arreglo de objetos de tipo Libro que antes teníamos habilitado.
    - Modifica el código para que ahora retorne un <b>ArrayList</b> de objetos de tipo <b>Libro</b>.
    
-               	public ArrayList<Libro> getListaLibros() {
-			return listaLibros;
+               		public ArrayList<Libro> getListaLibros() {
+				return listaLibros;
 			}
                 
 4. Ubica el método <b>addLibro</b>.
@@ -46,7 +46,7 @@
    - Comenta este código y genera uno nuevo que permita agregar objetos de tipo <b>Libro</b> al ArrayList recién habilitado.
    - Al final compara el código nuevo con el viejo.
    
-               public void addLibro(Libro nuevo) {
+               	public void addLibro(Libro nuevo) {
 		 if( listaLibros.size() == MAX_LIBROS) {
 			 System.out.println("No puedes solicitar más libros...");
 		 }else {
