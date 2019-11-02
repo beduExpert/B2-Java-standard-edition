@@ -128,4 +128,18 @@
 
 <hr>
 
+Si llegaste aquí, Felicidades - lograste los objetivos!!
+
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67228451-e625f200-f3fe-11e9-99ce-ad733b945ebd.png)
+
+<details>
+	<summary>Solucion</summary>
+	<p> 1. Agrega un documento de texto con los datos de los Alumnos a registrar.
+	<p> 2. Utiliza el método <b>registraAlumno</b> para leer el documento, crear instancias de tipo <b>Alumno</b> y agregarlos a un <b>ArrayList</b>. </p>
+	<p> 3. Imprime el <b>ArrayList</b></p>
+	<p> 4. Ejecuta el proyecto</p>
+</details> 
+
+<hr>
+
 Felicidades, ¡Lograste los objetivos!
