@@ -19,7 +19,7 @@
 
 #### DESARROLLO
 
-###### Agregando de archivo
+###### Agregando archivo
 
 1. Agrega un archivo de texto a tu proyecto Gimnasio.
 
