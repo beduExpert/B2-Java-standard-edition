@@ -19,6 +19,17 @@
 
 #### DESARROLLO
 
+###### Agregando de archivo
+
+1. Agrega un archivo de texto a tu proyecto Gimnasio.
+
+	- Click derecho en proyecto, New, File
+	- Asigna el nombre de archivo.txt
+	- Transcribe el siguiente contenido al archivo:
+	
+		John 3399 john.a@gmail.com 3344555 21
+		Patricia 233 patricia.y@gmail.com 3356778 28
+		 
 ###### Leyendo de archivo
 
 1. Abre la clase <b>Socio</b>.
