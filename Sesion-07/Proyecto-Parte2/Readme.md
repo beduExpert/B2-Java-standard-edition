@@ -90,6 +90,7 @@
 
   - Agrega el while justo después de la declaración del objeto de tipo Scanner.
   - Coloca el código que lee, crea y agrega la instancia al ArrayList dentro del while.
+  - Elimina la invocación del método close de la clase Scanner.
   - Al final del try/catch, retorna el ArrayList.
 
        		public static ArrayList<Alumno> registraAlumno() {		
@@ -98,10 +99,9 @@
 		 	try {
 		 		Scanner input = new Scanner( new File(p.toString()) );
 		 		while(input.hasNext()) {
-		 			String nombre = input.nextLine();
+		 			String nombre = input.next();
 					int numeroCuenta = input.nextInt();
 					String correoElectronico = input.next();
-					input.close();
 					
 					/****CREANDO INSTANCIA****/
 					Alumno a = new Alumno(nombre, numeroCuenta, correoElectronico);
