@@ -24,11 +24,7 @@ public class Alumno {
 			s.close();
 			
 			/****CREANDO INSTANCIA****/
-			Alumno a = new Alumno(nombre, numeroCuenta, correoElectronico);
-			
-			a.nombre=nombre;
-			a.numeroCuenta=numeroCuenta;
-			a.correoElectronico=correoElectronico;
+			Alumno a = new Alumno(nombre, numeroCuenta, correoElectronico);			
 			System.out.println("Éxito al registrar alumno: " + a.nombre);
 			System.out.println("************************************************************");
 			return a;
