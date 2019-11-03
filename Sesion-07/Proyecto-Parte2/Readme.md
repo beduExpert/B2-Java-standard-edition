@@ -24,7 +24,7 @@
 1. Agrega un archivo de texto a tu proyecto UniversidadMexico.
 
 	- Click derecho en proyecto, New, File
-	- Asigna el nombre de archivo.txt
+	- Asigna el nombre de <b>archivo.txt</b>
 	- Transcribe el siguiente contenido al archivo:
 	 
 	  - <b>En la primer línea:</b> Abigail 99087305 abi@gmail.com
@@ -39,16 +39,12 @@
    
 	        private static Path p = Paths.get("archivo.txt"); //Generando objeto de tipo Path para manipular archivo.txt
         
-   - No olvides importar del paquete java.nio.file, la clase <b>Path & Paths</b>
+   - No olvides importar del paquete <b>java.nio.file<b>, la clase <b>Path & Paths</b>
    
        		import java.nio.file.Path;
        		import java.nio.file.Paths;
           
 2. Sobreescribe el método <b>toString</b> de la clase Object. Esto con la finalidad de que al imprimir un Objeto de tipo <b>Alumno</b>, se imprima <b>nombre</b>, así como <b>numeroCuenta</b>.
-
-		public String toString() {
-			return getNombre() + " " + getNumeroCuenta();
-		}
 
 3. Ubica el método <b>registraAlumno</b>
 
@@ -58,15 +54,10 @@
 	
    - Ubica la línea donde se imprime el mensaje <b>BIENVENIDO A REGISTRO ALUMNO</b>
    - Justo en la línea de abajo, declara un  <b>ArrayList</b> de objetos de tipo <b>Alumno</b>.
-   - Modifica el Objeto de tipo <b>Scanner</b> para que en lugar de leer del teclado, lea del <b>archivo.txt</b>
-   		  
-		    Scanner input = new Scanner( new File(p.toString()) );
-
+   - Modifica el Objeto de tipo <b>Scanner</b> para que en lugar de leer del teclado, lea del <b>archivo.txt</b>   
    - No olvides importar del paquete <b>java.io</b>, la clase <b>File</b>. 
-   
-        	import java.io.File;        
-        
-3. Agrega el código necesario para controlar la exception de tipo <b>FileNotFoundException</b> en la línea habilitada en el punto anterior.
+               
+4. Agrega el código necesario para controlar la exception de tipo <b>FileNotFoundException</b> en la línea habilitada en el punto anterior.
 
     		try {
 			    Scanner input = new Scanner( new File(p.toString()) );
@@ -82,15 +73,14 @@
                         
 5. El resto de código que lee y valida los datos para crear la instancia de tipo <b>Alumno</b>, muévelo a bloque de código del try.
    
-   Nota: 
-   
-   - Las líneas donde se utilizaba el statement <b>return</b> para retornar un <b>null</b> o el Objeto det tipo <b>Alumno</b> recién creados, serán eliminadas.
-   
 6.- El archivo que estamos leyendo tiene datos de más de un <b>Alumno</b>, por lo cual necesitamos habilitar un ciclo que permita seguir leyendo hasta alcanzar el final del archivo, lo llevaremos a cabo con un while.
 
+  - Elimina la línea que cierra el objeto de tipo Scanner - Esto nos permitirá mantener operaciones de lectura sobre el archivo.
   - Agrega el while justo después de la declaración del objeto de tipo Scanner.
+  	- Coondición booleana del while: 
+		- Invocación del método <b>hasNext()</b> del Objeto de tipo Scanner.
+		- Esto quiere decir - Mientras existan más elemento que leer en el Scanner. (Archivo)
   - Coloca el código que lee, crea y agrega la instancia al ArrayList dentro del while.
-  - Elimina la invocación del método close de la clase Scanner.
   - Al final del try/catch, retorna el ArrayList.
 
        		public static ArrayList<Alumno> registraAlumno() {		
