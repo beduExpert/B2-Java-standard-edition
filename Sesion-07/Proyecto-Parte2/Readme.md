@@ -1,7 +1,7 @@
 
-`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Proyecto`
+`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Proyecto-Parte2`
 
-## UniversidadMexico (Parte 1) - ArrayList
+## UniversidadMexico (Parte 2) - ArrayList
 
 ### OBJETIVO
 
@@ -39,7 +39,7 @@
    
 	        private static Path p = Paths.get("archivo.txt"); //Generando objeto de tipo Path para manipular archivo.txt
         
-   - No olvides importar del paquete <b>java.nio.file<b>, la clase <b>Path & Paths</b>
+   - No olvides importar del paquete <b>java.nio.file</b>, la clase <b>Path & Paths</b>
    
        		import java.nio.file.Path;
        		import java.nio.file.Paths;
