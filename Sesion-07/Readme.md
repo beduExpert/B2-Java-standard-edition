@@ -22,5 +22,5 @@
 - [Ejemplo 04](Ejemplo-04) - Gimnasio - Exceptions
 - [Reto 01](Reto-01) - ArrayList.
 - [Reto 02](Reto-02) - Exceptions.
-- [Proyecto Final](Proyecto-Parte1)
-- [Proyecto Final](Proyecto-Parte2)
+- [Proyecto Final - Parte 1](Proyecto-Parte1)
+- [Proyecto Final - Parte 2](Proyecto-Parte2)
