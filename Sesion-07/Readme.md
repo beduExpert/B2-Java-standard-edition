@@ -1,16 +1,26 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Java SE`> `ArrayList & Excpetions` > `Sesión 07`
 
-## Titulo de la Sesion 
+## ArrayList & Exceptions
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+<ul>
+  <li type= disc> El alumno será capaz de: 
+  <ul>
+     <li> Comprender las desventajas del manejo de arreglos.
+     <li> Comprender el uso de Colecciones - ArrayList.
+     <li> Comprender qué es una Exception, así como su manipulación.
+  </ul>
+</ul>
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- [Ejemplo 01](Ejemplo-01) - ArrayList.
+- [Ejemplo 02](Ejemplo-02) - Exceptions.
+- [Ejemplo 03](Ejemplo-03) - Gimnasio - ArrayList
+- [Ejemplo 04](Ejemplo-04) - Gimnasio - Exceptions
+- [Reto 01](Reto-01) - ArrayList.
+- [Reto 02](Reto-02) - Exceptions.
+- [Proyecto Final](Proyecto-Parte1)
+- [Proyecto Final](Proyecto-Parte2)
