@@ -1,27 +1,36 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `Paquetes & Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 01`
 
-## Titulo del Ejemplo
+## Paquetes
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de paquetes.
+
+<hr>
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener instalado eclipse.
+2. Descargar el proyecto <b>Sesión08</b>, abrirlo desde eclipse.
+3. Abrir la clase <b>Banco</b>.
+   
+   El proyecto está compuesto por un par de paquetes: <b>com.proyecto.dir1</b>, <b>com.proyecto.dir2</b>. Desde el paquete <b>com.proyecto.dir1</b>, intentaremos invocar clases encontradas en el paquete <b>com.proyecto.dir2</b>.
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. En la clase <b>Banco</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-<details>
+   Conceptos a Demostar:
+   
+    <ul>
+      <li> Intento de invocar desde la clase <b>Banco</b>, una clase encontrada en otro paquete.
+      <li> Resolviendo invocando desde la clase <b>Banco</b>, utilizando el <b>qualified name</b>.
+      <li> Resolviendo importando paquete desde la clase <b>Banco</b>.
+      <li> Intentando acceder a dos clases distintas desde la clase <b>Banco</b>.
+   </ul>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2. Felicidades, lograste los objetivos!!
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
