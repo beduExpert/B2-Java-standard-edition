@@ -11,7 +11,7 @@
 #### REQUISITOS
 
 1. Tener instalado Eclipse.
-2. Contar con el proyecto <b>Figuras</b>, trabajando en la <b>Sesión 6</b>
+2. Contar con el proyecto <b>Figuras</b>, trabajado en la <b>Sesión 6</b>
 
 <hr>
 
