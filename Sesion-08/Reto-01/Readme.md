@@ -42,7 +42,7 @@
 
 1. Ejecuta tu proyecto.
 
-![Console](https://user-images.githubusercontent.com/56565204/68001136-64b53780-fc28-11e9-85e2-b835bbb05b61.png)
+![Console](https://user-images.githubusercontent.com/56565204/67810841-012cdd80-fa61-11e9-873f-8098b65cce05.png)
 
 <hr>
 
