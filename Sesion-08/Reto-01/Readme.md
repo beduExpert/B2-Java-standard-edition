@@ -21,7 +21,7 @@
 
 1. Abre el proyecto llamado <b>Figuras</b> trabajado durante la <b>Sesión 6</b>
    
-#### Declaración de clases.
+#### Modificación de clases.
 
 1. Crea un paquete nuevo, nombre: <b>com.proyecto.figuras</b>
 2. Crea un paquete nuevo, nombre: <b>com.proyecto.principal</b>		
