@@ -1,12 +1,11 @@
  
 `Java SE`> `Paquetes & Diseño Clases: Clases Abstractas & Interfaces` > `Sesión 08` > `Reto 01`
 
-## Reto 01 - ArrayList
+## Reto 01 - Paquetes
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos los conceptos relacionados a un Objeto de tipo ArrayList.
-
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de paquetes.
 <hr>
 
 #### REQUISITOS
