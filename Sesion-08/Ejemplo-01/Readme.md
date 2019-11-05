@@ -29,7 +29,7 @@
       <li> Resolviendo invocando desde la clase <b>Banco</b>, utilizando el <b>qualified name</b>.
       <li> Resolviendo importando paquete desde la clase <b>Banco</b>.
       <li> Intentando acceder a dos clases distintas desde la clase <b>Banco</b>.
-      <li> Demostración de como crear un nuevo paquete.
+      <li> Demostración de como crear un nuevo paquete. <b>com.proyecto.nuevo</b>.
    </ul>
 
 2. Felicidades, lograste los objetivos!!
