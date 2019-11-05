@@ -1,27 +1,49 @@
  
+`Java SE`> `Paquetes & Diseño Clases: Clases Abstractas & Interfaces` > `Sesión 08` > `Reto 01`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Reto 01 - ArrayList
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+- Fortalecer con ejemplos los conceptos relacionados a un Objeto de tipo ArrayList.
 
-#### REQUISITOS 
+<hr>
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+#### REQUISITOS
+
+1. Tener instalado Eclipse.
+2. Contar con el proyecto <b>Figuras</b>, trabajando en la <b>Sesión 6</b>
+
+<hr>
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+##### Creación de Proyecto.
 
-<details>
+1. Abre el proyecto llamado <b>Figuras</b> trabajado durante la <b>Sesión 6</b>
+   
+#### Declaración de clases.
 
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
+1. Crea un paquete nuevo, nombre: <b>com.proyecto.figuras</b>
+2. Crea un paquete nuevo, nombre: <b>com.proyecto.principal</b>		
+3. Con el mouse, arrastra la clase <b>Figura</b> y sus subclases al paquete <b>com.proyecto.figuras</b>
+4. Abre la clase <b>Circulo</b>, asegurate de que la primer línea tenga la declaración de paquete correcta.
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+		package com.proyecto.figuras;
 
+5. Repite el paso 4, con la clase <b>Cuadrado</b>, <b>Triangulo</b>, <b>Figura</b>
+6. Con el mouse, arrastra la clase <b>FigurasTest</b> al paquete <b>com.proyecto.principal</b>	
+7. Abre la clase <b>FiguraTest</b>, asegurate de que la primer línea tenga la declaración de paquete correcta.
+8. En la clase <b>FiguraTest</b>, ubica las líneas que importan las clases Circulo, Cuadrado, Triangulo.
+9. Elimina las líneas indicadas en el punto 8.
+10. Agrega una sola línea <b>import</b> que te permita trabajar con las clase Circulo, Cuadrado, Triangulo.
+	
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto.
+
+![Console](https://user-images.githubusercontent.com/56565204/68001136-64b53780-fc28-11e9-85e2-b835bbb05b61.png)
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
