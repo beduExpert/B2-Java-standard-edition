@@ -69,7 +69,7 @@
 
 1. Ejecuta tu proyecto.
 
-![Console](https://user-images.githubusercontent.com/56565204/67810841-012cdd80-fa61-11e9-873f-8098b65cce05.png)
+![Console](https://user-images.githubusercontent.com/56565204/68255173-289c2100-fff2-11e9-853a-2af9de04d614.png)
 
 <hr>
 
