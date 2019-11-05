@@ -26,33 +26,33 @@
 
 1. Abre la clase <b>FigurasTest</b>:
 
-	- En el método main, encontrarás una serie de instancias creadas previamente. 
-	- Intenta agreagar una instancia más de tipo Figura. ¿Es esto posible?	
+	- En el método <b>main</b>, encontrarás una serie de instancias creadas previamente. 
+	- Intenta agreagar una instancia más de tipo <b>Figura</b>. ¿Es esto posible?	
 
 2. Modificación de la clase <b>Figura</b>
 
-	- Agrega el modificador abstract a la clase <b>Figura<\b>.
-	- Convierte el método <b>calculaArea<\b> de <b>concrecto a abstracto<\b>.
+	- Agrega el modificador <b>abstract</b> a la clase <b>Figura</b>.
+	- Convierte el método <b>calculaArea</b> de <b>concrecto a abstracto</b>.
 		
-		package com.proyecto.figuras;
+			package com.proyecto.figuras;
 		
-		public abstract class Figura {
-			public String color;
+			public abstract class Figura {
+				public String color;
 
-			public Figura() {
-				System.out.println("Constructor Figura...");
-			}
+				public Figura() {
+					System.out.println("Constructor Figura...");
+				}
 		
-			public abstract void calculaArea();
-		}
+				public abstract void calculaArea();
+			}
 	
-3. Valida que la clase <b>Circulo, Cuadrado & Triangulo</b>, ya tengan implementado el método abstracto <b>calculaArea</b> de la clase Figura, si no es así, impleméntalo.
+3. Valida que la clase <b>Circulo, Cuadrado & Triangulo</b>, ya tengan implementado el método abstracto <b>calculaArea</b> de la clase <b>Figura</b>, si no es así, impleméntalo.
 
 4. Regresa a la clase <b>FigurasTest</b>
 
-	- Debes ver un error en la línea donde se esta crando una instancia de tipo Figura.
+	- Debes ver un error en la línea donde se esta crando una instancia de tipo <b>Figura</b>.
 	- <b>Razón</b>: Esta ya es una clase <b>abstracta</b>, no puede ser instanciada.
-	- Elimna la línea.
+	- Elimina la línea.
 	
 5. En el método <b>main</b> tienes varias instancias de subclases de la clase <b>Figura</b>, de cada instancia, invoca el método <b>calculaArea</b> implementado en cada clase.
 
