@@ -17,7 +17,7 @@
 
 #### DESARROLLO
 
-##### Creación de Proyecto.
+##### Modificación del Proyecto.
 
 1. Abre el proyecto llamado <b>Figuras</b> trabajado durante la <b>Sesión 6</b>
    
