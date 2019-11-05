@@ -22,7 +22,7 @@
    Conceptos a Demostar:
    
     <ul>
-      <li> Creación de instancia de la clase <b>Product</b>, en la clase <b>ProductoTest<b>.
+      <li> Creación de instancia de la clase <b>Product</b>, en la clase <b>ProductoTest</b>.
       <li> Convirtiendo clase <b>Product</b>, a clase abstracta.
       <li> Intento de creación de instancia de la clase <b>Product</b>.
       <li> Creación de las subclases de la clase <b>Product</b>: <b>Refresco</b> y <b>Medicina</b>
