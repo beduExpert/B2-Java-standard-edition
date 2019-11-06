@@ -20,5 +20,5 @@
 - [Ejemplo 03](Ejemplo-03) - Interfaces.
 - [Reto 01](Reto-01) - Paquetes.
 - [Reto 02](Reto-02) - Clases Abstractas.
-- [Proyecto Final - Parte 1](Proyecto-Parte1)
-- [Proyecto Final - Parte 2](Proyecto-Parte2)
+- [Proyecto Final - Parte 1](Proyecto-Parte1) - Paquetes
+- [Proyecto Final - Parte 2](Proyecto-Parte2) - Clases Abstractas
