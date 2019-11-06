@@ -77,7 +77,7 @@
 
 4. Ejecuta el proyecto.
 
-![Console](https://user-images.githubusercontent.com/56565204/67881593-5ff86280-fb06-11e9-84ae-319e67b8146c.png)
+![Console](https://user-images.githubusercontent.com/56565204/68264175-9570e480-000d-11ea-8d05-8940be80a1ed.png)
 
 Si llegaste aquí, Felicidades - lograste los objetivos!!
 
