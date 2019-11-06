@@ -1,16 +1,30 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+`Java SE`> `Paquetes & Conceptos avanzados de Diseño de Clases` > `Sesión 08`
 
-## Titulo de la Sesion 
+## Paquetes
+
+Interpretar e implementar el uso de paquetes.
+Comprender algunos conceptos avanzados de Diseño de Clases
+
+Clases Abstractas
+Interfaces
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+<ul>
+  <li type= disc> El alumno será capaz de: 
+  <ul>
+     <li> Interpretar e implementar el uso de paquetes.
+     <li> Comprender algunos conceptos avanzados de Diseño de Clases: Clases Abstractas & Interfaces  
+  </ul>
+</ul>
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+- [Ejemplo 01](Ejemplo-01) - Paquetes.
+- [Ejemplo 02](Ejemplo-02) - Clases Abstractas.
+- [Ejemplo 03](Ejemplo-03) - Interfaces.
+- [Reto 01](Reto-01) - Paquetes.
+- [Reto 02](Reto-02) - Clases Abstractas.
+- [Proyecto Final - Parte 1](Proyecto-Parte1)
+- [Proyecto Final - Parte 2](Proyecto-Parte2)
