@@ -29,6 +29,7 @@
       <li> Implementación del método abstracto declardo en clase <b>Product</b>, <b>calculandoImpuestos</b> en clase <b>Refresco</b> y <b>Medicina</b>.
       <li> Creación de instancias de tipo <b>Refresco</b> y <b>Medicina</b>, invocación del método <b>calculandoImpuestos</b> respectivamente.
       <li> Ejecución proyecto.
+      <li> Implementación de un método con <b>argumentos polimórficos</b> y uso de opeardor <b>instanceof</b>.
    </ul>
 
 2. Felicidades, lograste los objetivos!!
