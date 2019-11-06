@@ -27,7 +27,8 @@
    - Asegura que la línea de declaración de <b>package</b>, se agregara al código de la clase.
    - Asegura que la línea de <b>import</b> del paquete donde esta la clase <b>Libro</b>, se agregara al código.
 4. Abre la clase principal <b>UniversidadMexico</b>.
-   - Asegura que la línea de <b>import</b> del paquete donde esta la clase <b>Alumno</b>, se agregara al código.
+   - Asegura que la o las líenas <b>import</b> necesarias se encuentren en código.
+   - Si es posible, optimiza estas líneas utilizando un comodín.
    
 5. Ejecuta el proyecto.
 
