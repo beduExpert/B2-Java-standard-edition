@@ -1,13 +1,7 @@
 
 `Java SE`> `Paquetes & Conceptos avanzados de Diseño de Clases` > `Sesión 08`
 
-## Paquetes
-
-Interpretar e implementar el uso de paquetes.
-Comprender algunos conceptos avanzados de Diseño de Clases
-
-Clases Abstractas
-Interfaces
+## Paquetes & Conceptos avanzados de Diseño de Clases
 
 ### OBJETIVOS 
 
