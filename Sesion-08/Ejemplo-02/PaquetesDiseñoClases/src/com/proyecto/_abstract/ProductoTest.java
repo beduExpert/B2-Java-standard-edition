@@ -21,11 +21,20 @@ public class ProductoTest {
 		/*Refresco f = new Refresco();
 		Medicina m = new Medicina();*/
 		
-		//5. Invoca el método calculandoImpuesto de cada objeto recién creado.
-		/*f.calculandoImpuesto();
-		m.calculandoImpuesto();*/
+		//5. Declara en esta misma clase un método con un argumento polimórfico, ejecuta el método calculando impuesto de cada clase.
 		
 		//6. Ejecuta y explica ejecución.
 	}
-
 }
+
+/*public static void impuestos(Product p) {
+	if ( p instanceof Medicina ) {
+		System.out.println("Calculando impuesto medicina...");
+		p.calculandoImpuesto();
+	}else {
+		if( p instanceof Refresco ) {	
+			System.out.println("Calculando impuesto refrescos...");
+			p.calculandoImpuesto();
+		}
+	}
+}*/
