@@ -1,27 +1,37 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
+`Java SE`> `Paquetes & Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 03`
 
-## Titulo del Ejemplo
+## Interfaces
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de interfaces.
+
+<hr>
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Tener instalado eclipse.
+2. Descargar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
+3. Trabajar con el paquete <b>com.proyecto._interfaces</b>.
 
 #### DESARROLLO
 
-Agrega las instrucciones generales del ejemplo o reto
+1. Abre la clase <b>FlyerTet</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-<details>
+   Conceptos a Demostar:
+   
+    <ul>
+      <li> Observa y analiza el código de la interfaz <b>Flyer</b>, observa los métodos ahí declarados.
+      <li> Observa y analiza el código de la clase <b>Avion y Helicoptero</b>.
+      <li> Observa y analiza el código de la clase <b>Animal</b>.
+      <li> Observa y analiza el código de la clase <b>Superman</b>, esta clase, <b>hereda</b> el comportamiento <b>comer</b> de la clase <b>Animal</b> e <b>implementa</b> el comportamiento <b>despega, aterriza, volando</b> de la <b>interfaz Flyer</b>. <b>Demostración de simulación de herencia mútliple</b>.
+      <li> En la clase <b>FlyerTest</b>, en el método <b>main</b>, declara una instancia de tipo <b>Avion, Helicoptero & Superman</b>.
+      <li> En la clase <b>FlyerTest</b>, observa y analiza el código del método aeropuerto. Método polimórfico...
+      <li> Desde el método <b>main</b>, invoca el método aeropuerto enviando como argumentos distintos tipos de objetos de tipo <b>Flyer</b>
+      <li> Ejecución proyecto.
+   </ul>
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+2. Felicidades, lograste los objetivos!!
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
-
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
