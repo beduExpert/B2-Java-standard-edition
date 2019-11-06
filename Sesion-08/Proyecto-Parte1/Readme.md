@@ -21,7 +21,7 @@
 ###### Implementando Paquetes
 
 1. Crea los paquetes <b>org.universidad_mexico.estudiantes</b> & <b>org.universidad_mexico.libros</b> .
-2. Mueve la clase <b>Libro</b> al paquete <b>org.universidad_mexico.libros</b>. 
+2. Mueve la clase <b>Libro</b> y sus <b>subclases</b> al paquete <b>org.universidad_mexico.libros</b>. 
    - Asegura que la línea de declaración de <b>package</b>, se agregara al código de la clase.
 3. Mueve la clase <b>Alumno</b> al paquete <b>org.universidad_mexico.estudiantes</b>. 
    - Asegura que la línea de declaración de <b>package</b>, se agregara al código de la clase.
