@@ -15,8 +15,8 @@
 2. Descargar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
 3. Abrir la clase <b>Banco</b> encontrada en el paquete: <b>com.proyecto.dir2</b>.
    
-   El proyecto está compuesto por un par de paquetes: <b>com.proyecto.dir1</b>, <b>com.proyecto.dir2</b>. 
-   Desde el paquete <b>com.proyecto.dir1</b>, intentaremos invocar clases encontradas en el paquete <b>com.proyecto.dir2</b>.
+   - El proyecto está compuesto por un par de paquetes: <b>com.proyecto.dir1</b>, <b>com.proyecto.dir2</b>. 
+   - Desde el paquete <b>com.proyecto.dir1</b>, intentaremos invocar clases encontradas en el paquete <b>com.proyecto.dir2</b>.
    
 <hr>
 
