@@ -43,7 +43,7 @@
 	- Nombre Metodo: sistemaRetornaLibros
 	- Argumentos: ArrayList<Libro>
  
- 2. El método recién declarado, debe de revisar cada libro que recibe en el argumento, <b>ArrayList<Libro></b>, revisar o encontrar que tipo de instancia es cada libro e invocar el método <b>tiempoRetorno</b> de cada uno.
+ 2. El método recién declarado, debe de revisar cada libro que recibe en el argumento de tipo <b>ArrayList<Libro></b>. Revisar o encontrar que tipo de instancia es cada libro e invocar el método <b>tiempoRetorno</b> de cada uno.
 	
 		public static void sistemaRetornaLibros( ArrayList<Libro> libros) {
 			for( Libro l : libros) {
@@ -68,10 +68,10 @@
 		
 		Alumno a1 = lista.get(0);
 		
-	3. Del alumno obtenido en el punto anterior, invoca el método addLibro, para agregar respectivamente un libro de tipo <b>FilosofiaLibro</b> y otro de tipo <b>PoliticaLibro</b>.
+	3. Del alumno obtenido en el punto anterior, invoca el método <b>addLibro</b>, para agregar respectivamente un libro de tipo <b>FilosofiaLibro</b> y otro de tipo <b>PoliticaLibro</b>.
 	
 	4. Imprime el mensaje: <b>¿Cuándo debo regresar libros?</b>
-	5. Invoca el método sistemaRetornaLibros, envía como argumento la lista de libros prestado al alumno obtenido en el punto 2.	
+	5. Invoca el método <b>sistemaRetornaLibros</b>, envía como argumento la lista de libros prestado al alumno obtenido en el punto 2.	
 
 		sistemaRetornaLibros(a1.getListaLibros());
 
