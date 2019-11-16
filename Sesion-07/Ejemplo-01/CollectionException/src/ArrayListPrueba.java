@@ -29,6 +29,7 @@ public class ArrayListPrueba {
 	    groupNumbers.add(30);
 	    groupNumbers.add(5);
 	    groupNumbers.add(19);
+
 		
 		System.out.println("Imprimiendo ArrayList: " + groupNumbers);
 	    System.out.println("Tamaño ArrayList: " + groupNumbers.size());		
@@ -52,7 +53,7 @@ public class ArrayListPrueba {
 		System.out.println("Resultado suma, for-each: " + resultado);
 
 		//5. Iterator & ListIterator
-		/***************************** Iterators ***************************/
+		/***************************** Iterator ***************************/
 		
 		resultado=0;
 		Iterator<Integer> i = groupNumbers.iterator();
@@ -61,7 +62,7 @@ public class ArrayListPrueba {
 		}
 		System.out.println("Resultado suma, iterator: " + resultado);
 		
-		/***************************** Iterators ***************************/
+		/***************************** List Iterator ***************************/
 		
 		resultado=0;
 		ListIterator<Integer> li = groupNumbers.listIterator();
