@@ -10,8 +10,8 @@
 
 #### REQUISITOS
 
-1. Crear un proyecto nuevo en Eclipse: UniversidadMexico
-2. Agregar una clase principal al proyecto nuevo: UniversidadMexico
+1. Crear un proyecto nuevo en Eclipse: <b>UniversidadMexico</b>
+2. Agregar una clase principal al proyecto nuevo: <b>UniversidadMexico</b>
 3. Conocer el procedimiento para ejecutar una aplicación.
 
 <hr>
@@ -29,6 +29,8 @@
         - Versión        
 
    Uso de la instrucción: System.out.println("Escribe aquí lo que quieras imprimir");
+   
+4. Agrega las líneas necesarias para colocar los datos del punto 3 dentro de un banner similar a la imagen posterior a este punto.
 
 <hr>
 
