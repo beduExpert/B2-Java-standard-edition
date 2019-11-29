@@ -21,6 +21,8 @@
 
 - [Ejemplo 01](Ejemplo-01) - Creación proyecto HelloWorld
 - [Reto 01](Reto-01) - Creación proyecto HelloWorld
-- [Ejemplo 02](Ejemplo-02) - Edición método main (Carita)
-- [Reto 02](Reto-02) - Edición método main (Carita)
+- [Ejemplo 02](Ejemplo-02) - Edición método main (System.out.println(...))
+- [Reto 02](Reto-02) - Edición método main ((System.out.println(...))
+- [Ejemplo 03](Ejemplo-03) - Gimnasio - Identificación de Objetos
+- [Reto 03](Reto-03) - Supermercado - Identificación de Objetos
 - [Proyecto Final](Proyecto)
