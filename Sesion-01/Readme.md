@@ -25,4 +25,4 @@
 - [Reto 02](Reto-02) - Edición método main ((System.out.println(...))
 - [Ejemplo 03](Ejemplo-03) - Gimnasio - Identificación de Objetos
 - [Reto 03](Reto-03) - Supermercado - Identificación de Objetos
-- [Proyecto - Parte1](Proyecto Final - Parte1 )
+- [Proyecto](Proyecto Final - Parte1)
