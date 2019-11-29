@@ -10,7 +10,7 @@
 
 #### REQUISITOS
 
-1. Tener instalado el JDK & IDE
+1. Tener instalado el JDK & IDE ( Preferenemente, Eclipse )
 2. Abrir el IDE
         - Se te solicitará un workspace(carpeta de trabajo), selecciona la adecuada.
 
