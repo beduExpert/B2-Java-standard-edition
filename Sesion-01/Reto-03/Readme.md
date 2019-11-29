@@ -1,5 +1,5 @@
  
- `Java SE`> `¿Qué es Java` > `Sesión 01` > `Reto 03`		
+ `Java SE`> `¿Qué es Java?` > `Sesión 01` > `Reto 03`		
 
 ## Supermercado - Identificación de Objetos
 
