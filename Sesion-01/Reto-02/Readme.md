@@ -18,9 +18,9 @@
 
 #### DESARROLLO
 
-1. Abrir el proyecto HelloWorld.
+1. Abrir el proyecto <b>HelloWorld.</b>
 2. Ubicar el método main, para después editarlo.
-3. Remplazar la línea que imprime el mensaje HelloWorld para producir la siguiente salida: 
+3. Remplazar la línea que imprime el mensaje <b>HelloWorld</b> para producir la siguiente salida: 
 
 ![Console](https://user-images.githubusercontent.com/56565204/66889796-566ce780-efa9-11e9-8fee-9265250bf09c.png)
    
@@ -33,7 +33,7 @@
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Abrir proyecto HelloWorld </p>
+	<p> 1. Abrir proyecto <b>HelloWorld</b> </p>
 	<p> 2. Ubicar método main, editarlo. Utiliza el método System.out.println("Escribe tu mensaje"); </p> 
 	<p> 3. Ejecutar proyecto </p>
 </details> 
