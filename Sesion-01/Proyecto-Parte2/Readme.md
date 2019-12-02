@@ -10,7 +10,7 @@
 
 #### REQUISITOS
 
-1. Proyecto UniversidadMexico creado en la <b>Sesión 01</b>.
+1. Proyecto UniversidadMexico creado en <b>Proyecot-Parte1</b>.
 
 <hr>
 
