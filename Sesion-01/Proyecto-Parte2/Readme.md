@@ -1,4 +1,4 @@
-`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Proyecto`
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 01` > `Proyecto-Parte2`
 
 ## Universidad México
 
