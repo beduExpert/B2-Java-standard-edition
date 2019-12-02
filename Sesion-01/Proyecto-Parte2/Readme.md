@@ -39,7 +39,7 @@
 
 ##### Edición clase principal - Método main
 
-1. Abrir el proyecto UniversidadMexico creado en la <b>Sesión 1</b>
+1. Abrir el proyecto UniversidadMexico creado en la <b>Proyecto-Parte1</b>
 2. Ubicar la clase principal <b>UniversidadMexico</b>
 3. Ubicar le método <b>main</b>.
 4. Ubicar la última línea correspondiente a la impresión del banner desarrollado en la <b>Sesión 1</b>
