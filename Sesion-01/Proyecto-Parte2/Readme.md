@@ -39,10 +39,10 @@
 
 ##### Edición clase principal - Método main
 
-1. Abrir el proyecto UniversidadMexico creado en la <b>Proyecto-Parte1</b>
+1. Abrir el proyecto UniversidadMexico creado en <b>Proyecto-Parte1</b>
 2. Ubicar la clase principal <b>UniversidadMexico</b>
 3. Ubicar le método <b>main</b>.
-4. Ubicar la última línea correspondiente a la impresión del banner desarrollado en la <b>Sesión 1</b>
+4. Ubicar la última línea correspondiente a la impresión del banner desarrollado en la <b>Proyecto-Parte1</b>
 5. En las siguientes líneas, declara una instancia por cada clase declarada en el punto anterior.
 6. En la siguiente línea después de declarar instancias, declara un mensaje que imprima: <b>"Terminando de declarar instancias..."</b>
 
@@ -67,4 +67,3 @@ Si llegaste aquí, Felicidades - lograste los objetivos!!
 	<p> 3. Declaración de clases, una por cada objeto encontrado en punto anterior. </p>
         <p> 4. En la clase principal, declara una instancia por cada clase declarada en el punto anterior. </p>
 	<p> 5. Imprimir una línea con el menseaje: "Terminando de declarar instancias..." </p>
-	<p> 6
