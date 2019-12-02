@@ -26,3 +26,4 @@
 - [Ejemplo 03](Ejemplo-03) - Gimnasio - Identificación de Objetos
 - [Reto 03](Reto-03) - Supermercado - Identificación de Objetos
 - [Proyecto Final - Parte 1](Proyecto-Parte1)  - UniversidadMexico
+- [Proyecto Final - Parte 2](Proyecto-Parte2)  - UniversidadMexico
