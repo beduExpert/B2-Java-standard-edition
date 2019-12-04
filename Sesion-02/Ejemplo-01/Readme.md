@@ -1,33 +1,32 @@
 
 `Java SE`> ` Programación Orientada a Objetos VS Java` > `Sesión 02` > `Ejemplo 01`
 
-## Gimnasio - Identificación de Objetos
+## Gimnasio - Declaración de clases
 
 ### OBJETIVO
 
-- El alumno será capaz de identificar objetos en cualquier problemática.
+- El alumno aprenderá a llevar a código los objetos encontrados en alguna problemática.
+
+#### REQUISITOS
+
+1. Crear un nuevo proyecto en eclipse llamado Gimnasio.
+
+<hr>
 
 #### DESARROLLO
 
-1. Lee la siguiente problemática:
+1. Crea una clase por cada objeto encontrado en el <b>Ejemplo 03, Sesión 1</b>
+   - Nota: No olvides que estas clase <b>NO</b> lleva main.
+   
+2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios</b>.
 
-   Te han contratado para actualizar un sistema de registro de socios en un Gimnasio.
-   Se pretende obtener estadísticas de las actividades que realiza cada socio dentro de las instalaciones, de tal forma que se    ubiquen las actividades más y menos frecuentadas, así como la necesidad de ingresar nuevas actividades al gimnasio.
+![Proyecto](https://user-images.githubusercontent.com/56565204/67219812-42344a80-f3ee-11e9-8722-f8d6a4065a97.png)
 
-   De cada socio se pretende contar con nombre, número de socio, correo electrónico, teléfono, así como las actividades que        realiza dentro del Gimnasio.
-
-   Las actividades que actualmente se encuentran disponibles son: Yoga, Pilates, TRX, Zumba y Piso
-   Se pretende tener un catálogo de actividades, donde cada una tenga un identificador que nos permita de forma sencilla hacer    referencia a ellas.
-
-2. Identificar los objetos(propiedades y comportamientos), encontrados en esta problemática.
-
-3. Felicidades, lograste los objetivos!!
-
-![Gimnasio](https://user-images.githubusercontent.com/56565204/67174044-4167ce00-f386-11e9-9cb8-e1102c80bc48.png)
+<hr>
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Leer problemática. </p>
-	<p> 2. Crear una lista con los objetos identificados, así como sus propiedades y comportamientos. </p>
-	<p> Solución - objetos encontrados: Actividad & Socio </p>
+	<p> 1. Crear un nuevo proyecto llamado <b>Gimnasio.</b> </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el ejemplo anterior </p>
+	<p> Solución - clases declaradas: <b>Actividad & Socio</b> </p>
 </details>
