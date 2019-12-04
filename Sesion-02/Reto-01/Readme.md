@@ -1,5 +1,5 @@
  
-`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 02`	
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 01`	
 
 ## Supermercado - Declaración de clases
 
@@ -17,7 +17,7 @@
 
 #### DESARROLLO
 
-1. Crea una clase por cada objeto encontrado en el <b>Reto 01.</b>
+1. Crea una clase por cada objeto encontrado en el <b>Reto 03, Sesión1</b>
    - <b>Nota:</b> No olvides que estas clase <b>NO</b> lleva main.
    
 2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios.</b>
@@ -31,6 +31,6 @@
 <details>
 	<summary>Solucion</summary>
 	<p> 1. Crear un nuevo proyecto llamado <b>Supermercado.</b> </p>
-	<p> 2. Crear una clase por cada objeto encontrado en el <b>Reto 01</b>. </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el <b>Reto 03, Sesión</b>. </p>
 	<p> Solución - clases declaradas: <b>Usuario, Pedido y Producto</b> </p>
 </details>
