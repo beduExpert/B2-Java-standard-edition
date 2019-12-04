@@ -1,5 +1,5 @@
 
-`Java SE`> ` Programación Orientada a Objetos VS Java` > `Sesión 02` > `Ejemplo 03`
+`Java SE`> ` Programación Orientada a Objetos VS Java` > `Sesión 02` > `Ejemplo 02`
 
 
 ## Gimnasio - Declaración de Instancias
@@ -12,7 +12,7 @@
 
 #### REQUISITOS
 
-1. Contar con el proyecto Gimnasio, así como las clases declaradas en el <b>Ejemplo 2</b>
+1. Contar con el proyecto Gimnasio, así como las clases declaradas en el <b>Ejemplo 1</b>
 
 <hr>
 
