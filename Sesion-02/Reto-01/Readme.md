@@ -1,40 +1,36 @@
  
+`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 02`	
 
-`Java SE`> `Programación Orientada a Objetos VS Java` > `Sesión 02` > `Reto 01`		
+## Supermercado - Declaración de clases
 
-## Supermercado - Identificación de Objetos
+### OBJETIVO
 
-### OBJETIVO 
+- El alumno aprenderá a declarar instancias de una clase.
 
-- El alumno será capaz de reconocer los objetos en una problemática dada.
+<hr>
 
-<hr> 
+#### REQUISITOS
+
+1. Crear un nuevo proyecto en eclipse llamado <b>Supermercado.</b>
+
+<hr>
 
 #### DESARROLLO
 
-1. Lee la siguiente problemática.
+1. Crea una clase por cada objeto encontrado en el <b>Reto 01.</b>
+   - <b>Nota:</b> No olvides que estas clase <b>NO</b> lleva main.
+   
+2. Aún no conocemos como declarar las <b>propiedades y comportamientos</b>, declara estos con <b>comentarios.</b>
 
-   Te han contratado en un supermercado local para crear un sistema que permita levantar pedidos vía web.
-   El cliente necesita un usuario que se generará partiendo del nombre y la primer letra del apellido paterno. Es importante    registrar también el nombre completo del cliente, fecha de cumpleaños, dirección, teléfono. 
+3. Si llegaste hasta aquí, Felicidades!!
 
-   El sistema deberá permitir levantar pedidos y entregar un monto final.
-
-   Por otro lado el propietario desea dar de alta cada producto que vende, ejemplo: Leche, Huevo, Jamón, Pan. 
-   De cada producto, necesita registrar su nombre, porcentaje de impuesto, costo y marca.
-
-   <b> Instrucciones:</b> Identificar los objetos(propiedades y comportamientos), encontrados en  esta problemática
-
-2. Identificar los objetos(propiedades y comportamientos), encontrados en esta problemática.
-
-3. Si llegaste hasta aquí, seguro lograste los objetivos. Felicidades!!
-
-![Super](https://user-images.githubusercontent.com/56565204/67175810-1f257e80-f38d-11e9-9bfb-f681887e0ad9.png)
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67222356-c38ddc00-f3f2-11e9-93a0-f6fbfc420ab5.png)
 
 <hr>
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Leer problemática. </p>
-	<p> 2. Crear una lista con los objetos identificados, así como sus propiedades y comportamientos. </p>
-	<p> Solución - objetos encontrados: Usuario, Pedido, Producto </p>
+	<p> 1. Crear un nuevo proyecto llamado <b>Supermercado.</b> </p>
+	<p> 2. Crear una clase por cada objeto encontrado en el <b>Reto 01</b>. </p>
+	<p> Solución - clases declaradas: <b>Usuario, Pedido y Producto</b> </p>
 </details>
