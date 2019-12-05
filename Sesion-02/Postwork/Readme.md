@@ -6,7 +6,6 @@
 
 ### OBJETIVO
 
-- Aprenderá identificar objetos de una problemática que el alumno proponga.
 - Aprenderá a declarar clases de objetos identificados.
 - Aprenderá a crear instancias de clases declaradas.
 
@@ -21,8 +20,7 @@
 #### DESARROLLO
 
 Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
-      
-        - Identificación de objetos en problemática propuesta por el alumno.
+          
         - Declaración de clases de objetos identificados en el punto anterior.
         - Edita el método main para declarar:
             ▪ Una instancia por cada clase declarada en el punto anterior.
@@ -41,7 +39,6 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
 
 <details>
 	<summary>Solucion</summary>
-	<p> 1. Identifica los objetos de tu problemática. </p>
 	<p> 2. Declara las clases de los objetos identificados en la problemática.</p>
         <p> 3. Declara una instancia por cada clase ya declarada. </p>
         <p> 4. Agrega la impresión de una línea que indique la finalización de creación de instancias.
