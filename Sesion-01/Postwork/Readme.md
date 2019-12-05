@@ -14,6 +14,7 @@
 1. Instalado IDE - Eclipse
 2. Conocer el precedimiento para crear un proyecto, clase.
 3. Conocer el procedmiento para ejecutar código.
+4. Aprenderá identificar objetos de una problemática que el alumno proponga.
 
 #### DESARROLLO
 
@@ -29,6 +30,8 @@ Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuaci
         - Para mayor referencia, observa la siguiente imagen:	    
 	
 ![Console](https://user-images.githubusercontent.com/56565204/66932361-17688180-effd-11e9-8746-111e824009ba.png)	
+
+	- Identificación de objetos en problemática propuesta por el alumno.
 	    
 <hr>
 
@@ -51,5 +54,6 @@ Felicidades, lograste los objetivos!!
 	<p> 1. Crear un nuevo JavaProyect en Eclipse </p>
 	<p> 2. Crear una clase principal, asignarle el nombre UniversidadMexico </p>
         <p> 4. Repite el uso de la instrucción System.out.println..., para generar un banner con los datos de proyecto </p>
-	<p> 5. Ejecutar Proyecto </p>
+	<p> 5. Identifica los objetos de tu problemática. </p>
+	<p> 6. Ejecutar Proyecto </p>
 </details> 
