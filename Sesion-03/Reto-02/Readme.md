@@ -12,7 +12,7 @@
 #### REQUISITOS 
 
 1. Crear un nuevo proyecto llamado <b>Sesion3</b>
-2. Declaración de una clase principal llamada <b>PruebaCiclos</b>
+2. Declaración de una clase principal llamada <b>Sesion3Test</b>
 
 <hr>
 
