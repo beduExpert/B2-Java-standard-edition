@@ -1,6 +1,6 @@
  
 
-`Java SE`> `Tipos de Datos, Variables & API` > `Sesión 03` > `Reto 01` 
+`Java SE`> `Variables & API, Estructuras de Control` > `Sesión 03` > `Reto 01` 
 	
 ## Reto 01 - Supermercado, Variables Instancia
 
