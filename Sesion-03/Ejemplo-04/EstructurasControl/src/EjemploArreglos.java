@@ -1,8 +1,8 @@
 
 public class EjemploArreglos {
 	public static void main(String args[]) {
-		arregloPrimitivos();
-		arregloObjetos();
+		//arregloPrimitivos();
+		//arregloObjetos();
 		arregloBidimensional(); //EjemploOpcional
 	}
 	
@@ -29,7 +29,7 @@ public class EjemploArreglos {
 				System.out.print(temp + ",");
 			}
 			System.out.println();
-		}		
+		}
 	}
 	
 	public static void arregloObjetos() {
@@ -39,9 +39,9 @@ public class EjemploArreglos {
 			System.out.println(dias[index]);
 		}*/
 		
-		/*for(String x : dias) {	
+		for(String x : dias) {	
 			System.out.println(x);															  //Recorriendo arreglo con for-each, para imprimir cada una de sus posiciones.
-		}*/	
+		}	
 	}
 	
 	public static void arregloPrimitivos() {
@@ -51,8 +51,8 @@ public class EjemploArreglos {
 			System.out.println(x[i]);
 		}*/
 		
-		/*for( int temp : x){					//Recorriendo arreglo con for-each, para imprimir cada una de sus posiciones.
+		for( int temp : x){					//Recorriendo arreglo con for-each, para imprimir cada una de sus posiciones.
 			System.out.println(temp);
-		}*/
+		}
 	}
 }

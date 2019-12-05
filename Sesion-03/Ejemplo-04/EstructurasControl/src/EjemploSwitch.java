@@ -27,7 +27,7 @@ public class EjemploSwitch {
 		int input = 0, answer = 0;
 		int num1 = 5;
 		int num2 = 2;	
-		char operador = '+';							//Variable de tipo char, llamada operador, contendrá el valor que será comparado contra los case's.
+		char operador = '/';							//Variable de tipo char, llamada operador, contendrá el valor que será comparado contra los case's.
 		switch (operador){								//Apertura de la esctrucutra switch, trabajará con el valor de la variable operador.
 			case '*' :									//En el caso de que operador tenga el valor *
 				answer = num1 * num2;					//A la variable answer se le asigna el resultado de multiplicar, num1 * num2
@@ -53,7 +53,7 @@ public class EjemploSwitch {
 	public static void calculadoraIf() {	
 		int num1 = 5;
 		int num2 = 2;	
-		char operador = '*';
+		char operador = '+';
 		if( operador == '*' )
 			System.out.println(num1 * num2);
 		else if( operador == '/' )
