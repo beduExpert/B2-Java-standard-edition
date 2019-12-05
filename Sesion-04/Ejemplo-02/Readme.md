@@ -1,25 +1,23 @@
 
-`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 02`
+`Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Ejemplo 02`
 
-## Estructuras de Control ( switch )
+## Arreglos
 
 ### OBJETIVO
 
-- El alumno reconocerá la estructura switch.
-
+- El alumno identificará como declarar un arreglo, así como observará su manipulación
 <hr> 
 
 #### REQUISITOS
 
-1. Descargar el archivo llamado <b>EstructurasControl.zip</b>, quitale el formato de compresión.
-2. Abrir el proyecto desde eclipse.
-3. Abrir la clase <b>EjemplosSwitch</b>
+1. Consultar el proyecto <b>EstructurasControl</b>.
+3. Abrir la clase <b>EjemploArreglos</b>
 
 <hr>
 
 #### DESARROLLO
 
-1. Analizar y probar cada una de las líneas de la clase <b>EjemplosSwitch</b>
+1. Analizar y probar cada una de las líneas de la clase <b>EjemplosArreglos</b>
 
 2. Felicidades, lograste los objetivos!!
 
