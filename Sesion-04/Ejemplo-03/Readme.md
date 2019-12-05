@@ -1,4 +1,5 @@
-`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 03`
+
+`Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Ejemplo 03`
 
 ## Ejemplo 3 - Gimnasio, Scanner.
 
