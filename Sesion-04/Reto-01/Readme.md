@@ -1,5 +1,5 @@
  
- `Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Reto 01`
+ `Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Reto 01`
 
 ## Reto 1 - Supermercado, Scanner & Arreglos
 
