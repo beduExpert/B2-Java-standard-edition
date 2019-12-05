@@ -34,7 +34,7 @@
 
 1. Utilizando la herramienta de ejecución, prueba tu programa. <b>Resultado Final:</b>
    
-![Console](https://user-images.githubusercontent.com/56565204/67445659-4a011400-f5d3-11e9-971c-03ef1712fda0.png)
+![Console](https://user-images.githubusercontent.com/56565204/70211418-a12df480-16fa-11ea-9ada-e3bcd0b2a64b.png)
 
 2. Si llegaste hasta aquí, Felicidades!!
 
