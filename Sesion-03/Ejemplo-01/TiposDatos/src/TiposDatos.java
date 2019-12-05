@@ -6,7 +6,7 @@ public class TiposDatos {
 			
 		/********************* TIPOS DE DATOS ***********************/
 		/*** 1. ***/
-		declaracionTiposDatos();
+		//declaracionTiposDatos();
 		
 		/*** 2. ***/
 		//guionBajo();
