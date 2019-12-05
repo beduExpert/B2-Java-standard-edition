@@ -1,24 +1,24 @@
-`Java SE`> `Sentencias Control, Scanner, Arreglos` > `Sesión 04` > `Ejemplo 01`
 
-## Estructuras de Control ( if, if/else, Operador ternario )
+`Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Ejemplo 01`
+
+## Scanner
 
 ### OBJETIVO
 
-- El alumno reconocerá distintas estructuras de control.
+- El alumno reconocerá la clase Scanner, junto con algunos métodos que nos permitirán leer desde el teclado.
 
 <hr> 
 
 #### REQUISITOS
 
-1. Descargar el archivo llamado <b>EstructurasControl.zip</b>, quitale el formato de compresión.
-2. Abrir el proyecto desde eclipse.
-3. Abrir la clase <b>EjemplosIf</b>
+1. Consultar el proyecto <b>EstructurasControl</b>.
+2. Abrir la clase <b>EjemploScanner</b>
 
 <hr>
 
 #### DESARROLLO
 
-1. Analizar y probar cada una de las líneas de la clase <b>EjemplosIf</b>
+1. Analizar y probar cada una de las líneas de la clase <b>EjemplosScanner</b>
 
 2. Felicidades, lograste los objetivos!!
 
