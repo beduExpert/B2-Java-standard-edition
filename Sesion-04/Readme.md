@@ -17,11 +17,10 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- [Ejemplo 01](Ejemplo-01) - Estructuras de Control ( if, if/else, Operador ternario )
-- [Ejemplo 02](Ejemplo-02) - Estructuras de Control ( switch )
-- [Ejemplo 03](Ejemplo-03) - Estructuras de Control ( Ciclos - for, while, do/while ) 
-- [Ejemplo 04](Ejemplo-04) - Scanner
-- [Ejemplo 05](Ejemplo-05) - Arreglos 
-- [Ejemplo 06](Ejemplo-06) - Gimnasio, Scanner & Estructura Control
+- [Ejemplo 01](Ejemplo-01) - Scanner
+- [Ejemplo 02](Ejemplo-02) - Arreglos 
+- [Ejemplo 03](Ejemplo-03) - Gimnasio, Scanner & Estructura Control
+- [Ejemplo 04](Ejemplo-04) - Métodos y Sobrecarga.
+- [Ejemplo 05](Ejemplo-05) - Gimnasio, Encapsulación.
 - [Reto 01](Reto-01) - Supermercado, Scanner & Arreglos
 - [Proyecto Final](Proyecto)
