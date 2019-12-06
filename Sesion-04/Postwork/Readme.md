@@ -5,6 +5,7 @@
 
 ### OBJETIVO
 
+- Aprenderá a encapsular una clase.
 - Aprenderá a leer datos desde el teclado.
 - Aprenderá a declarar un arreglo.
 - Aprenderá a trabajar con estructuras de control.
@@ -20,7 +21,8 @@
 
 Aplica los conceptos vistos en esta sesión a tu proyecto personal. A continuación se enumeran las actividades a realizar.
       
-        - Lectura de datos desde Teclado ( Scanner ).
+        - Encapsular de forma correcta clases.
+	- Lectura de datos desde Teclado ( Scanner ).
         - Edita el método main para declarar:
             ▪ Crea una instancia y asigna los valores leídos desde el teclado a las variables de instancia.
             ▪ Declara un arreglo de objetos del tipo de dato que en tu proyecto haga sentido. La ubicación depende de tu problemática.
