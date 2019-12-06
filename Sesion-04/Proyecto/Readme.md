@@ -1,5 +1,5 @@
 
-`Java SE`> `Setencias de Control, Scanner & Arreglos` > `Sesión 04` > `Proyecto`
+`Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Proyecto`
 
 ## Universidad México
 
