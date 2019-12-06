@@ -1,11 +1,10 @@
- 
  `Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 02`
 
-## Reto 02 - Supermercado, Método Static
+## Ejemplo 02 - Supermercado, Constructor
 
 ### OBJETIVO
 
-- El alumno será capaz de declarar e invocar un método static.
+- El alumno será capaz de declarar e invocar un constructor.
 
 <hr>
 
@@ -21,44 +20,38 @@
 ##### Modificación de clases
 
 1. Abre la clase <b>Usuario</b>.
-2. Declara el método registroUsuario, requisitos:
+2. Justo después de la última línea de declaración de variables de instancia de la clase, declara el siguiente constructor:
 
-   <ul>
-        <li> Modficadores de acceso: public, static
-        <li> Tipo de retorno: Usuario
-        <li> Nombre: registroUsuario
-        <li> Lista argumentos: Sin contenido
-   </ul>
-           		                        
-3. Abre la clase <b>SupermercadoTest</b>
+		public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
+			this.nombre=nombre;
+			this.fechaCumpleaños=fechaCumpleaños;
+			this.direccion=direccion;
+			this.telefono=telefono;
+		}
+		
+   Como buena práctica, es recomendable declarar siempre el constructor default, decláralo:
    
-   Mueve el código que permite registrar un <b>Usuario</b>, al método recién creado en la clase <b>Usuario</b> llamado <b>registroSocio</b>
+   		public Usuario() {
+		
+		}
    
-4. Algunos cambios en el código:
+3. Invocando constructor.
 
-   Busca las líneas: 
-
-   		System.out.println("Éxito al registrar el usuario: " + u1.getUsuario());
-		System.out.println("*************************************************");
+   Busca las líneas donde declaraste la instancia de tipo Usuario, también ubica las líneas donde asignaste valores a las variables de instancia. Es decir:
    
-   Justo después de esa línea, agrega:
+  		Usuario u1 = new Usuario();
+		u1.setNombre(nombre);
+		u1.setFechaCumpleaños(fechaCumpleaños);
+		u1.setDireccion(direccion);
+		u1.setTelefono(telefono);	
    
-        return u1;
-        
-        Nota: 
-        - En la variable u1 guardamos el objeto de tipo Usuario creado en líneas anteriores.
-        - Al utilizar return, estamos enviando el objeto al bloque de código donde se invoco el método. (main)
+   Elimina este código.
    
-        
-##### Editando clase principal
+4. En donde fue eliminado el código, declara una instancia de tipo Socio utilizando el constructor recien creado. Es decir:
 
-1. Edita el método main, agrega el siguiente código:
+		Usuario u1 = new Usuario(nombre, fechaCumpleaños, direccion, telefono);				
 
-	        Usuario s = Usuario.registroSocio();
-
-   Nota: 
-        - Estamos invocando el método registroSocio (estático), econtrado en la clase Usuario. 
-        - Retorna la instancia de tipo Usuario creada.
+5. Ejecuta el código.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
 
