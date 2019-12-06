@@ -1,8 +1,8 @@
 
 public class Pedido {
-	private int numeroPedido;
-	private double montoFinal;
-	private Producto listaProducto[] = new Producto[10];
+	public int numeroPedido;
+	public double montoFinal;
+	public Producto listaProducto[] = new Producto[10];
 	
 	public int getNumeroPedido() {
 		return numeroPedido;
@@ -26,8 +26,5 @@ public class Pedido {
 	
 	public void setListaProducto(Producto[] listaProducto) {
 		this.listaProducto = listaProducto;
-	}
-	
-	//sumaCostos
-	//agregarElemento
+	}	
 }
