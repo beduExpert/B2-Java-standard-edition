@@ -1,5 +1,5 @@
 
-`Java SE`> `Sentencias Control, Scanner y Arreglos` > `Sesión 04` > `Postwork`
+`Java SE`> `Scanner, Arreglos & Diseño de una clase (métodos)` > `Sesión 04` > `Postwork`
 
 ## Scanner, Arreglos, Estructuras de control
 
