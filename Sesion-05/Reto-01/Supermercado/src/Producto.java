@@ -1,9 +1,10 @@
 
 public class Producto {
-	private String nombre;          //nombre
-	private int porcentajeImpuesto; //porcentaje de impuesto
-	private double costo;           //costo
-	private String marca;           //marca
+	
+	public String nombre;          //nombre
+	public int porcentajeImpuesto; //porcentaje de impuesto
+	public double costo;           //costo
+	public String marca;           //marca
 	
 	public String getNombre() {
 		return nombre;
@@ -35,7 +36,5 @@ public class Producto {
 	
 	public void setMarca(String marca) {
 		this.marca = marca;
-	}
-	
-	
+	}	
 }
