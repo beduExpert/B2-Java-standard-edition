@@ -1,17 +1,17 @@
  
 `Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 01`
 
-## Reto 01 - Supermercado, Encapsulación
+## Reto 01 - Supermercado, Método Static
 
 ### OBJETIVO
 
-- El alumno será capaz de aplicar encapsulación en las clases previamente declaradas.
+- El alumno será capaz de declarar e invocar un método static.
 
 <hr>
 
 #### REQUISITOS
 
-1. Contar con el proyecto Supermercado modificado en la última sesión.
+1. Contar con el proyecto <b>Supermercado</b> modificado en la última sesión.
 2. Abrir el proyecto en Eclipse.
 
 <hr>
@@ -20,31 +20,48 @@
 
 ##### Modificación de clases
 
-1. Encapsula y genera los métodos get & set de cada clase en el proyecto. ( Pedido, Producto y Usuario )
+1. Abre la clase <b>Usuario</b>.
+2. Declara el método registroUsuario, requisitos:
 
-   Nota: De al menos una clase utiiza el procedimiento manual, el resto puedes hacerlo con las herramientas de eclipse.
+   <ul>
+        <li> Modficadores de acceso: public, static
+        <li> Tipo de retorno: Usuario
+        <li> Nombre: registroUsuario
+        <li> Lista argumentos: Sin contenido
+   </ul>
+           		                        
+3. Abre la clase <b>SupermercadoTest</b>
    
-#### Editando clase principal
+   Mueve el código que permite registrar un <b>Usuario</b>, al método recién creado en la clase <b>Usuario</b> llamado <b>registroSocio</b>
+   
+4. Algunos cambios en el código:
 
-1. Abre la clase principal, observa que hay algunos errores en el código. Corresponden a las líneas donde se modificaban las propiedades del objeto Usuario de forma directa. (Ahora es imposible acceder a las características si no es vía la interfaz pública, <b>get & set</b>).
+   Busca las líneas: 
 
-2. Modifica las líneas con error para utlizar los métodos set's para asignar valores y get's para obtener valores del objeto Socio.
+   		System.out.println("Éxito al registrar el usuario: " + u1.getUsuario());
+		System.out.println("*************************************************");
+   
+   Justo después de esa línea, agrega:
+   
+        return u1;
+        
+        Nota: 
+        - En la variable u1 guardamos el objeto de tipo Usuario creado en líneas anteriores.
+        - Al utilizar return, estamos enviando el objeto al bloque de código donde se invoco el método. (main)
+   
+        
+##### Editando clase principal
 
-		Usuario u1 = new Usuario();
-		u1.setNombre(nombre);
-		u1.setFechaCumpleaños(fechaCumpleaños);
-		u1.setDireccion(direccion);
-		u1.setTelefono(telefono);
-		/***Calculando id***/
-		int indice1 = u1.getNombre().indexOf(' ');
-		u1.setUsuario(u1.getNombre().substring(0,indice1)+u1.getNombre().charAt(++indice1));
-		
-		System.out.println("Exito al registrar el usuario: " + u1.getUsuario());
-		
-3. Ejecuta el proyecto:
+1. Edita el método main, agrega el siguiente código:
+
+	        Usuario s = Usuario.registroSocio();
+
+   Nota: 
+        - Estamos invocando el método registroSocio (estático), econtrado en la clase Usuario. 
+        - Retorna la instancia de tipo Usuario creada.
 
 ![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
 
 <hr>
 
-14. Felicidades, ¡Lograste los objetivos!
+2. Felicidades, ¡Lograste los objetivos!
