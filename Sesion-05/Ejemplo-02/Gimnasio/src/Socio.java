@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Socio {
 	private String nombre;            //nombre
@@ -6,6 +7,43 @@ public class Socio {
 	private String telefono;          //telefono
 	private int edad;				  //edad
 	
+	 public Socio( String nombre, int numeroSocio, String correoElectronico, String telefono, int edad) {
+	 		this.nombre=nombre;
+	 		this.numeroSocio=numeroSocio;
+	 		this.correoElectronico=correoElectronico;
+	 		this.telefono=telefono;
+	 		this.edad=edad;
+	 	}
+	 
+	public static Socio registroSocio(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("************* Bienvenido al registro de socios: *************");
+		System.out.print("Ingresa el nombre del socio nuevo: ");
+		String nombre = input.next();
+		System.out.print("Ingresa el número de socio: ");
+		int numeroSocio = input.nextInt();
+		System.out.print("Ingresa el correo electrónico de socio: ");
+		String correoElectronico = input.next();
+		System.out.print("Ingresa el teléfono del socio: ");
+		String telefono=input.next();	
+		System.out.print("Ingresa tu edad: ");
+		int edad = input.nextInt();
+		if(edad < 18) {
+			System.out.println("************************************************************");
+			System.out.println("Problema - Solicitud rechazada...");
+			System.out.println("Edad mínima para registrarse: 18");
+			input.close();
+			return null;
+		}
+		input.close();
+		
+		 Socio s1 = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);				
+		
+		System.out.println("Exito al registrar socio número: " + s1.getNumeroSocio() );
+		return s1;
+		/*********************************************************************************/
+	}
+	 
 	public String getNombre(){
 		return nombre;
 	}
@@ -46,5 +84,3 @@ public class Socio {
 		this.edad=edad;
 	}
 }
-
-//actividades arreglo
