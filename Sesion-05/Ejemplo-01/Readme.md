@@ -1,7 +1,7 @@
 
 `Java SE`> `Diseño Clase` > `Sesión 05` > `Ejemplo 01`
 
-## Ejemplo 03 - Gimnasio, Método Static
+## Ejemplo 01 - Gimnasio, Método Static
 
 ### OBJETIVO
 
