@@ -1,61 +1,68 @@
+ 
+`Java SE`> `Diseño Clases` > `Sesión 05` > `Reto 03`
 
-`Java SE`> `Diseño Clase` > `Sesión 05` > `Reto 03`
-
-## Ejemplo 03 - Supermercado, Constructor
+## Reto 03 - Herencia
 
 ### OBJETIVO
 
-- El alumno será capaz de declarar e invocar un constructor.
+- Fortalecer el concepto de Herencia, implementando código.
 
 <hr>
 
 #### REQUISITOS
 
-1. Contar con el proyecto <b>Supermercado</b> modificado en la última sesión.
-2. Abrir el proyecto en Eclipse.
+1. Tener instalado Eclipse.
 
 <hr>
 
 #### DESARROLLO
 
-##### Modificación de clases
+##### Creación de Proyecto.
 
-1. Abre la clase <b>Usuario</b>.
-2. Justo después de la última línea de declaración de variables de instancia de la clase, declara el siguiente constructor:
+1. En Eclipse, crea un nuevo proyecto llamado <b>Figuras</b>
+   
+#### Declaración de clases.
 
-		public Usuario(String nombre, String fechaCumpleaños, String direccion, String telefono) {
-			this.nombre=nombre;
-			this.fechaCumpleaños=fechaCumpleaños;
-			this.direccion=direccion;
-			this.telefono=telefono;
+1. Declara la clase <b>Figura</b> en el proyecto.
+
+   Agrega una variable de instancia llamada color, tipo: <b>String</b>
+   
+	   public class Figura {
+	   	public String color;
 		}
 		
-   Como buena práctica, es recomendable declarar siempre el constructor default, decláralo:
-   
-   		public Usuario() {
-		
-		}
-   
-3. Invocando constructor.
+2. Declara la clase <b>Circulo</b>. 
 
-   Busca las líneas donde declaraste la instancia de tipo Usuario, también ubica las líneas donde asignaste valores a las variables de instancia. Es decir:
-   
-  		Usuario u1 = new Usuario();
-		u1.setNombre(nombre);
-		u1.setFechaCumpleaños(fechaCumpleaños);
-		u1.setDireccion(direccion);
-		u1.setTelefono(telefono);	
-   
-   Elimina este código.
-   
-4. En donde fue eliminado el código, declara una instancia de tipo Socio utilizando el constructor recien creado. Es decir:
+   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
+   - Agrega una variable de instancia llamada <b>radio</b>, de tipo <b>float</b> con el valor inicial <b>4.5f</b>.
+  
+			public class Circulo extends Figura {
+				public float radio=4.5f;
+			}
+			
+3. Declara la clase <b>Cuadrado</b>. 
 
-		Usuario u1 = new Usuario(nombre, fechaCumpleaños, direccion, telefono);				
+   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
+   - Agrega una variable de instancia llamada <b>lado</b>, de tipo <b>int</b> con el valor inicial <b>3</b>.
+   
+4. Declara la clase <b>Triangulo</b>. 
 
-5. Ejecuta el código.
+   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
+   - Agrega una variable de instancia llamada <b>altura</b>, de tipo <b>int</b> con el valor inicial <b>5</b>.
+   - Agrega una variable de instancia llamada <b>base</b>, de tipo <b>int</b> con el valor inicial <b>8</b>.
+   
+5. Declara la clase principal <b>FigurasTest</b>.
 
-![Console](https://user-images.githubusercontent.com/56565204/67644097-e6812a00-f8e3-11e9-8a57-64d333ad7c81.png)
+   - No olvides agregar el método <b>main</b>.
+   - Declara una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, al final, una de tipo <b>Cuadrado</b>.
+   - Declara una línea que imprima el mensaje: <b>Teminando de crear instancias...</b>
+   
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto.
+
+![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
 
 <hr>
 
-2. Felicidades, ¡Lograste los objetivos!
+Felicidades, ¡Lograste los objetivos!
