@@ -1,18 +1,18 @@
 
-`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 01`
+`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 02`
 
-## Herencia
+## Polimorfismo
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos el entendimiento del concepto de Herencia.
+- Fortalecer con ejemplos el entendimiento del concepto Polimorfismo.
 
 <hr>
 
 #### REQUISITOS
 
 1. Tener instalado eclipse.
-2. Descargar el proyecto <b>Herencia</b>, abrirlo desde eclipse.
+2. Consultar el proyecto <b>Herencia</b>.
 3. Abrir la clase <b>HerenciaPrueba</b>
 
 <hr>
@@ -24,9 +24,14 @@
    Conceptos a Demostar:
    
     <ul>
-      <li> Implementación de Herencia, <b>Superclase: Padre, Subclase: Hijo</b>
-      <li> Invocación de métodos <b>heredados</b> en Subclase.
-   </ul>
+        <li> Sobreescritura del método <b>baila</b> en la clase <b>Hijo</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Superclase</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Subclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>
+        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>   
+        <li> Desde la <b>Subclase</b>, invoca el método <b>baila</b> de la <b>Superclase</b> utilizando <b>super.baila()</b>
+        <li> Modifica el método <b>baila</b> de la <b>Superclase</b> agregando el modificador <b>final</b>
+        <li> Imprime un objeto de tipo <b>Padre</b>, observa el resultado. Sobreescribe método <b>toString</b>, prueba.
+   </ul>   
 
 2. Felicidades, lograste los objetivos!!
 
