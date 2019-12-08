@@ -1,63 +1,73 @@
- 
-`Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Reto 01`
 
-## Reto 01 - Herencia
+`Java SE`> `Polimorfismo & Collections` > `Sesión 06` > `Reto 01`
+
+## Reto 01 - Polimorfismo
 
 ### OBJETIVO
 
-- Fortalecer el concepto de Herencia, implementando código.
+- Fortalecer el concepto de Polimorfismo, implementando código.
 
 <hr>
 
 #### REQUISITOS
 
 1. Tener instalado Eclipse.
+3. Abrir el proyecto <b>Figuras</b> trabajado en el <b>Reto 03, Sesión 5</b>.
 
 <hr>
 
 #### DESARROLLO
-
-##### Creación de Proyecto.
-
-1. En Eclipse, crea un nuevo proyecto llamado <b>Figuras</b>
    
-#### Declaración de clases.
+#### Modificación de clases.
 
-1. Declara la clase <b>Figura</b> en el proyecto.
+1. Abre la clase <b>Figura</b>.
 
-   Agrega una variable de instancia llamada color, tipo: <b>String</b>
-   
-	   public class Figura {
-	   	public String color;
-		}
-		
-2. Declara la clase <b>Circulo</b>. 
-   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
-   - Agrega una variable de instancia llamada <b>radio</b>, de tipo <b>float</b> con el valor inicial <b>4.5f</b>.
+   - Declara el método <b>calculaArea</b>.
+   - En el, imprime el mensaje: <b>Método Clase Padre, útil para calcula areas...</b>
   
-			public class Circulo extends Figura {
-				public float radio=4.5f;
-			}
-			
-3. Declara la clase <b>Cuadrado</b>. 
-   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
-   - Agrega una variable de instancia llamada <b>lado</b>, de tipo <b>int</b> con el valor inicial <b>3</b>.
+  			public void calculaArea() {
+				System.out.println("Método Clase Padre, útil para calcula areas...");
+				}
+
+2. Abre la clase <b>Circulo</b>.
+
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Circulo</b>.
+   - Implementa el código para calcular el área de un Círculo.
    
-4. Declara la clase <b>Triangulo</b>. 
-   - No olvides utilizar la palabra reservada <b>extends</b> para indicar que es <b>Subclase de Figura</b>.
-   - Agrega una variable de instancia llamada <b>altura</b>, de tipo <b>int</b> con el valor inicial <b>5</b>.
-   - Agrega una variable de instancia llamada <b>base</b>, de tipo <b>int</b> con el valor inicial <b>8</b>.
+   			public void calculaArea(){
+				System.out.println("Calculando área Círculo: " + Math.PI * Math.pow(radio,2) );
+				}  
+		
+3. Abre la clase <b>Cuadrado</b>.
+
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Cuadrado</b>.
+   - Implementa en el, código para calcular el área de un Cuadrado.
+      		 
+4. Abre la clase <b>Triangulo</b>.
+
+   - Sobreescribe el método <b>calculaArea</b> de la clase Figura, en la clase actual <b>Triangulo</b>.
+   - Implementa en el, código para calcular el área de un Triángulo.
    
-5. Declara la clase principal <b>FigurasTest</b>.
-   - No olvides agregar el método <b>main</b>.
-   - Declara una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, al final, una de tipo <b>Cuadrado</b>.
-   - Declara una línea que imprima el mensaje: <b>Teminando de crear instancias...</b>
+5. Abre la clase <b>FiguraTest</b>.
+
+   - En el método <b>main</b> cuentas con una instancia de tipo <b>Circulo</b>, otra de tipo <b>Triangulo</b>, y una de tipo <b>Cuadrado</b>.
+   - Elimina la línea que imprime un mensaje.
+   - De la instancia de tipo <b>Circulo</b>, <b>Triangulo</b> y <b>Cuadrado</b>, invoca el método para calcular el área de cada objeto.
+  
+  			public static void main(String[] args) {
+				Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
+				Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
+				Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
+				c.calculaArea();
+				t.calculaArea();	
+				cu.calculaArea();
+				}
    
 #### Ejecutando proyecto
 
-1. Ejecuta tu proyecto.
+1. Ejecuta tu proyecto, observa que el mismo método <b>calculaArea()</b>, se ejecutó de forma distinta según el tipo de objeto que lo invocaba.
 
-![Console](https://user-images.githubusercontent.com/56565204/67800533-04b66980-fa4d-11e9-82b2-19c9b1949086.png)
+![Console](https://user-images.githubusercontent.com/56565204/67805076-e0ab5600-fa55-11e9-831d-957afc6302b5.png)
 
 <hr>
 
