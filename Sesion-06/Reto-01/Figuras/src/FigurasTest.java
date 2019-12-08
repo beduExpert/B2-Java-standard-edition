@@ -6,7 +6,9 @@ public class FigurasTest {
 		Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
 		Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
 		Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
-		System.out.println("Teminando de crear instancias...");
+		c.calculaArea();
+		t.calculaArea();
+		cu.calculaArea();
 	}
 
 }
