@@ -1,5 +1,5 @@
 
-`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 02`
+`Java SE`> `Polimorfismo y Collections` > `Sesión 06` > `Ejemplo 01`
 
 ## Polimorfismo
 
