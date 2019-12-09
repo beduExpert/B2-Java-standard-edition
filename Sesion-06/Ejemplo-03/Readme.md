@@ -1,4 +1,4 @@
-`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 03`
+`Java SE`> `Polimorfismo & Collections` > `Sesión 06` > `Ejemplo 03`
 
 ## Herencia / Constructores
 
