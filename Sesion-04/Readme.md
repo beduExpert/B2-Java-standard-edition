@@ -1,17 +1,16 @@
 
-`Java SE`> `Sentencias Control, Scanner y Arreglos` > `Sesión 04`
+`Java SE`> `Scanner, Arreglos, Diseño Clase(métodos)` > `Sesión 04`
 
-## Sentencias Control, Scanner y Arreglos
+## Scanner, Arreglos, Diseño Clase(métodos)
 
 ### OBJETIVOS 
 
 <ul>
   <li type= disc> El alumno será capaz de: 
   <ul>
-     <li> Identificar para que es utilizada una estructura de control.
-     <li> Programar e identificar estructuras como if, if/else, while, do-while y switch.
      <li> Trabajar con la clase Scanner.
      <li> Arreglos.
+     <li> Declarar e identificar métodos, así como entender el concepto de sobrecarga.
   </ul>
 </ul>
 
