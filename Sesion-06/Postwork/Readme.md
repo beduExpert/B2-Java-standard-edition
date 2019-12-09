@@ -1,7 +1,7 @@
 
-`Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Postwork`
+`Java SE`> `Polimorfismo & Collections` > `Sesión 06` > `Postwork`
 
-## Herencia & Polimorfismo
+## Polimorfismo 
 
 ### OBJETIVO
 
