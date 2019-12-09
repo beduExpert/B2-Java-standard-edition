@@ -34,9 +34,24 @@
 
    - Solución: Aplicar <b>instanceof</b>(validación de tipo de instancia) & <b>Casting</b>.
    
+   			if( f instanceof Circulo ) {
+				Circulo c = (Circulo)f;
+				System.out.println("El radio es: " + c.radio);
+			}else {
+				if( f instanceof Triangulo ) {
+					Triangulo t = (Triangulo)f;
+					System.out.println("La base del Triángulo es: " + t.altura + " , Altura del Triángulo es: " + t.base);
+				}else {
+					if( f instanceof Cuadrado ) {
+						Cuadrado c = (Cuadrado)f;
+						System.out.println("El lado del Cuadrado es: " + c.lado);
+					}
+				}
+			}
+			
 #### Ejecutando proyecto
 
-1. Ejecuta tu proyecto, observa que puedes acceder a las propiedades particulares de cada objeto, después de validar la instancia <b>(instancof)</b> y después de aplicar <b>Casting</b>
+1. Ejecuta tu proyecto, observa que puedes acceder a las propiedades particulares de cada objeto, después de validar la instancia <b>(instanceof)</b> y después de aplicar <b>Casting</b>
 
 ![Console](https://user-images.githubusercontent.com/56565204/70399466-de8bce00-19e9-11ea-8b4c-4eefa0930500.png)
 
