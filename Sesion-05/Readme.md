@@ -21,5 +21,5 @@
 - [Ejemplo 03](Ejemplo-03) - Herencia
 - [Reto 01](Reto-01) -  Supermercado, Método static. 
 - [Reto 02](Reto-02) - Supermercado, Constructor.
-- [Reto 03](Reto-03) - Herencia
+- [Reto 03](Reto-03) - Herencia-Figuras
 - [Proyecto Final](Proyecto)
