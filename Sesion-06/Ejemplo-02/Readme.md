@@ -1,38 +1,44 @@
 
-`Java SE`> `Herencia y Polimorfismo` > `Sesión 06` > `Ejemplo 02`
+`Java SE`> `Polimorfismo & Collections` > `Sesión 06` > `Ejemplo 02`
 
-## Polimorfismo
+## Ejemplo 02 - instanceof
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos el entendimiento del concepto Polimorfismo.
+- Fortalecer el concepto de Polimorfismo, implementando código.
 
 <hr>
 
 #### REQUISITOS
 
-1. Tener instalado eclipse.
-2. Descargar el proyecto <b>Herencia</b>, abrirlo desde eclipse.
-3. Abrir la clase <b>HerenciaPrueba</b>
+1. Tener instalado Eclipse.
+3. Abrir el proyecto <b>Figuras</b> trabajado en el <b>Reto 01</b>.
 
 <hr>
 
 #### DESARROLLO
-
-1. En la clase <b>HerenciaPrueba</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
-
-   Conceptos a Demostar:
    
-    <ul>
-        <li> Sobreescritura del método <b>baila</b> en la clase <b>Hijo</b>
-        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Superclase</b>
-        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Subclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>
-        <li> Invocación de método <b>baila</b> desde una referencia de tipo <b>Superclase</b> que tiene asignada una instancia de tipo <b>Subclase</b>   
-        <li> Desde la <b>Subclase</b>, invoca el método <b>baila</b> de la <b>Superclase</b> utilizando <b>super.baila()</b>
-        <li> Modifica el método <b>baila</b> de la <b>Superclase</b> agergando el modificador <b>final</b>
-        <li> Imprime un objeto de tipo <b>Padre</b>, observa el resultado. Sobreescribe método <b>toString</b>, prueba.
-   </ul>   
+#### Comprobando necesidad de aplicación del operador instanceof.
 
-2. Felicidades, lograste los objetivos!!
+1. Abre la clase <b>FiguraTest</b>.
 
-![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
+   - Comenta todas las líneas donde es invocado el método <b>calculaArea</b> de cada instancia.
+   - Observa y analiza el método <b>calculadorAreas()</b>. Método polimórfico...
+   - Invoca el método polimórfico, envíandole una instancia de tipo Círculo.
+   
+2. Intenta imprimir el valor de la propiedad radio del Círculo enviado como argumento.
+   
+   			System.out.println("El valor del radio es: " + f.radio );  
+		
+3. El punto anterior generará un error, no puedes acceder a las características de <b>Circulo</b> desde una referencia de tipo <b>Figura.</b>
+
+   - Solución: Aplicar <b>instanceof</b>(validación de tipo de instancia) & <b>Casting</b>.
+   
+#### Ejecutando proyecto
+
+1. Ejecuta tu proyecto, observa que puedes acceder a las propiedades particulares de cada objeto, después de validar la instancia <b>(instancof)</b> y después de aplicar <b>Casting</b>
+
+
+<hr>
+
+Felicidades, ¡Lograste los objetivos!
