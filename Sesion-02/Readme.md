@@ -1,16 +1,16 @@
 
 `Java SE`> `¿Qué es Java` > `Sesión 02`
 
-## Programación Orientada a Objetos vs Java
+## Programación Orientada a Objetos vs Java & Tipos Datos
 
 ### OBJETIVOS 
 
 <ul>
   <li type= disc> El alumno será capaz de comprender: 
   <ul>
-   <li> El proceso de identificación de objetos en una problemática.
    <li> Declaración de clases.
    <li> Declaración de instancias.  
+   <li> Los tipos de datos que existen.
 </ul>
 
 #### ORGANIZACION DE LA CLASE 
