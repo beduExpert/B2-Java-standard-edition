@@ -6,7 +6,8 @@ public class AlgoritmosOrdenamiento {
 		int numeros[] = {5, 7, 2, 15, 3};
 		//seleccion(numeros);
 		//burbuja(numeros);
-		//combinacion(numeros);
+		combinacion(numeros);
+		
 	}
 
 	public static void burbuja(int numeros[]){

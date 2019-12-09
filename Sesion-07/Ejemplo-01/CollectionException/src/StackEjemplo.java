@@ -4,9 +4,9 @@ public class StackEjemplo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Stack<String> s = new Stack<String>();
+		Stack<String> s = new Stack<String>(); //1.Declaración de objeto de tipo Stack.
 		
-		System.out.println("¿Está vacía la pila? " + s.empty());
+		System.out.println("¿Está vacía la pila? " + s.empty()); //2. Probar el método empty.
 		System.out.println();
 		
 		System.out.println("Operaciones push...");
