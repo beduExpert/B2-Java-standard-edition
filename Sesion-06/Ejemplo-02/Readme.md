@@ -38,6 +38,7 @@
 
 1. Ejecuta tu proyecto, observa que puedes acceder a las propiedades particulares de cada objeto, después de validar la instancia <b>(instancof)</b> y después de aplicar <b>Casting</b>
 
+![Console](https://user-images.githubusercontent.com/56565204/70399466-de8bce00-19e9-11ea-8b4c-4eefa0930500.png)
 
 <hr>
 
