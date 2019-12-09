@@ -29,6 +29,7 @@ public class ArrayListPrueba {
 	    groupNumbers.add(30);
 	    groupNumbers.add(5);
 	    groupNumbers.add(19);
+
 		
 		System.out.println("Imprimiendo ArrayList: " + groupNumbers);
 	    System.out.println("Tamaño ArrayList: " + groupNumbers.size());		
@@ -43,25 +44,25 @@ public class ArrayListPrueba {
 		System.out.println("Imprimiendo con valor repetido: " + groupNumbers);
 		
 		//4. for-each
-		/*********************** Valor repetido en ArrayList ***************/
+		/*********************** Iterando con for-each ***************/
 
 		int resultado=0;
-		for(int x : groupNumbers) {
+		/*for(int x : groupNumbers) {
 			resultado += x;
 		}
-		System.out.println("Resultado suma, for-each: " + resultado);
+		System.out.println("Resultado suma, for-each: " + resultado);*/
 
 		//5. Iterator & ListIterator
-		/***************************** Iterators ***************************/
+		/***************************** Iterator ***************************/
 		
-		resultado=0;
+		/*resultado=0;
 		Iterator<Integer> i = groupNumbers.iterator();
 		while(i.hasNext()) {
 			resultado += i.next();
 		}
-		System.out.println("Resultado suma, iterator: " + resultado);
+		System.out.println("Resultado suma, iterator: " + resultado);*/
 		
-		/***************************** Iterators ***************************/
+		/***************************** List Iterator ***************************/
 		
 		resultado=0;
 		ListIterator<Integer> li = groupNumbers.listIterator();
