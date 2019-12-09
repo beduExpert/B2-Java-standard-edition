@@ -31,6 +31,7 @@
         <li> Desde la <b>Subclase</b>, invoca el método <b>baila</b> de la <b>Superclase</b> utilizando <b>super.baila()</b>
         <li> Modifica el método <b>baila</b> de la <b>Superclase</b> agregando el modificador <b>final</b>
         <li> Imprime un objeto de tipo <b>Padre</b>, observa el resultado. Sobreescribe método <b>toString</b>, prueba.
+        <li> Agregar la notación <b>@Override</b> en los métodos sobreescritos. Explicar qué es una anotación.
    </ul>   
 
 2. Felicidades, lograste los objetivos!!
