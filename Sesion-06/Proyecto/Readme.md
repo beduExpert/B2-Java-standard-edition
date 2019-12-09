@@ -1,5 +1,5 @@
 
-`Java SE`> `Herencia & Polimorfismo` > `Sesión 06` > `Proyecto`
+`Java SE`> `Polimorfismo & Collections` > `Sesión 06` > `Proyecto`
 
 ## Universidad México
 
