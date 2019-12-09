@@ -1,18 +1,19 @@
 
 
-`Java SE`> `¿Qué es Java` > `Sesión 03`
+`Java SE`> `API, Variables & Sentencias Control` > `Sesión 03`
 
-## Tipos de Datos, Variables & API
+## Variables, API, Sentencias Control
 
 ### OBJETIVOS 
 
 <ul>
   <li type= disc> El alumno será capaz de comprender: 
   <ul>
-   <li> Los tipos de datos que existen.
    <li> Como consultar el API de Java, aplicado a Math & String
    <li> Manejar la clase String.
    <li> Declaración de variables de instancia.  
+   <li> Identificar para que es utilizada una estructura de control.
+   <li> Programar e identificar estructuras como if, if/else, while, do-while y switch.
 </ul>
 
 #### ORGANIZACION DE LA CLASE 
