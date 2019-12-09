@@ -15,7 +15,7 @@
   <ul>
     <li> Compilado y Ejecución de un proyecto
   </ul>
-  <ul> El proceso de identificación de objetos en una problemática.
+   <li type= disc> El proceso de identificación de objetos en una problemática.
 </ul>
 
 #### ORGANIZACION DE LA CLASE 
