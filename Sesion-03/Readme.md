@@ -22,7 +22,7 @@
 - [Ejemplo 02](Ejemplo-02) -  Gimnasio, Variables Instancia 
 - [Ejemplo 03](Ejemplo-03) - Estructuras de Control ( if, if/else, Operador ternario )
 - [Ejemplo 04](Ejemplo-04) - Estructuras de Control ( switch )
-- [Ejemplo 03](Ejemplo-05) - Estructuras de Control ( Ciclos - for, while, do/while ) 
+- [Ejemplo 04](Ejemplo-05) - Estructuras de Control ( Ciclos - for, while, do/while ) 
 - [Reto 01](Reto-01) - Supermercado, Variables Instancia
 - [Reto 02](Reto-02) - Ciclos
 - [Proyecto Final](Proyecto)
