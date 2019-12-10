@@ -1,5 +1,5 @@
 
-`Java SE`> `Paquetes & Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 03`
+`Java SE`> `Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 03`
 
 ## Interfaces
 
@@ -12,7 +12,7 @@
 #### REQUISITOS
 
 1. Tener instalado eclipse.
-2. Descargar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
+2. Consultar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
 3. Trabajar con el paquete <b>com.proyecto._interfaces</b>.
 
 #### DESARROLLO
@@ -22,13 +22,11 @@
    Conceptos a Demostar:
    
     <ul>
-      <li> Observa y analiza el código de la interfaz <b>Flyer</b>, observa los métodos ahí declarados.
-      <li> Observa y analiza el código de la clase <b>Avion y Helicoptero</b>.
-      <li> Observa y analiza el código de la clase <b>Animal</b>.
-      <li> Observa y analiza el código de la clase <b>Superman</b>, esta clase, <b>hereda</b> el comportamiento <b>comer</b> de la clase <b>Animal</b> e <b>implementa</b> el comportamiento <b>despega, aterriza, volando</b> de la <b>interfaz Flyer</b>. <b>Demostración de simulación de herencia mútliple</b>.
-      <li> En la clase <b>FlyerTest</b>, en el método <b>main</b>, declara una instancia de tipo <b>Avion, Helicoptero & Superman</b>.
-      <li> En la clase <b>FlyerTest</b>, observa y analiza el código del método aeropuerto. Método polimórfico...
-      <li> Desde el método <b>main</b>, invoca el método aeropuerto enviando como argumentos distintos tipos de objetos de tipo <b>Flyer</b>
+      <li> Invoca el método <b>static</b> de la interfaz <b>Flyer</b>.
+      <li> Crea una instancia de una clase que implemente la interfaz <b>Flyer</b>.
+      <li> Invoca lo métodos implementados a partir de la interfaz <b>Flyer</b>.
+      <li> Invoca el método <b>default</b> de la interfaz <b>Flyer</b>.
+      <li> Desde la interfaz <b>Flyer</b>, invoca el método privado dentro del método con el modificaodr <b>default</b> en la interfaz.      
       <li> Ejecución proyecto.
    </ul>
 
