@@ -1,5 +1,5 @@
  
-`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Reto 01`
+`Java SE`> `ArrayList & Exceptions / Paquetes` > `Sesión 07` > `Reto 01`
 
 ## Reto 01 - ArrayList
 
