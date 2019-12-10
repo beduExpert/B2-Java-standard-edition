@@ -1,24 +1,20 @@
 
-`Java SE`> `Paquetes & Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 01`
 
-## Paquetes
+`Java SE`> `Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 01`
+
+## Clases Abstractas
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos los conceptos relacionados a manipulación de paquetes.
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de clases Abstractas.
 
 <hr>
 
 #### REQUISITOS
 
 1. Tener instalado eclipse.
-2. Descargar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
-3. Abrir la clase <b>Banco</b> encontrada en el paquete: <b>com.proyecto.dir2</b>.
-   
-   - El proyecto está compuesto por un par de paquetes: <b>com.proyecto.dir1</b>, <b>com.proyecto.dir2</b>. 
-   - Desde el paquete <b>com.proyecto.dir1</b>, intentaremos invocar clases encontradas en el paquete <b>com.proyecto.dir2</b>.
-   
-<hr>
+2. Consultar el proyecto<b>PaquetesDiseñoClases</b>.
+3. Abrir la clase <b>ProductoTest</b> encontrada en el paquete <b>com.proyecto._abstract</b>.
 
 #### DESARROLLO
 
@@ -27,11 +23,14 @@
    Conceptos a Demostar:
    
     <ul>
-      <li> Intento de invocar desde la clase <b>Banco</b>, una clase encontrada en otro paquete.
-      <li> Resolviendo invocando desde la clase <b>Banco</b>, utilizando el <b>qualified name</b>.
-      <li> Resolviendo importando paquete desde la clase <b>Banco</b>.
-      <li> Intentando acceder a dos clases distintas desde la clase <b>Banco</b>.
-      <li> Demostración de como crear un nuevo paquete. <b>com.proyecto.nuevo</b>
+      <li> Creación de instancia de la clase <b>Product</b>, en la clase <b>ProductoTest</b>.
+      <li> Convirtiendo clase <b>Product</b>, a clase abstracta.
+      <li> Intento de creación de instancia de la clase <b>Product</b>.
+      <li> Creación de las subclases de la clase <b>Product</b>: <b>Refresco</b> y <b>Medicina</b>
+      <li> Implementación del método abstracto declardo en clase <b>Product</b>, <b>calculandoImpuestos</b> en clase <b>Refresco</b> y <b>Medicina</b>.
+      <li> Creación de instancias de tipo <b>Refresco</b> y <b>Medicina</b>.
+      <li> Implementación de un método con <b>argumentos polimórficos</b> y uso de opeardor <b>instanceof</b>.
+      <li> Ejecución proyecto.
    </ul>
 
 2. Felicidades, lograste los objetivos!!
