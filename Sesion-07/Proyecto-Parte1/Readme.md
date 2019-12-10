@@ -1,5 +1,5 @@
  
-`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Proyecto-Parte1`
+`Java SE`> `ArrayList & Exceptions / Paquetes` > `Sesión 07` > `Proyecto-Parte1`
 
 ## UniversidadMexico (Parte 1) - ArrayList
 
