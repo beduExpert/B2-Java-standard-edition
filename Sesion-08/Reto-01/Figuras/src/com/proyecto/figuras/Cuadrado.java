@@ -4,7 +4,7 @@ public class Cuadrado extends Figura {
 	public int lado=3;
 	
 	public Cuadrado() {
-		System.out.println("Constructor Cuadrado");
+		System.out.println("Constructor Cuadrado...");
 	}
 	
 	public void calculaArea() {

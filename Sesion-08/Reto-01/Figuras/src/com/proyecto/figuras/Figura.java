@@ -1,14 +1,12 @@
 package com.proyecto.figuras;
 
-public class Figura {
+public abstract class Figura {
 	public String color;
 	
 	public Figura() {
-		System.out.println("Constructor Figura...");
+		System.out.print("Constructor Figura...");
 	}
 	
 	
-	public void calculaArea() {
-		System.out.println("Método Clase Padre, útil para calcula areas...");
-	}
+	public abstract void calculaArea();
 }
