@@ -1,7 +1,7 @@
 
-`Java SE`> `Paquetes & Conceptos avanzados de Diseño de Clases` > `Sesión 08`
+`Java SE`> `Conceptos avanzados de Diseño de Clases` > `Sesión 08`
 
-## Paquetes & Conceptos avanzados de Diseño de Clases
+## Conceptos avanzados de Diseño de Clases
 
 ### OBJETIVOS 
 
