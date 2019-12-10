@@ -1,7 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +9,6 @@ public class Socio {
 	private int edad;				  //edad
 	private final int maxActividades=3; 	  //máximo actividades
 	private ArrayList<Actividad> actividades = new ArrayList<Actividad>();
-	private static Path p = Paths.get("archivo.txt");
 	
 	
 	public Socio(String nombre, int numeroSocio, String correoElectronico, String telefono, int edad) {
@@ -22,10 +17,6 @@ public class Socio {
 		this.correoElectronico=correoElectronico;
 		this.telefono=telefono;
 		this.edad=edad;
-	}
-	
-	public String toString() {
-		return getNombre() + " " + getNumeroSocio();
 	}
 	
 	public ArrayList<Actividad> getActividades() {
@@ -48,33 +39,35 @@ public class Socio {
 		}
 	}
 	
-	public static ArrayList<Socio> registroSocio(){
+	public static Socio registroSocio(){
 		/************************* Registro Socio ****************************/		
 		System.out.println("************* Bienvenido al registro de socios: *************");
-		ArrayList<Socio> socios = new ArrayList<Socio>();
-		try {
-			Scanner input = new Scanner(new File(p.toString()));
-			while( input.hasNext() ) {
-				String nombre = input.next();
-				int numeroSocio = input.nextInt();
-				String correoElectronico = input.next();
-				String telefono=input.next();
-				int edad = input.nextInt();
-				if(edad < 18) {
-					System.out.println("************************************************************");
-					System.out.println("Problema - Solicitud rechazada...");
-					System.out.println("Error, edad mínima para registrarse: 18");
-					input.close();
-				}
-				Socio s = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);				
-				System.out.println("Éxito al registrar socio número: " + s.getNumeroSocio());
-				socios.add(s);
-				System.out.println("************************************************************");			
-			}
-		}catch(FileNotFoundException f) {
-			System.out.println("Archivo no encontrado...");
+		Scanner input = new Scanner(System.in);
+		System.out.print("Ingresa el nombre del socio nuevo: ");
+		String nombre = input.next();
+		System.out.print("Ingresa el número de socio: ");
+		int numeroSocio = input.nextInt();
+		System.out.print("Ingresa el correo electrónico de socio: ");
+		String correoElectronico = input.next();
+		System.out.print("Ingresa el teléfono del socio: ");
+		String telefono=input.next();	
+		System.out.print("Ingresa tu edad: ");
+		int edad = input.nextInt();
+		if(edad < 18) {
+			System.out.println("************************************************************");
+			System.out.println("Problema - Solicitud rechazada...");
+			System.out.println("Error, edad mínima para registrarse: 18");
+			input.close();
+			//return;	
+			return null; //Cambio debido al tipo de retorno del método.
 		}
-		return socios;
+		input.close();
+		
+		Socio s1 = new Socio(nombre, numeroSocio, correoElectronico, telefono, edad);				
+		System.out.println("Éxito al registrar socio número: " + s1.getNumeroSocio());
+		System.out.println("************************************************************");
+		
+		return s1;			
 	}
 	
 	public String getNombre(){
