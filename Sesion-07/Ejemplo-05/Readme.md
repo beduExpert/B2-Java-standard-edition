@@ -1,7 +1,7 @@
 
 `Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Ejemplo 05`
 
-## Ejemplo 04 - Gimnasio (Parte 2) - Exceptions
+## Ejemplo 05 - Gimnasio (Parte 2) - Exceptions
 
 ### OBJETIVO
 
