@@ -24,8 +24,9 @@ El objetivo de este ejercico es practicar la lectura de un archivo con un Scanne
 
 1. Declara la clase <b>PruebaScanner</b>.
 
-2. En el proyecto se agregó un file llamado: <b>archivo</b>.
+2. En el respositorio actual, se agregó un file llamado: <b>archivo</b>.
 
+   - Agrega a tu proyecto este archivo con el mismo contenido.
    - Declara un variable de tipo que haga referencia al archivo en el proyecto.
    
    			Path p = Paths.get("archivo");
