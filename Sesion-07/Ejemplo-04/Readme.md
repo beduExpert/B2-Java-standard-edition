@@ -1,5 +1,5 @@
 
-`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Ejemplo 04`
+`Java SE`> `ArrayList & Exceptions / Paquetes` > `Sesión 07` > `Ejemplo 04`
 
 ## Ejemplo 04 - Gimnasio (Parte 1) - ArrayList
 
