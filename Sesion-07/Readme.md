@@ -20,8 +20,8 @@
 - [Ejemplo 01](Ejemplo-01) - ArrayList.
 - [Ejemplo 02](Ejemplo-02) - Exceptions.
 - [Ejemplo 03](Ejemplo-03) - Paquetes.
-- [Ejemplo 03](Ejemplo-04) - Gimnasio - ArrayList
-- [Ejemplo 04](Ejemplo-05) - Gimnasio - Exceptions
+- [Ejemplo 04](Ejemplo-04) - Gimnasio - ArrayList
+- [Ejemplo 05](Ejemplo-05) - Gimnasio - Exceptions
 - [Reto 01](Reto-01) - ArrayList.
 - [Reto 02](Reto-02) - Exceptions.
 - [Reto 03](Reto-03) - Paquetes.
