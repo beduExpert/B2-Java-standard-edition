@@ -1,34 +1,34 @@
 
-`Java SE`> `Paquetes & Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 02`
+`Java SE`> `Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Ejemplo 02`
 
-## Clases Abstractas
+## Interfaces
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos los conceptos relacionados a manipulación de clases Abstractas.
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de interfaces.
 
 <hr>
 
 #### REQUISITOS
 
 1. Tener instalado eclipse.
-2. Descargar el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
-3. Abrir la clase <b>ProductoTest</b> encontrada en el paquete <b>com.proyecto._abstract</b>.
+2. Consulta el proyecto <b>PaquetesDiseñoClases</b>, abrirlo desde eclipse.
+3. Trabajar con el paquete <b>com.proyecto._interfaces</b>.
 
 #### DESARROLLO
 
-1. En la clase <b>Banco</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
+1. Abre la clase <b>FlyerTet</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
    Conceptos a Demostar:
    
     <ul>
-      <li> Creación de instancia de la clase <b>Product</b>, en la clase <b>ProductoTest</b>.
-      <li> Convirtiendo clase <b>Product</b>, a clase abstracta.
-      <li> Intento de creación de instancia de la clase <b>Product</b>.
-      <li> Creación de las subclases de la clase <b>Product</b>: <b>Refresco</b> y <b>Medicina</b>
-      <li> Implementación del método abstracto declardo en clase <b>Product</b>, <b>calculandoImpuestos</b> en clase <b>Refresco</b> y <b>Medicina</b>.
-      <li> Creación de instancias de tipo <b>Refresco</b> y <b>Medicina</b>.
-      <li> Implementación de un método con <b>argumentos polimórficos</b> y uso de opeardor <b>instanceof</b>.
+      <li> Observa y analiza el código de la interfaz <b>Flyer</b>, observa los métodos ahí declarados.
+      <li> Observa y analiza el código de la clase <b>Avion y Helicoptero</b>.
+      <li> Observa y analiza el código de la clase <b>Animal</b>.
+      <li> Observa y analiza el código de la clase <b>Superman</b>, esta clase, <b>hereda</b> el comportamiento <b>comer</b> de la clase <b>Animal</b> e <b>implementa</b> el comportamiento <b>despega, aterriza, volando</b> de la <b>interfaz Flyer</b>. <b>Demostración de simulación de herencia mútliple</b>.
+      <li> En la clase <b>FlyerTest</b>, en el método <b>main</b>, declara una instancia de tipo <b>Avion, Helicoptero & Superman</b>.
+      <li> En la clase <b>FlyerTest</b>, observa y analiza el código del método aeropuerto. Método polimórfico...
+      <li> Desde el método <b>main</b>, invoca el método aeropuerto enviando como argumentos distintos tipos de objetos de tipo <b>Flyer</b>
       <li> Ejecución proyecto.
    </ul>
 
