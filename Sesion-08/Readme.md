@@ -8,7 +8,6 @@
 <ul>
   <li type= disc> El alumno será capaz de: 
   <ul>
-     <li> Interpretar e implementar el uso de paquetes.
      <li> Comprender algunos conceptos avanzados de Diseño de Clases: Clases Abstractas & Interfaces  
   </ul>
 </ul>
