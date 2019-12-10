@@ -1,47 +1,75 @@
- 
-`Java SE`> `Paquetes & Diseño Clases: Clases Abstractas & Interfaces` > `Sesión 08` > `Reto 01`
 
-## Reto 01 - Paquetes
+`Java SE`> `Diseño de Clases: Clases Abstractas e Interfaces` > `Sesión 08` > `Reto 01`
+
+## Reto 01 - Clases Abstractas
 
 ### OBJETIVO
 
-- Fortalecer con ejemplos los conceptos relacionados a manipulación de paquetes.
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de clases abstractas.
+
 <hr>
 
 #### REQUISITOS
 
 1. Tener instalado Eclipse.
-2. Contar con el proyecto <b>Figuras</b>, trabajado en la <b>Sesión 6</b>
+2. Contar con el proyecto <b>Figuras</b>, trabajado en el <b>Reto 03, Sesión-07</b>
 
 <hr>
 
 #### DESARROLLO
 
-##### Modificación del Proyecto.
+##### Modificación de Proyecto.
 
-1. Abre el proyecto llamado <b>Figuras</b> trabajado durante la <b>Sesión 6</b>
+1. Abre el proyecto llamado <b>Figuras</b>, trabajado en el <b>Reto 03, Sesión-07</b>.
    
 #### Modificación de clases.
 
-1. Crea un paquete nuevo, nombre: <b>com.proyecto.figuras</b>
-2. Crea un paquete nuevo, nombre: <b>com.proyecto.principal</b>		
-3. Con el mouse, arrastra la clase <b>Figura</b> y sus subclases al paquete <b>com.proyecto.figuras</b>
-4. Abre la clase <b>Circulo</b>, asegurate de que la primer línea tenga la declaración de paquete correcta.
+1. Abre la clase <b>FigurasTest</b>:
 
-		package com.proyecto.figuras;
+	- En el método <b>main</b>, encontrarás una serie de instancias creadas previamente. 
+	- Intenta agreagar una instancia más de tipo <b>Figura</b>. ¿Es esto posible?	
 
-5. Repite el paso 4, con la clase <b>Cuadrado</b>, <b>Triangulo</b>, <b>Figura</b>
-6. Con el mouse, arrastra la clase <b>FigurasTest</b> al paquete <b>com.proyecto.principal</b>	
-7. Abre la clase <b>FiguraTest</b>, asegurate de que la primer línea tenga la declaración de paquete correcta.
-8. En la clase <b>FiguraTest</b>, ubica las líneas que importan las clases Circulo, Cuadrado, Triangulo.
-9. Elimina las líneas indicadas en el punto 8.
-10. Agrega una sola línea <b>import</b> que te permita trabajar con las clase Circulo, Cuadrado, Triangulo.
+2. Modificación de la clase <b>Figura</b>
+
+	- Agrega el modificador <b>abstract</b> a la clase <b>Figura</b>.
+	- Convierte el método <b>calculaArea</b> de <b>concrecto a abstracto</b>.
+		
+			package com.proyecto.figuras;
+		
+			public abstract class Figura {
+				public String color;
+
+				public Figura() {
+					System.out.println("Constructor Figura...");
+				}
+		
+				public abstract void calculaArea();
+			}
+	
+3. Valida que la clase <b>Circulo, Cuadrado & Triangulo</b>, ya tengan implementado el método abstracto <b>calculaArea</b> de la clase <b>Figura</b>, si no es así, impleméntalo.
+
+4. Regresa a la clase <b>FigurasTest</b>
+
+	- Debes ver un error en la línea donde se esta crando una instancia de tipo <b>Figura</b>.
+	- <b>Razón</b>: Esta ya es una clase <b>abstracta</b>, no puede ser instanciada.
+	- Elimina la línea.
+	
+5. En el método <b>main</b> tienes varias instancias de subclases de la clase <b>Figura</b>, de cada instancia, invoca el método <b>calculaArea</b> implementado en cada clase.
+
+		Circulo c = new Circulo(); //Declarando instancia de tipo Círculo;
+		Triangulo t = new Triangulo(); //Declarando instancia de tipo Triángulo;
+		Cuadrado cu = new Cuadrado(); //Declarando instancia de tipo Cuadrado;
+		
+		c.calculaArea();
+		t.calculaArea();
+		cu.calculaArea();
+
 	
 #### Ejecutando proyecto
 
 1. Ejecuta tu proyecto.
 
-![Console](https://user-images.githubusercontent.com/56565204/67810841-012cdd80-fa61-11e9-873f-8098b65cce05.png)
+![Console](https://user-images.githubusercontent.com/56565204/68255173-289c2100-fff2-11e9-853a-2af9de04d614.png)
 
 <hr>
 
