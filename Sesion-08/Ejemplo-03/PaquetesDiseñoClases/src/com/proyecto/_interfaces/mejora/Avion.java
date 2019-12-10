@@ -1,7 +1,7 @@
-package com.proyecto._interfaces;
+package com.proyecto._interfaces.mejora;
 
-public class Avion implements Flyer{
-
+public class Avion implements Flyer {
+	
 	public void despega() {
 		System.out.println("Avión despegando...");
 	}
@@ -13,4 +13,5 @@ public class Avion implements Flyer{
 	public void volando() {
 		System.out.println("Avión volando...");
 	}
+
 }

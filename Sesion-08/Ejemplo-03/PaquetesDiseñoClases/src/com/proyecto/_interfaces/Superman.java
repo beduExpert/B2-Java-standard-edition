@@ -1,7 +1,7 @@
 package com.proyecto._interfaces;
 
 public class Superman extends Animal implements Flyer{
-	
+		
 	public void despega() {
 		System.out.println("Superman despegando...");
 	}

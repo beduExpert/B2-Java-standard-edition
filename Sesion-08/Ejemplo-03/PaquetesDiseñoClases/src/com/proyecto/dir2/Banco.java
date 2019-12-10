@@ -1,4 +1,6 @@
 package com.proyecto.dir2;
+import com.proyecto.dir1.*;
+import static com.proyecto.dir1.Cuenta.numeroCuenta;
 
 public class Banco {
 	
@@ -6,14 +8,14 @@ public class Banco {
 	//Cliente c = new Cliente();
 	
 	//2. Resolviendo con qualified name.
-	//com.proyeto.dir1.Cliente c = new com.proyeto.dir1.Cliente();
+	//com.proyecto.dir1.Cliente c = new com.proyecto.dir1.Cliente();
 	
 	//3. Resolviendo con import
 	//Cliente c = new Cliente();
 	
 	//4. ¿Qué pasaría si necesitamos una instancia de tipo Cliente y otra de tipo Cuenta?
-	/*Cliente c = new Cliente();
-	Cuenta cu = new Cuenta();*/ //Opción 1: Imports Adicionales & Opción 2: Import con comodín.
+	Cliente c = new Cliente();
+	Cuenta cu = new Cuenta(); //Opción 1: Imports Adicionales & Opción 2: Import con comodín.
 	
 	//5. Demo creación paquete.
 }

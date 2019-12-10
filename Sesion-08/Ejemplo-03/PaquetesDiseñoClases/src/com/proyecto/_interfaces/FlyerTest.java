@@ -9,7 +9,12 @@ public class FlyerTest {
 		//2. Muestra y explica el código de la clase Avión & Helicoptero.
 		//3. Muestra y explica el código de la clase Animal.
 		//4. Muestra y explica el código de la clase Superman que hereda de Animal e Implementa de Flyer.
-		//5. Crea una instancia de tipo Avión, otra de tipo Helicoptero y otra de tipo Superman.				
+		//5. Crea una instancia de tipo Avión, otra de tipo Helicoptero y otra de tipo Superman.
+		
+		Avion a = new Avion();
+		Superman s = new Superman();
+		aeropuerto(a);
+		aeropuerto(s);
 	}
 	
 	public static void aeropuerto( Flyer f ) {

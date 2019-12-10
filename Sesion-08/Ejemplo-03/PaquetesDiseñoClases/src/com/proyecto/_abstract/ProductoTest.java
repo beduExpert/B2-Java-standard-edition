@@ -6,7 +6,7 @@ public class ProductoTest {
 		// TODO Auto-generated method stub
 		
 		//1. Mostrar clase Product (Clase concreta), mostrar capacidad de instanciación.
-		Product p = new Product();
+		//Product p = new Product();
 		
 		//2. Comenta la clase Product y quita comentarios a la clase declarada posteriormente en el mismo archivo.
 		//2.1 Debe mostrarse error en el intento de crear instancia de la clase Product (Línea de código anterior).
@@ -18,16 +18,17 @@ public class ProductoTest {
 		//3.3 Muestra la no existencia de error.
 		
 		//4. Intenta instanciar un objeto de tipo Refresco y de tipo Medicina
-		/*Refresco f = new Refresco();
-		Medicina m = new Medicina();*/
+		Refresco f = new Refresco();
+		Medicina m = new Medicina();
 		
 		//5. Declara en esta misma clase un método con un argumento polimórfico, ejecuta el método calculando impuesto de cada clase.
 		
 		//6. Ejecuta y explica ejecución.
+		impuestos(m);
 	}
-}
+	
 
-/*public static void impuestos(Product p) {
+	public static void impuestos(Product p) {
 	if ( p instanceof Medicina ) {
 		System.out.println("Calculando impuesto medicina...");
 		p.calculandoImpuesto();
@@ -37,4 +38,6 @@ public class ProductoTest {
 			p.calculandoImpuesto();
 		}
 	}
-}*/
+}
+}
+
