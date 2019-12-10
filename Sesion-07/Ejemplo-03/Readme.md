@@ -1,66 +1,39 @@
 
-`Java SE`> `ArrayList & Exceptions` > `Sesión 07` > `Ejemplo 03`
+`Java SE`> `ArrayList & Exceptions / Paquetes` > `Sesión 07` > `Ejemplo 03`
 
-## Ejemplo 03 - Gimnasio (Parte 1) - ArrayList
+## Paquetes
 
 ### OBJETIVO
 
-- El alumno será capaz de implementar un ArrayList & manejar Exceptions.
+- Fortalecer con ejemplos los conceptos relacionados a manipulación de paquetes.
 
 <hr>
 
 #### REQUISITOS
 
-1. Contar con el proyecto <b>Gimnasio</b> modificado en la última sesión.
-2. Abrir el proyecto en Eclipse.
-
+1. Tener instalado eclipse.
+2. Consultar el proyecto <b>PaquetesDiseñoClases</b>.
+3. Abrir la clase <b>Banco</b> encontrada en el paquete: <b>com.proyecto.dir2</b>.
+   
+   - El proyecto está compuesto por un par de paquetes: <b>com.proyecto.dir1</b>, <b>com.proyecto.dir2</b>. 
+   - Desde el paquete <b>com.proyecto.dir1</b>, intentaremos invocar clases encontradas en el paquete <b>com.proyecto.dir2</b>.
+   
 <hr>
 
 #### DESARROLLO
 
-###### Implementando ArrayList
+1. En la clase <b>Banco</b>, econtrarás enumerados comentarios que te guiarán en el ejemplo a demostrar.
 
-1. Abre la clase <b>Socio</b>.
-2. Ubica la línea donde declaraste un arreglo de objetos de tipo Actividad.
-
-   - Modifica esta línea, en lugar de un arreglo, habilita un ArrayList.
+   Conceptos a Demostar:
    
-           	private ArrayList<Actividad> actividades = new ArrayList<Actividad>();
+    <ul>
+      <li> Intento de invocar desde la clase <b>Banco</b>, una clase encontrada en otro paquete.
+      <li> Resolviendo invocando desde la clase <b>Banco</b>, utilizando el <b>qualified name</b>.
+      <li> Resolviendo importando paquete desde la clase <b>Banco</b>.
+      <li> Intentando acceder a dos clases distintas desde la clase <b>Banco</b>.
+      <li> Demostración de como crear un nuevo paquete. <b>com.proyecto.nuevo</b>
+   </ul>
 
-   - No olvides importar del paquete java.util, la clase ArrayList. ( Siempre en las líneas superirores a la declaración de la clase )
-   
-                import java.util.*;        
-        
-3. Ubica el método <b>getActividades</b>.
+2. Felicidades, lograste los objetivos!!
 
-   - Este método te permite obtener el arreglo de objetos de tipo Actividad que antes teníamos habilitado.
-   - Modifica el código para que ahora retorne un ArrayList de objetos de tipo Actividad.
-   
-                public ArrayList<Actividad> getActividades() {
-		        	return actividades;
-	        	}
-                
-4. Ubica el método <b>addActividad</b>.
-
-   - Este método te permite agregar una nueva Actividad, al arreglo de objetos de tipo Actividad que antes teníamos habilitado.
-   - Comenta este código y genera uno nuevo que permita agregar objetos de tipo Actividad al ArrayList recién habilitado.
-   - Al final compara el código nuevo con el viejo.
-   
-               if(actividades.size()==maxActividades) {
-		       	        System.out.println("No tienes derecho a más actividades...");
-		        }else {
-			        actividades.add(nueva);
-			        System.out.println("Actividad agregada... " + nueva);
-		        }
-                        
-5. Al comparar el código viejo y el nuevo, te podrás dar cuenta que ya no necesitamos un índice para controlar el arreglo de objetos de tipo Actividad, esta "administración" del ArrayList, se hace en automático.
-
-   - Elimina la variable <b>numActividad</b> que utilizabamos para este propósito.
- 
- 6. Ejecuta el proyecto.
-  
-![Console](https://user-images.githubusercontent.com/56565204/67833093-470d9400-faa9-11e9-82cf-978789b99f3f.png)
-
-<hr>
-
-Felicidades, ¡Lograste los objetivos!
+![d2zdiy7-5b4587d4-3ccd-4854-9ed9-5df10f56593f](https://user-images.githubusercontent.com/56565204/67425280-51a5c600-f59d-11e9-9baf-5ef3aeca8a11.png)
